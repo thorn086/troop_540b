@@ -12,8 +12,8 @@ class Home extends Component {
                 </header>
                 <section id='Main_title'>
                     <h1>Site Under Construction</h1>
-                    <h2>Check Back Soon</h2>
-                    <h6>test</h6>
+                    <h2>**** Future Home of Troop 540 ****</h2>
+                    <h6>Check Back Soon!</h6>
                 </section>
                 <footer id='ft_page_main'>
                     <p>Copy Right 2021</p>
