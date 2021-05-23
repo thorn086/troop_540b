@@ -1,0 +1,19 @@
+.App{
+    flex: 1;
+    background-color: lightgray;
+    border: 5px solid white;
+    text-align: center;
+}
+
+#About_Info{
+    margin: auto;
+    width: auto;
+    height: 400px;
+    background-color: blue;
+    border: 5px solid white;
+}
+
+#Main_title{
+    height: auto;
+    padding-top: 10px;
+};
