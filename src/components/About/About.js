@@ -14,9 +14,11 @@ class Home extends Component {
                     <NavBar />
                 </nav>
                 <section id='About_Info'>
-                    <h1>Site Under Construction</h1>
-                    <h2>**** Future Home of Troop 540 ****</h2>
-                    <h6>Check Back Soon!</h6>
+                    <h2>More About Troop 540</h2>
+                    <h3>2021 Updates</h3>
+                    <p> THis is all the information I want the world to know.</p>
+                    <p>Other exciting things about the troop....</p>
+                    <p>The last bit of information I want to share with you....</p>
                 </section>
                 <footer className='ft_page_main'>
                     <p>Copy Right 2021</p>
