@@ -59,6 +59,11 @@ function NavBar() {
                             </li>
                             <li className='navigation__item'>
                                 <button className='red-button home-btn'>
+                                    <Link to='/Contacts' style={{ textDecoration: 'none', color: ' #fff290', padding: '1rem', fontFamily: 'Lemonada, cursive' }}>Contacts</Link>
+                                </button>
+                            </li>
+                            <li className='navigation__item'>
+                                <button className='red-button home-btn'>
                                     <Link to='/' style={{ textDecoration: 'none', color: ' #fff290', padding: '1rem', fontFamily: 'Lemonada, cursive' }}>Home</Link>
                                 </button>
                             </li>
