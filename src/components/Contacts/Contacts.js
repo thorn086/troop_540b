@@ -17,22 +17,17 @@ class Home extends Component {
           <ul id="j_pucel">
             <li>
               <h3 className="contact_name">Mr. Jeff Pucel</h3>
-              <h4>"Title In Troop" </h4>
-              <a href="mailto:thorn086@gmail.com">Email </a>
-              <p>414-350-0061</p>
+              <h4>"Scoutmaster" </h4>
+              <a href="puceljj@ameritech.net">Email </a>
+              <p>414-303-7382</p>
             </li>
             <li>
-              <h3 className="contact_name">Mr. Jeff Pucel</h3>
+              <h3 className="contact_name">Mrs. Amanda Lewandowski</h3>
               <h4>"Title In Troop" </h4>
-              <a href="mailto:thorn086@gmail.com">Email </a>
-              <p>414-350-0061</p>
-            </li>
-            <li>
-              <h3 className="contact_name">Mr. Jeff Pucel</h3>
-              <h4>"Title In Troop" </h4>
-              <a href="mailto:thorn086@gmail.com">Email </a>
-              <p>414-350-0061</p>
+              <a href="all09@hotmail.com">Email </a>
+              <p>414-617-3505</p>
             </li> 
+            
 
           </ul>
 
