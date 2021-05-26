@@ -4,15 +4,23 @@
     border: 5px solid white;
     text-align: center;
 }
-
+#about_h3{
+    margin: 0;
+}
+#about_para_1{
+    margin-top: 3px;
+}
 #About_Info{
     margin: auto;
     width: auto;
     height: 400px;
-    background-color: blue;
+    background-color:lightgray;
     border: 5px solid white;
 }
-
+#about_para{
+    width: auto;
+    padding:3px 200px 10px 200px;
+}
 #Main_title{
     height: auto;
     padding-top: 10px;
