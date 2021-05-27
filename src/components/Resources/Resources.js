@@ -19,11 +19,15 @@ class Resources extends Component {
               <h2 >Resources for Troop 540</h2>
               <h3 id='Res_h3'>2021 Updates</h3>
               <a target="blank" href='https://www.scout.org' >Scouts</a>
+              <a target="blank" href='https://www.threeharborsscouting.org' >Three Harbors Council</a>
             </section>
             <section id='bsa_res'>
               <h2 >Scouting Resources</h2>
               <h3 id='Res_h3'>2021 Updates</h3>
               <a target="blank" href='https://www.scout.org' >Scouts</a>
+              <a target="blank" href='https://www.scouting.org' >BSA</a>
+              <a target="blank" href='https://www.scoutshop.org' >BSA Store</a>
+              <a target="blank" href='https://www.boyscouttrail.com/boy-scouts/bsa-merit-badges.asp' >Merit Badges</a>
             </section>
           </div>
         </section>
