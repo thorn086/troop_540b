@@ -7,6 +7,12 @@
 #Res_h3{
     margin: 0;
 }
+.sites{
+    margin-top: 15px;
+    width: 300px;
+    padding: 5px 5px 0px 45px;
+    text-align: left;
+}
 
 #Res_Info{
     margin: auto;
