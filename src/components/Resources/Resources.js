@@ -13,21 +13,43 @@ class Resources extends Component {
           <NavBar />
         </nav>
         <section id="Res_Info">
-
           <div id="Res_box">
-            <section id='troop_res'>
-              <h2 >Resources for Troop 540</h2>
-              <h3 id='Res_h3'>2021 Updates</h3>
-              <a target="blank" href='https://www.scout.org' >Scouts</a>
-              <a target="blank" href='https://www.threeharborsscouting.org' >Three Harbors Council</a>
+            <section id="troop_res">
+              <h2>Resources for Troop 540</h2>
+              <h3 id="Res_h3">2021 Updates</h3>
+              <div className="sites">
+                <a target="blank" href="https://www.scout.org">
+                  Scouts
+                </a>
+                <br />
+                <a target="blank" href="https://www.threeharborsscouting.org">
+                  Three Harbors Council
+                </a>
+              </div>
             </section>
-            <section id='bsa_res'>
-              <h2 >Scouting Resources</h2>
-              <h3 id='Res_h3'>2021 Updates</h3>
-              <a target="blank" href='https://www.scout.org' >Scouts</a>
-              <a target="blank" href='https://www.scouting.org' >BSA</a>
-              <a target="blank" href='https://www.scoutshop.org' >BSA Store</a>
-              <a target="blank" href='https://www.boyscouttrail.com/boy-scouts/bsa-merit-badges.asp' >Merit Badges</a>
+            <section id="bsa_res">
+              <h2>Scouting Resources</h2>
+              <h3 id="Res_h3">2021 Updates</h3>
+              <div className="sites">
+                <a target="blank" href="https://www.scout.org">
+                  Scouts
+                </a>
+                <br />
+                <a target="blank" href="https://www.scouting.org">
+                  BSA
+                </a>
+                <br />
+                <a target="blank" href="https://www.scoutshop.org">
+                  BSA Store
+                </a>
+                <br />
+                <a
+                  target="blank"
+                  href="https://www.boyscouttrail.com/boy-scouts/bsa-merit-badges.asp"
+                >
+                  Merit Badges
+                </a>
+              </div>
             </section>
           </div>
         </section>
