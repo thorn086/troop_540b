@@ -48,11 +48,6 @@ function NavBar() {
                                 </button>
                             </li>
                             <li className='navigation__item'>
-                                <button className='red-button signup-btn'>
-                                    <Link to='/Events' style={{ textDecoration: 'none', color: '#fff290', padding: '1rem', fontFamily: 'Lemonada, cursive' }}>Events</Link>
-                                </button>
-                            </li>
-                            <li className='navigation__item'>
                                 <button className='red-button home-btn'>
                                     <Link to='/Resources' style={{ textDecoration: 'none', color: ' #fff290', padding: '1rem', fontFamily: 'Lemonada, cursive' }}>Resources</Link>
                                 </button>
