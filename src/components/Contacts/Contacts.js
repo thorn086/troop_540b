@@ -25,37 +25,31 @@ class Home extends Component {
               <h3 className="contact_name">Mrs. Amanda Lewandowski</h3>
               <h4>"Rank Advancement Chair/Fundraiser" </h4>
               <a href="mailto:all09@hotmail.com">Amanda's Email </a>
-              <p>414-617-3505</p>
             </li> 
             <li>
               <h3 className="contact_name">Mr. Greg Bach</h3>
               <h4>"Committee Chair" </h4>
               <a href="mailto:gregjandmaryj@icloud.com">Greg's Email </a>
-              <p>414-915-1524</p>
             </li> 
             <li>
               <h3 className="contact_name">Mr. Jason Wallace</h3>
               <h4>"Assistant Scoutmaster" </h4>
               <a href="mailto:plumber7576@sbcglobal.net">Jason's Email </a>
-              <p>414-659-9735</p>
             </li> 
             <li>
               <h3 className="contact_name">Mr. Jacob Bach</h3>
               <h4>"Outing Coordinator" </h4>
               <a href="mailto:jacobdbach1@gmail.com">Jacob's Email </a>
-              <p>414-550-7031</p>
             </li> 
             <li>
               <h3 className="contact_name">Mrs. Rosa Barillas</h3>
               <h4>"Treasurer" </h4>
-              <a href="mailto:barillasrosa@hotmail.com">Rosa's Email </a>
-              <p>414-840-3458</p>
+              <a href="mailto:barillasrosa@hotmail.com">Rosa's Email </a> 
             </li> 
             <li>
               <h3 className="contact_name">Darren Rose</h3>
               <h4>"Committe Member" </h4>
               <a href="mailto:thorn086@gamil.com">Darren's Email </a>
-              <p>414-350-0061</p>
             </li> 
           </ul>
 
