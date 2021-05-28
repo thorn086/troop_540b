@@ -14,7 +14,7 @@ class Home extends Component {
         </nav>
         <section id="Contacts_Info">
           <h2>Roles within Troop 540</h2>
-          <ul id="j_pucel">
+          <ul className="j_pucel">
             <li>
               <h3 className="contact_name">Mr. Jeff Pucel</h3>
               <h4>"Scoutmaster" </h4>

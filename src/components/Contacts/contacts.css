@@ -9,21 +9,28 @@
     margin: auto;
     width: auto;
     height: auto;
-    background-color:lightcoral;
+    background-color:aqua;
     border: 5px solid white;
 }
-#j_pucel{
+.j_pucel{
     list-style: none;
-    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 ul {
     padding: 0;
+   
+    
 }
-#j_pucel li{
+.j_pucel li{
     border: solid 5px black;
+    height: auto;
+    width: 300px;
     text-align: left;
-    margin: 10px;
-    padding-left: 100px;
+    margin: 1px;
+    
+    background-color: lightcoral;
+    
 }
 
 #Main_title{
