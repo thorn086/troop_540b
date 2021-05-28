@@ -16,6 +16,8 @@
     list-style: none;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    height: auto;
+    margin-left: 5rem;
 }
 ul {
     padding: 0;
@@ -24,11 +26,11 @@ ul {
 }
 .j_pucel li{
     border: solid 5px black;
-    height: auto;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     text-align: left;
-    margin: 1px;
-    
+    margin: 4px;
+    padding-left: 20px;
     background-color: lightcoral;
     
 }
