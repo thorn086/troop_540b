@@ -1,14 +1,13 @@
 import "./Resources.css";
 import NavBar from "../NavBar/NavBar";
 import React, { Component } from "react";
-
+import Footer from '../footer/footer';
+import Header from '../Header/Header';
 class Resources extends Component {
   render() {
     return (
       <div className="App">
-        <header id="Res-header">
-          <h1>Resources Page </h1>
-        </header>
+        <Header />
         <nav>
           <NavBar />
         </nav>
@@ -18,11 +17,11 @@ class Resources extends Component {
               <h2>Resources for Troop 540</h2>
               <h3 id="Res_h3">2021 Updates</h3>
               <div className="sites">
-                <a className ='link_btn' target="blank" href="https://www.scout.org">
+                <a className='link_btn' target="blank" href="https://www.scout.org">
                   Scouts
                 </a>
                 <br />
-                <a className ='link_btn' target="blank" href="https://www.threeharborsscouting.org">
+                <a className='link_btn' target="blank" href="https://www.threeharborsscouting.org">
                   Three Harbors Council
                 </a>
               </div>
@@ -31,20 +30,20 @@ class Resources extends Component {
               <h2>Scouting Resources</h2>
               <h3 id="Res_h3">2021 Updates</h3>
               <div className="sites">
-                <a className ='link_btn' target="blank" href="https://www.scout.org">
+                <a className='link_btn' target="blank" href="https://www.scout.org">
                   Scouts
                 </a>
                 <br />
-                <a className ='link_btn' target="blank" href="https://www.scouting.org">
+                <a className='link_btn' target="blank" href="https://www.scouting.org">
                   BSA
                 </a>
                 <br />
-                <a className ='link_btn' target="blank" href="https://www.scoutshop.org">
+                <a className='link_btn' target="blank" href="https://www.scoutshop.org">
                   BSA Store
                 </a>
                 <br />
                 <a
-                   className ='link_btn' target="blank"
+                  className='link_btn' target="blank"
                   href="https://www.boyscouttrail.com/boy-scouts/bsa-merit-badges.asp"
                 >
                   Merit Badges
@@ -53,10 +52,7 @@ class Resources extends Component {
             </section>
           </div>
         </section>
-        <footer className="ft_page_main">
-          <p>Copy Right 2021</p>
-          <p> Web_Master J.R.</p>
-        </footer>
+        <Footer />
       </div>
     );
   }

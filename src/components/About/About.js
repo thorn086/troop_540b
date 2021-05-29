@@ -1,14 +1,13 @@
 import "./About.css";
 import NavBar from "../NavBar/NavBar";
 import React, { Component } from "react";
-
+import Footer from '../footer/footer';
+import Header from '../Header/Header';
 class Home extends Component {
   render() {
     return (
       <div className="App">
-        <header id="About-header">
-          <h1>About Page </h1>
-        </header>
+        <Header />
         <nav>
           <NavBar />
         </nav>
@@ -35,10 +34,7 @@ class Home extends Component {
             <p>The last bit of information I want to share with you....</p>
           </div>
         </section>
-        <footer className="ft_page_main">
-          <p>Copy Right 2021</p>
-          <p> Web_Master J.R.</p>
-        </footer>
+        <Footer />
       </div>
     );
   }
