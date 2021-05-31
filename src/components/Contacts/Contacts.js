@@ -1,5 +1,4 @@
 import "./contacts.css";
-import NavBar from "../NavBar/NavBar";
 import React, { Component } from "react";
 import Footer from '../footer/footer';
 import Header from '../Header/Header';
@@ -8,9 +7,6 @@ class Home extends Component {
     return (
       <div className="App">
         <Header />
-        <nav>
-          <NavBar />
-        </nav>
         <section id="Contacts_Info">
           <h2>Roles within Troop 540</h2>
           <ul className="j_pucel">

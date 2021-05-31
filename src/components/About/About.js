@@ -1,5 +1,4 @@
 import "./About.css";
-import NavBar from "../NavBar/NavBar";
 import React, { Component } from "react";
 import Footer from '../footer/footer';
 import Header from '../Header/Header';
@@ -8,9 +7,6 @@ class Home extends Component {
     return (
       <div className="App">
         <Header />
-        <nav>
-          <NavBar />
-        </nav>
         <section id="About_Info">
           <h2 >More About Troop 540</h2>
           <h3 id='about_h3'>2021 Updates</h3>

@@ -1,17 +1,13 @@
 import './Home.css'
 import construction from '../../img/construction_img.jpeg';
-import NavBar from '../NavBar/NavBar';
 import React, { Component } from 'react';
-import Footer from '../footer/footer'
-import Header from '../Header/Header'
+import Footer from '../footer/footer';
+import Header from '../Header/Header';
 class Home extends Component {
     render() {
         return (
             <div className="App">
-                <Header />
-                <nav>
-                    <NavBar />
-                </nav>
+                <Header />       
                 <section id='Main_title'>
                     <img id='const_logo' src={construction} alt="construction workers" />
                     <h1>Site Under Construction</h1>
