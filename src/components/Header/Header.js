@@ -1,10 +1,9 @@
 import React from 'react';
 import bssym from '../../img/BSSYM.png';
 import './Header.css';
-//import Navbar from '../NavBar/NavBar';
 import Sidebar from '../Sidebar/Sidebar';
 
-//<Navbar />
+
 function Header() {
     return (
         <header className='header_title'>
