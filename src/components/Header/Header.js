@@ -7,7 +7,7 @@ import Sidebar from '../Sidebar/Sidebar';
 //<Navbar />
 function Header() {
     return (
-        <header className="header_title">
+        <header className='header_title'>
            <Sidebar /> 
             <div id='logo_box'>
                 <img id='bsa_logo' src={bssym} alt="boy scouts of america symbol" />
