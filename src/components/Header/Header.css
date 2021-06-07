@@ -23,3 +23,31 @@
     color: lightblue;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+
+@media screen and (max-width: 700px){
+    .header_title{
+        height: 50px;
+        border: 4px solid black;
+        border-style: groove;
+        background-image: linear-gradient(120deg, rgb(3, 16, 248) 10%, rgb(76, 76, 76) 90%,red 10%);
+    }
+    #bsa_logo{
+        height: 40px;
+        width: auto;
+        float:left; 
+        margin: 2px;
+        padding-top: 1px;
+    }
+    #troop_tag{
+        margin: 0;
+        text-align: center;
+        float: right;
+        padding: .05rem;
+        font-size: 30px;
+        margin-right: 1rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 700;
+        color: lightblue;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+}

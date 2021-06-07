@@ -27,7 +27,7 @@ class Home extends Component {
             </p>
 
             <p>The last bit of information I want to share with you is the names of our past to present scoutmasters:</p>
-            <ul>
+            <ul id='scout-masters'>
             <li>1962-63: Art Solie</li>
             <li>1963-66: Michael Gilgenbach</li>
             <li>1966-67: Richard Brzezinski</li>

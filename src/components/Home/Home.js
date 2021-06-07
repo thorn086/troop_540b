@@ -10,9 +10,9 @@ class Home extends Component {
                 <Header />       
                 <section id='Main_title'>
                     <img id='const_logo' src={construction} alt="construction workers" />
-                    <h1>Site Under Construction</h1>
-                    <h2>**** Future Home of Troop 540 ****</h2>
-                    <h6>Check Back Soon!</h6>
+                    <h1 id='home-title'>Site Under Construction</h1>
+                    <h2 className='home-info'>**** Future Home of Troop 540 ****</h2>
+                    <h6 className='home-info'>Check Back Soon!</h6>
                 </section>
                 <section id='events'>
                     <h2> Up Coming Events</h2>

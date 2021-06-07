@@ -82,3 +82,18 @@
   span {
     margin-left: 16px;
   }
+
+  @media screen and (max-width: 700px){
+    .sidebar {
+      padding: 6px;
+      margin: 2px;
+    }
+    .sidebar-bars {
+      margin: 1.9rem 0 0 .5rem;
+      font-size: 1.7rem;
+      background: none;
+    }
+    .home-info{
+      font-size: 16px;
+    }
+};

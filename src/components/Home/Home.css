@@ -1,3 +1,6 @@
+
+
+
 .App{
     flex: 1;
     background-color: lightgray;
@@ -6,8 +9,8 @@
 }
 
 #const_logo{
-    width: auto;
-    height: 400px;
+    width: 400px;
+    height: auto;
     object-fit: fill;
     margin: 10px;
     border: 5px solid white;
@@ -32,4 +35,26 @@
 .ft_page_main{
     padding-top: 25px;
     font-size: 10px;
+}
+
+@media screen and (max-width: 700px){
+    #Main_title{
+        width:100%;
+        height: auto;
+        padding-top: 2px;
+    }
+    #const_logo{
+        width: 200px;
+        height: auto;
+        margin: 5px;
+        object-fit: fill;
+    } 
+    .dates{
+        display: block;
+        padding: 0 20px;
+    }
+    #event_dates{
+        height: auto;
+    }
 };
+    

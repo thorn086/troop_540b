@@ -6,24 +6,19 @@
 }
 
 #Contacts_Info{
-    margin: auto;
     width: auto;
     height: auto;
     background-color:aqua;
     border: 5px solid white;
 }
-.j_pucel{
+
+ .j_pucel{
     list-style: none;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     height: auto;
-    margin-left: 5rem;
 }
-ul {
-    padding: 0;
-   
-    
-}
+
 .j_pucel li{
     border: solid 5px black;
     height: 200px;
@@ -35,7 +30,27 @@ ul {
     
 }
 
-#Main_title{
-    height: auto;
-    padding-top: 10px;
-};
+@media screen and (max-width: 1060px){
+    .j_pucel {
+        display: block;
+        margin: .5rem;
+
+    }
+
+    .j_pucel li{
+        border: solid 5px black;
+        height: 170px;
+        width: 90%;
+        text-align: left;
+        margin: 3px;
+        padding-left: 18px;
+        background-color: lightcoral;  
+        
+
+    }
+    .contact_name, .j_pucel li{
+        font-size: 15px;
+    }
+}
+
+
