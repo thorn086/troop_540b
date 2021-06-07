@@ -1,0 +1,30 @@
+.App{
+    flex: 1;
+    background-color: lightgray;
+    border: 5px solid white;
+    text-align: center;
+}
+#gallery_h3{
+    margin: 0;
+}
+#gallery_para_1{
+    margin-top: 3px;
+}
+#Gallery_Info{
+    margin: auto;
+    width: auto;
+    height: auto;
+    background-color:lightgray;
+    border: 5px solid white;
+}
+#gallery_para{
+    width: auto;
+    padding:3px 200px 10px 200px;
+}
+
+@media screen and (max-width: 700px){
+    #gallery_para{
+        width: auto;
+        padding:4px;
+    }
+}
