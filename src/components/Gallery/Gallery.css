@@ -13,7 +13,7 @@
 #Gallery_Info{
     margin: auto;
     width: auto;
-    height: auto;
+    height: 100vh;
     background-color:lightgray;
     border: 5px solid white;
 }
