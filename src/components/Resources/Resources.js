@@ -8,6 +8,8 @@ class Resources extends Component {
       <div className="App">
         <Header />
         <section id="Res_Info">
+        <h2 >Resources for Scouts</h2>
+          <h3 id='about_h3'>Click Links Below:</h3>
           <div id="Res_box">
             <section id="troop_res">
               <h2>Resources for Troop 540</h2>
