@@ -13,7 +13,7 @@ class Home extends Component {
           <div id="gallery_para">
             <p id="gallery_para_1">
               {" "}
-            Here are some fun things that Troop 540 has done recently.
+            Here are some fun things that Troop 540 has done recently. These are some things you can experience at the troop.
             </p>
           </div>
         </section>
