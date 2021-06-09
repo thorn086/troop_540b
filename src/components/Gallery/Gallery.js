@@ -16,6 +16,13 @@ class Home extends Component {
             Here are some fun things that Troop 540 has done recently. These are some things you can experience at the troop.
             </p>
           </div>
+          <section id="recent_out">
+              <h2>Resources for Troop 540</h2>
+              <h3 id="gal_h3">2021 Updates</h3>
+              <div className="photos">
+/something goes here
+              </div>
+            </section>
         </section>
         <Footer />
       </div>
