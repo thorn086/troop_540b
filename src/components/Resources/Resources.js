@@ -8,13 +8,15 @@ class Resources extends Component {
       <div className="App">
         <Header />
         <section id="Res_Info">
+        <h2 >Resources for Scouts</h2>
+          <h3 id='about_h3'>Click Links Below:</h3>
           <div id="Res_box">
             <section id="troop_res">
               <h2>Resources for Troop 540</h2>
               <h3 id="Res_h3">2021 Updates</h3>
               <div className="sites">
-                <a className='link_btn' target="blank" href="https://www.scout.org">
-                  Scouts
+                <a className='link_btn' target="blank" href="https://scoutbook.scouting.org/?_gl=1*ja4vgd*_ga*NDI4MTQyMTA1LjE2MjMzNTc5MDE.*_ga_20G0JHESG4*MTYyMzM1NzkwMC4xLjAuMTYyMzM1NzkwMC42MA..">
+                  Scout Book
                 </a>
                 <br />
                 <a className='link_btn' target="blank" href="https://www.threeharborsscouting.org">

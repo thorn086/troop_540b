@@ -2,6 +2,7 @@ import "./About.css";
 import React, { Component } from "react";
 import Footer from '../footer/footer';
 import Header from '../Header/Header';
+
 class Home extends Component {
   render() {
     return (

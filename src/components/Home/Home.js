@@ -17,8 +17,12 @@ class Home extends Component {
                 <section id='events'>
                     <h2> Up Coming Events</h2>
                     <div id="event_dates">
-                        <h5 className='dates'> May 27th, 2021 6:30 - 8:30 PM</h5>
-                        <h5 className='dates'> June 10th, 2021 6:30 - 8:30 PM</h5>
+                        <h5 className='dates'> Troop Meeting June 10th, 2021 6:30 - 8:30 PM <a id='st_charels' target="blank" href="https://www.scbmil.org">
+                  St. Charels Borromeo
+                </a></h5>
+                        <h5 className='dates'> Troop Meeting June 24th, 2021 6:30 - 8:30 PM <a id='st_charels' target="blank" href="https://www.scbmil.org">
+                  St. Charels Borromeo
+                </a></h5>
                     </div>
                 </section>
                 <Footer />
