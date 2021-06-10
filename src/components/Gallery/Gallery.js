@@ -20,7 +20,19 @@ class Home extends Component {
           <section id="recent_out">
             <h2>Most Recent Outing</h2>
             <h3 id="gal_h3">2021 Updates</h3>
-            <div className="photos"></div>
+            <div className="photos">
+            </div>
+            <section id="gal">
+            <section id="photo_test">
+              <div className="photos">photo</div>
+            </section>
+            <section id="photo_test2">
+              <div className="photos">photo</div>
+            </section>
+            <section id="photo_test3">
+              <div className="photos">photo</div>
+            </section>
+            </section>
           </section>
         </section>
         <Footer />
