@@ -28,6 +28,8 @@
     .header_title{
         height: 50px;
         border: 4px solid black;
+        border-style: groove;
+        background-image: linear-gradient(120deg, rgb(3, 16, 248) 10%, rgb(76, 76, 76) 90%,red 10%);
     }
     
     #bsa_logo{

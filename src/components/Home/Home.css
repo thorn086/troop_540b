@@ -1,7 +1,9 @@
-
-
-
-
+.App{
+    flex: 1;
+    background-color: lightgray;
+    border: 5px solid white;
+    text-align: center;
+}
 
 #const_logo{
     width: 400px;
