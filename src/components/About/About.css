@@ -8,7 +8,7 @@
 #About_Info{
     margin: auto;
     width: auto;
-    height: 100vh;
+    height: 150vh;
     background-color:lightgray;
     border: 5px solid white;
 
@@ -19,6 +19,9 @@
 }
 
 #scout-masters {
+    list-style: none;
+}
+#eagle-scouts {
     list-style: none;
 }
 @media screen and (max-width: 700px){
