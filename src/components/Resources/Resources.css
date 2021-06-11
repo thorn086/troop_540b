@@ -25,20 +25,22 @@
 #Res_Info{
     margin: auto;
     width: auto;
+    height: 100vh;
     background-color:lightgray;
     border: 5px solid white;
-    height: 100vh;
 }
 #Res_box {
-    margin: 2.5%;
+    margin: .5rem;
+    width: 95%;
+    height: 70%;
     border:5px green solid;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     
 }
 #troop_res, #bsa_res{
-    margin: 1%;
+    margin: 3%;
     width: 300px;
     height: 400px;
     border: 5px black solid;
@@ -52,19 +54,19 @@
 @media screen and (max-width:700px){
     #Res_Info{
         margin: 0;
-        width: 100%;
+        width: 96.5vw;
         height: 100vh;
         background-color:lightgray;
-        border: 5px solid white;
+        border: 2px solid white;
         
     }
     #Res_box {
-        margin: 2%;
-        border:5px green solid;
+        margin: 1%;
+        border:3px green solid;
         display: flex;
+        height: 80vh;
         flex-direction: column;
         align-items: center;
-        height: 100vh;
         justify-content: space-evenly;
         
     }

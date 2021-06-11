@@ -41,7 +41,7 @@ class Home extends Component {
             <li>1991-94: Dennis Pajot</li>
             <li>1994-95: William Ehlers</li>
             <li>1995-2000: Robert Ehlers</li>
-            <li>2000-08: Donald Scitomacker</li>
+            <li>2000-08: Donald Schumacker</li>
             <li>2008-09: Anna Marie Kaminski</li>
             <li>2009-: Jeffrey Pucel</li>
             </ul>
