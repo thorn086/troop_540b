@@ -23,13 +23,13 @@ class Home extends Component {
             <div className="photos">
             </div>
             <section id="gal">
-            <section id="photo_test">
+            <section className="photo_test">
               <div className="photos">photo</div>
             </section>
-            <section id="photo_test2">
+            <section className="photo_test">
               <div className="photos">photo</div>
             </section>
-            <section id="photo_test3">
+            <section className="photo_test">
               <div className="photos">photo</div>
             </section>
             </section>

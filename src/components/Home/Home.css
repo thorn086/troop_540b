@@ -1,7 +1,7 @@
 .App{
     flex: 1;
+    width: 100vw;
     background-color: lightgray;
-    border: 5px solid white;
     text-align: center;
 }
 
