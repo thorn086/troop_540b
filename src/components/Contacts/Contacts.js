@@ -14,7 +14,8 @@ class Home extends Component {
               <h3 className="contact_name">Mr. Jeff Pucel</h3>
               <h4>"Scoutmaster" </h4>
               <a href="mailto:puceljj@ameritech.net">Jeff's Email </a>
-              <p>414-303-7382</p>
+              <a href="tel:4143037382" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});">
+                <p class="call-button">Click to Call</p></a>
             </li>
             <li>
               <h3 className="contact_name">Mrs. Amanda Lewandowski</h3>
