@@ -6,15 +6,16 @@
     margin-top: 3px;
 }
 #About_Info{
-    margin: auto;
     width: auto;
     height: 100vh;
+    margin-top: 100px;
     background-color:lightgray;
     border: 5px solid white;
 
 }
 #about_para{
     width: auto;
+    margin-top: 40px;
     padding:3px 200px 10px 200px;
 }
 

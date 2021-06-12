@@ -1,44 +1,32 @@
 
 
-#Contacts_Info{
-    width: auto;
-    height: auto;
-    background-color:aqua;
-    border: 5px solid white;
-}
-
- .j_pucel{
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    height: auto;
-}
-
-.j_pucel li{
-    border: solid 5px black;
-    height: 200px;
-    width: 200px;
-    text-align: left;
-    margin: 4px;
-    padding-left: 20px;
-    background-color: lightcoral;
-    
-}
-
 @media screen and (max-width: 1060px){
+    #Contacts_Info{
+        width: auto;
+        margin-top: 100px;
+        height: auto;
+        background-color:aqua;
+        border: 5px solid white;
+    }
     .j_pucel {
-        display: block;
+        display: inline-block;
+        width: 80%;
         margin: .5rem;
+       
+
+
 
     }
 
     .j_pucel li{
+        list-style: none;
+
         border: solid 5px black;
+        padding-left: 1rem;
         height: 170px;
         width: 90%;
         text-align: left;
         margin: 3px;
-        padding-left: 18px;
         background-color: lightcoral;  
         
 
@@ -47,5 +35,35 @@
         font-size: 15px;
     }
 }
+@media screen and (min-width: 1060px){
 
+
+#Contacts_Info{
+    width: auto;
+    margin-top: 100px;
+    height: 100vh;
+    background-color:aqua;
+    border: 5px solid white;
+}
+
+ .j_pucel{
+     
+    list-style: none;
+    display: grid;
+    justify-self: center;
+    grid-template-columns: repeat(4, 1fr);
+    height: 100vh
+}
+
+.j_pucel li{
+    border: solid 3px black;
+    height: 200px;
+    width: 95%;
+    padding-left: 2%;
+    text-align: left;
+    margin: 10px;
+    background-color: lightcoral;
+    
+}
+}
 
