@@ -20,6 +20,20 @@ To Do List
 
 10. Start adding photos to 'img' folder
 
+11. make text align correctly in boxes on Home page
+
+12. Add theme styles to fonts
+
+13. make changes to about page with correct information remove blanks and spaces.
+
+14. fix footer bar
+
+15. automate date in their own function with special, troop, and outing
+
+16. automate css classes
+
+17. automate other features to be added here.
+
 
 Bug List
 
