@@ -18,7 +18,7 @@ To Do List
 
 9. change borders to add "roundness" to corners
 
-10. Start adding photos to img folder
+10. Start adding photos to 'img' folder
 
 
 Bug List
@@ -27,7 +27,7 @@ Bug List
 
 2. Refresh 404 error (not on home page) (completed by: Darren 6/11/2021)
 
-3. After 700, menu bar dissappears on computers (Completed by: Darren 6/11/21)
+3. After 700, menu bar disappears on computers (Completed by: Darren 6/11/21)
 
 4. Check for any other bugs -screen issues-
 

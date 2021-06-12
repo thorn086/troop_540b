@@ -27,17 +27,26 @@
     padding-left:30px ;
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 800px){
     #about_para{
         width: 80%;
         display: inline-block;
         padding:4px;
     }
     #text-boxs{
-        padding: 10%;
+        padding: 1%;
         display: flex;
         flex-direction: row;
-        
-
+        justify-content: space-between;
+    }
+    #scouts, #leaders{
+        margin: 5%;
+    }
+    #leaders{
+        margin-left: 9%;
+    }
+    #scout-masters, #eagle-scouts {
+        padding-left: 4%;
+        margin: 3%;
     }
 }
