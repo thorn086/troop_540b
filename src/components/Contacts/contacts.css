@@ -21,8 +21,8 @@
 
     .j_pucel li{
         list-style: none;
-
-        border: solid 5px black;
+        border-radius: 1rem;
+        border: solid 2px black;
         padding-left: 1rem;
         height: 170px;
         width: 90%;
@@ -60,6 +60,7 @@
 
 .j_pucel li{
     border: solid 3px black;
+    border-radius: 1rem;
     height: 170px;
     width: 90%;
     padding-left: 2%;
