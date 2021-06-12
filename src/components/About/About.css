@@ -7,8 +7,14 @@
 }
 #About_Info{
     width: auto;
+<<<<<<< HEAD
     height: 100vh;
     margin-top: 100px;
+||||||| merged common ancestors
+    height: 100vh;
+=======
+    height: 150vh;
+>>>>>>> 8be70e144b7091f6deabf22a4d56695fc9ea153d
     background-color:lightgray;
     border: 5px solid white;
 
@@ -20,6 +26,9 @@
 }
 
 #scout-masters {
+    list-style: none;
+}
+#eagle-scouts {
     list-style: none;
 }
 @media screen and (max-width: 700px){
