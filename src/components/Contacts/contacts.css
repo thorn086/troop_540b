@@ -6,7 +6,7 @@
         margin: 100px 2% 1% 1%;
         padding-bottom: 3%;
         height: auto;
-        background-color:aqua;
+        background-color:lightgrey;
         border: 5px solid white;
     }
     .j_pucel {
@@ -44,7 +44,7 @@
     margin: 100px 2% 1% 1%;
     height: 100vh;
     padding-bottom: 3%;
-    background-color:aqua;
+    background-color:rgb(218, 218, 218);
     border: 5px solid white;
 }
 
