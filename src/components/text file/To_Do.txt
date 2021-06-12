@@ -2,19 +2,34 @@ To Do List
 
 1. Create Gallery page    (completed 6/11/21)
 
-2. Resize Resource page
+2. Resize Resource page    (Completed by: Darren 6/12/21)
 
 3. Complete About page     (completed 6/11/21)
 
 4. Update events after every meeting (completed last 6/9/21)    (update next 6/13/21)
 
+5. update dates--> on going--(completed every 2nd Thursday)
+
+6. add Important Notes box and text to Home page
+
+7. add background images and color to all pages.
+
+8. Style Menu bar on Home page
+
+9. change borders to add "roundness" to corners
+
+10. Start adding photos to img folder
+
 
 Bug List
 
-1. Landscape menu bar font sizing
+1. Landscape menu bar font sizing (Completed by: Darren 6/11/21)
 
-2. Refresh 404 error (not on home page)
+2. Refresh 404 error (not on home page) (completed by: Darren 6/11/2021)
 
-3. After 700, menu bar dissappears on computers
+3. After 700, menu bar dissappears on computers (Completed by: Darren 6/11/21)
+
+4. Check for any other bugs -screen issues-
+
 
 

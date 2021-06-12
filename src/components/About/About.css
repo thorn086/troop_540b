@@ -7,29 +7,37 @@
 }
 #About_Info{
     width: auto;
-
-    height: 100vh;
-    margin-top: 100px;
-    height: 150vh;
+    height: 100%;
+    margin: 80px 1% 1% 1%;
     background-color:lightgray;
     border: 5px solid white;
+    padding: 3%;
 
 }
+
 #about_para{
     width: auto;
+    height: 100%;
     margin-top: 40px;
-    padding:3px 200px 10px 200px;
 }
 
-#scout-masters {
+#scout-masters, #eagle-scouts {
     list-style: none;
+    text-align: left;
+    padding-left:30px ;
 }
-#eagle-scouts {
-    list-style: none;
-}
-@media screen and (max-width: 700px){
+
+@media screen and (min-width: 700px){
     #about_para{
-        width: auto;
+        width: 80%;
+        display: inline-block;
         padding:4px;
+    }
+    #text-boxs{
+        padding: 10%;
+        display: flex;
+        flex-direction: row;
+        
+
     }
 }

@@ -1,28 +1,4 @@
-.header_title {
-    height:100px;
-    border: 7px solid black;
-    border-style: groove;
-    background-image: linear-gradient(120deg, rgb(3, 16, 248) 10%, rgb(76, 76, 76) 90%,red 10%);
-}
 
-#bsa_logo{
-    height: 80px;
-    width: auto;
-    float:left;    
-}
-
-#troop_tag{
-    margin: 0;
-    text-align: center;
-    float: right;
-    padding: .05rem;
-    font-size: 60px;
-    margin-right: 7rem;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 700;
-    color: lightblue;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
 
 @media screen and (max-width: 700px){
     .header_title{
@@ -66,9 +42,27 @@
         right: 0;
         top: 0;
         margin-bottom: 40px;
-        height:100px;
+        height:80px;
         border: 7px solid black;
         border-style: groove;
         background-image: linear-gradient(120deg, rgb(3, 16, 248) 10%, rgb(76, 76, 76) 90%,red 10%);
+    }
+    #bsa_logo{
+        height: 80px;
+        width: auto;
+        float:left;    
+    }
+    
+    #troop_tag{
+        margin: 0;
+        text-align: center;
+        float: right;
+        padding: .05rem;
+        font-size: 60px;
+        margin-right: 7rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 700;
+        color: lightblue;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }
 }
