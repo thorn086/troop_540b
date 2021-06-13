@@ -15,17 +15,17 @@
     }
     
     #bsa_logo{
-        height: 20px;
+        height: 40px;
         width: auto;
         float:left; 
         margin: 2px;
-        padding-top: 1px;
+        padding-top: 6px;
     }
     #troop_tag{
         margin: 0;
         text-align: center;
         float: right;
-        padding: .05rem;
+        padding: .7rem;
         font-size: 30px;
         margin-right: 1rem;
         font-family: 'Source Sans Pro', sans-serif;
