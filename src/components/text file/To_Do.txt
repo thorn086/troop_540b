@@ -14,13 +14,13 @@ To Do List
 
 7. add background images and color to all pages.
 
-8. Style Menu bar on Home page
+8. Style Menu bar on Home page (Changed by: Darren Completed 6/13/2021)
 
-9. change borders to add "roundness" to corners
+9. change borders to add "roundness" to corners (Changed By: Darren Completed 6/13/2021)
 
 10. Start adding photos to 'img' folder
 
-11. make text align correctly in boxes on Home page
+11. make text align correctly in boxes on Home page (Changed by: Darren Completed 6/13/2021)
 
 12. Add theme styles to fonts
 
@@ -35,6 +35,7 @@ To Do List
 17. automate other features to be added here.
 
 
+
 Bug List
 
 1. Landscape menu bar font sizing (Completed by: Darren 6/11/21)
@@ -45,5 +46,5 @@ Bug List
 
 4. Check for any other bugs -screen issues-
 
-
+5. Correct Landscape view for Phone.
 
