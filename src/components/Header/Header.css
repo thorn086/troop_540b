@@ -7,7 +7,7 @@
         top: 0;
         right: 0;
         left: 0;
-        height: 50px;
+        height: 60px;
         border-top: 3px solid white;
         border-bottom: 5px solid black;
         border-style: groove;
@@ -15,7 +15,7 @@
     }
     
     #bsa_logo{
-        height: 40px;
+        height: 20px;
         width: auto;
         float:left; 
         margin: 2px;
