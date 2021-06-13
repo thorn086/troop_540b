@@ -41,7 +41,9 @@ class Home extends Component {
                                 St. Charels Borromeo
                             </a></h5>
                             <br></br>
+                            <p>*** Scouts that participated in the exercise requirement from the June 10th meeting will complete the second half at the July 8th Troop Meeting **</p>
                         </div>
+
 
                     </div>
                 </section>

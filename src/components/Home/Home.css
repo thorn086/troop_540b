@@ -28,7 +28,7 @@
 }
 #events{
     display: inline-block;
-    height: 45vh;
+    height: 50vh;
     width: 60%;
     border: 5px solid white;
     background-color: lightpink;
@@ -51,7 +51,7 @@
         padding: 0 10px;
     }
     #events{
-        width: 98%;
+        width: 93%;
         height:50vh;
     }
     #Main_title{
