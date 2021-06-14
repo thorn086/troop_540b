@@ -48,3 +48,4 @@ Bug List
 
 5. Correct Landscape view for Phone.
 
+6. npm won't start
