@@ -37,7 +37,7 @@
     margin: 2%;
     border:3px green solid;
     display: flex;
-    height: auto;
+    height: 1000px;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
@@ -46,7 +46,7 @@
 #troop_res, #bsa_res{
     margin: 1rem;
     width: 250px;
-    height: 50vh;
+    height: 78vh;
     border: 5px black solid;
     
 }
@@ -59,7 +59,7 @@
 }
 
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 850px){
 
 
 #Res_Info{
@@ -94,4 +94,9 @@
 }
     
 
+}
+@media screen and (orientation: landscape) and (min-width: 735px){
+    #Res_Info{
+        margin-top: 100px;
+    }
 }
