@@ -1,5 +1,6 @@
 {
     "cSpell.ignoreWords": [
         "img"
-    ]
+    ],
+    "git.ignoreLimitWarning": true
 }

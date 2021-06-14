@@ -73,18 +73,18 @@
     
 }
 
-@media only screen and (min-width:640px) and (orientation: landscape){
+@media only screen and (min-width:640px) and (max-width: 699px) and (orientation: landscape){
     #events{
         width: 93%;
         height:400px;
         margin-top: 10%;
     }
 }
-@media only screen and (min-width:700px) and (orientation: landscape){
+@media only screen and (min-width:700px) and (max-width: 850px) and (orientation: landscape){
     #events{
         width: 93%;
         height:500px;
-        margin-top: 50%;
+        margin-top: 900px;
     }
 }
     
