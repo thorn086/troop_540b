@@ -1,10 +1,11 @@
 import React from "react";
+import './Events.css';
 
 
 
 
 
-function events(){
+function Events(){
     return(
         <section id='events'>
         <h2> Up Coming Events</h2>
@@ -41,4 +42,4 @@ function events(){
     </section>
     );
 }
-export default events();
+export default Events;

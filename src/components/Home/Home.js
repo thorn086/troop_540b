@@ -3,6 +3,8 @@ import construction from '../../img/construction_img.jpeg';
 import React, { Component } from 'react';
 import Footer from '../footer/footer';
 import Header from '../Header/Header';
+import Events from '../Events/Events';
+
 class Home extends Component {
     render() {
         return (
@@ -14,7 +16,7 @@ class Home extends Component {
                     <h2 className='home-info'>**** Future Home of Troop 540 ****</h2>
                     <h6 className='home-info'>Check Back Soon!</h6>
                 </section>
-               
+                <Events />
                 <Footer />
             </div>
         );
