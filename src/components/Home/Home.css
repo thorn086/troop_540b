@@ -88,7 +88,7 @@
         margin-top: 400px;
     }
 }
-@media only screen and (min-width:767px) and (max-width: 850px) and (orientation: portrait){
+@media only screen and (min-width:700px) and (max-width: 850px) and (orientation: portrait){
     #events{
         width: 93%;
         height:500px;
