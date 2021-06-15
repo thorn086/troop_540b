@@ -31,6 +31,7 @@
     height: 50vh;
     width: 60%;
     border: 5px solid white;
+    margin-top: 50px;
     background-color: lightpink;
 
 }
@@ -73,7 +74,7 @@
     
 }
 
-@media only screen and (min-width:640px) and (max-width: 699px) and (orientation: landscape){
+@media only screen and (min-width:560px) and (max-width: 699px) and (orientation: landscape){
     #events{
         width: 93%;
         height:400px;
@@ -84,7 +85,28 @@
     #events{
         width: 93%;
         height:500px;
-        margin-top: 900px;
+        margin-top: 400px;
+    }
+}
+@media only screen and (min-width:767px) and (max-width: 850px) and (orientation: portrait){
+    #events{
+        width: 93%;
+        height:500px;
+        margin-top: 400px;
+    }
+}
+@media only screen and (min-width:851px) and (max-width: 1025px) and (orientation: portrait){
+    #events{
+        width: 93%;
+        height:500px;
+        margin-top: 50px;
+    }
+}
+@media only screen and (min-width:1020px) and (max-width: 1367px) and (orientation: landscape){
+    #events{
+        width: 93%;
+        height:500px;
+        margin-top: 50px;
     }
 }
     
