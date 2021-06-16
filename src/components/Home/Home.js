@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import Footer from '../footer/footer';
 import Header from '../Header/Header';
 import Events from '../Events/Events';
+import Info from '../Important_Info/Info';
 
 class Home extends Component {
     render() {
@@ -17,6 +18,7 @@ class Home extends Component {
                     <h6 className='home-info'>Check Back Soon!</h6>
                 </section>
                 <Events />
+                <Info/>
                 <Footer />
             </div>
         );
