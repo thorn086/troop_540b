@@ -6,11 +6,19 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+<<<<<<< HEAD
+||||||| merged common ancestors
+    "gh-pages": "^1.1.0",
+=======
+    "gh-pages": "^1.1.0",
+    "pseudomap": "^1.0.2",
+>>>>>>> 2f03665539aa89492e8f85c2352fa3d31eb0f8f8
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^1.1.5",
+    "react-scripts": "^4.0.3",
+    "update": "^0.4.2",
     "web-vitals": "^1.0.1",
     "yarn": "^1.22.10"
   },
