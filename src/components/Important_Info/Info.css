@@ -1,8 +1,29 @@
-#info{
-    display: inline-block;
-    height: 50vh;
-    width: 60%;
-    border: 5px solid white;
-    margin-top: 50px;
+.info{
+    height: 100%;
+    width: 100%;
+    background-color: rgba( 0,0,0, .7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.info_content{
     background-color: lightblue;
+    border: 3px solid white;
+    height: 50vh;
+    width: 50vw;
+    padding: 20px;
+    position: relative;
+
+}
+.close{
+    position: absolute;
+    top:0;
+    right: 14px;
+    text-align: left;
+    font-size: 30px;
+    font: 200;
+    margin: 6px;
 }
