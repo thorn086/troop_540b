@@ -6,7 +6,7 @@ To Do List
 
 3. Complete About page     (completed 6/11/21)
 
-4. Update events after every meeting (completed last 6/9/21)    (update next 6/13/21)
+4. Update events after every meeting (completed last 6/13/21)    (update next 6/20/21)
 
 5. update dates--> on going--(completed every 2nd Thursday)
 
@@ -22,7 +22,7 @@ To Do List
 
 11. make text align correctly in boxes on Home page (Changed by: Darren Completed 6/13/2021)
 
-12. Add theme styles to fonts
+12. Add theme styles to fonts (completed 6/17/2021)
 
 13. make changes to about page with correct information remove blanks and spaces.
 
@@ -50,3 +50,5 @@ Bug List
 6. npm won't start  (Completed by: Darren 6/14/2021)
 
 7. Fix landscape issue on Home Screen for 700-850px
+
+8. Important info button clipping through top bar on mobile
