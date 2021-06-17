@@ -1,12 +1,12 @@
 .info{
-    height: 110%;
+    height: 100rem;
     width: 100%;
     background-color: rgba( 0,0,0, .98);
     position: absolute;
     top: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
   
 }
 .info_content{
@@ -16,6 +16,7 @@
     width: 80vw;
     padding: 20px;
     position: relative;
+    margin-top: 10%;
 
 }
 #button_info{
