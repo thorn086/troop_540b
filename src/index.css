@@ -27,3 +27,9 @@ h1{
 h2, h3{
   font-family: 'Old Standard TT', serif;
 }
+h5{
+  font-family: 'Zen Dots', cursive;
+}
+p, ul{
+  font-family: 'Turret Road', cursive;
+}
