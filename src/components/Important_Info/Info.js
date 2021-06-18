@@ -20,7 +20,7 @@ function Info(props) {
                         throughout the year on all outings. ***</p>
                     <br />
                     <a href="https://filestore.scouting.org/filestore/HealthSafety/pdf/680-001_ABC.pdf?_gl=1*euoxqa*_ga*MjExNjEyMzEyMC4xNjIzNDI4MzA2*_ga_20G0JHESG4*MTYyMzQyODMwNS4xLjAuMTYyMzQyODMwNS42MA.."
-                        id='med_tag'>
+                        target="blank" id='med_tag'>
                         Medical Health Form </a>
 
                 </div>
