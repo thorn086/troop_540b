@@ -1,7 +1,6 @@
 * ul {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   
 }
 
@@ -12,6 +11,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+
 }
 
 code {
@@ -24,12 +25,12 @@ h1{
   text-align: center;
   padding-top: 1rem;
 }
-h2, h3{
+h2, h3, p{
   font-family: 'Old Standard TT', serif;
 }
 h5{
   font-family: 'Zen Dots', cursive;
 }
-p, ul{
+ul{
   font-family: 'Turret Road', cursive;
 }
