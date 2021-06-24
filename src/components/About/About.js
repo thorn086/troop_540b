@@ -1,7 +1,7 @@
 import "./About.css";
 import React, { Component } from "react";
-import Footer from '../footer/footer';
-import Header from '../Header/Header';
+import Footer from "../footer/footer";
+import Header from "../Header/Header";
 
 class Home extends Component {
   render() {
@@ -9,24 +9,32 @@ class Home extends Component {
       <div className="App">
         <Header />
         <section id="About_Info">
-          <h2 >More About Troop 540</h2>
-          <h3 id='about_h3'>2021 Updates</h3>
+          <h2>More About Troop 540</h2>
+          <h3 id="about_h3">2021 Updates</h3>
           <div id="about_para">
-            <section id='description'>
+            <section id="description">
               <p id="about_para_1">
                 {" "}
-              This page explains some parts of the history of the troop. Things
-              that show a bit about what 540 does. Along with some of our
-              accomplishments. Overall, Troop 540 has had 32 scouts reach the
-              rank of Eagle. We have been with St. Charles Borromeo since 1962. In 2021, we have a total of 16 scouts active in the troop,
-              ranging from recently added Webelos to Eagle Scouts. Some
-              highlights of 540 over recent years are ____.
+                This page explains parts of the troop's history, a bit about
+                what 540 does, and some of our accomplishments. Troop 540
+                operates out of the _____ District of the Three Harbors Council.
+                There have been 32 scouts that reached the rank of Eagle. The
+                troop has been with St. Charles Borromeo parish in Milwaukee
+                since 1962. In 2021, Troop 540 has 16 total active scouts,
+                ranging from recently added Webelos to Eagle Scouts. Troop 540
+                meets every second and fourth Thursday from 6:30-8:30 PM to
+                discuss scouting topics and advancements. As a troop, we strive
+                to have outdoor adventures every month as troop activities.
+                Troop 540 takes pride in being an active member of the community
+                by participating in Scouting for Food and other service
+                projects, along with Eagle projects. Some highlights of 540 over
+                recent years are:
               </p>
             </section>
-            <div id='text-boxs'>
-              <div id='scouts'>
+            <div id="text-boxs">
+              <div id="scouts">
                 <p>Here is the list of all of the scouts who reached Eagle </p>
-                <ul id='eagle-scouts'>
+                <ul id="eagle-scouts">
                   <li>1969: David E.</li>
                   <li>1969: Richard V.</li>
                   <li>1969: Kenneth W.</li>
@@ -63,9 +71,12 @@ class Home extends Component {
                   <li>2021: John V.</li>
                 </ul>
               </div>
-              <div id='leaders'>
-                <p>The last bit of information I want to share with you is the names of our past to present scoutmasters:</p>
-                <ul id='scout-masters'>
+              <div id="leaders">
+                <p>
+                  The last bit of information I want to share with you is the
+                  names of our past to present scoutmasters:
+                </p>
+                <ul id="scout-masters">
                   <li>1962-63: Art Solie</li>
                   <li>1963-66: Michael Gilgenbach</li>
                   <li>1966-67: Richard Brzezinski</li>
