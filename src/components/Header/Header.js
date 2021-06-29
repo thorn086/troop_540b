@@ -5,8 +5,7 @@ import Sidebar from '../Sidebar/Sidebar';
 
 
 
-function Header() {
-
+function Header(props) {
     return (
         <header className='header_title'>
            <Sidebar /> 

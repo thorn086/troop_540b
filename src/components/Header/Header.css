@@ -10,6 +10,7 @@ header{
     right: 0;
     left: 0;
     height: 60px;
+    z-index: 300;
     border-top: 3px solid white;
     border-bottom: 5px solid black;
     border-style: groove;

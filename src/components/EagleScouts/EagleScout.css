@@ -1,0 +1,38 @@
+#eaglescout_list{
+    list-style: none;
+    text-align: left;
+    padding-left: 4rem;
+    font-weight: 1000;
+    font-family: 'Old Standard TT', serif;
+    font-size: 24px;
+
+    
+}
+#eaglescout_list li{
+    padding:3px;
+}
+#eaglescout_box{
+    background-color: white;
+    margin-top: 100px;
+   
+    
+    width: 500px;
+    font-family: 'Old Standard TT', serif;
+    font-weight: 1000;
+    padding: 2rem;
+}
+
+#scoutimg{
+    position: relative;
+    width: 200px;
+    padding: 10px;
+    border-bottom:3px solid black;
+    margin-bottom: 1.5rem;
+}
+#eaglescout_modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.8);
+    display: flex;
+    justify-content: center;
+}

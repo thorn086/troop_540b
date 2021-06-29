@@ -1,17 +1,25 @@
 import "./About.css";
-import React, { Component } from "react";
+import React, { useState } from "react";
 import Footer from '../footer/footer';
 import Header from '../Header/Header';
+import EagleScout from '../EagleScouts/EagleScout'
 
-class Home extends Component {
-  render() {
+
+function About() {
+const [scoutPopup, setScoutPopup] = useState(false);
+
     return (
       <div className="App">
+                <EagleScout trigger={scoutPopup} setTrigger={setScoutPopup} />
+
         <Header />
+
         <section id="About_Info">
           <h2 >More About Troop 540</h2>
           <h3 id='about_h3'>2021 Updates</h3>
+
           <div id="about_para">
+
             <section id='description'>
               <p id="about_para_1">
                 {" "}
@@ -23,46 +31,10 @@ class Home extends Component {
               highlights of 540 over recent years are ____.
               </p>
             </section>
+            <button id ='button_scout'  onClick={()=> setScoutPopup(true)} >Past Eagle Scouts</button>
+
             <div id='text-boxs'>
-              <div id='scouts'>
-                <p>Here is the list of all of the scouts who reached Eagle </p>
-                <ul id='eagle-scouts'>
-                  <li>1969: David E.</li>
-                  <li>1969: Richard V.</li>
-                  <li>1969: Kenneth W.</li>
-                  <li>1970: Mark H.</li>
-                  <li>1973: Lane Scr.</li>
-                  <li>1973: Lane Sch.</li>
-                  <li>1978: Geoffrey G.</li>
-                  <li>1980: Robert E.</li>
-                  <li>1991: John P.</li>
-                  <li>1993: Benedict R.</li>
-                  <li>1993: Jason D.</li>
-                  <li>1998: Jared G.</li>
-                  <li>1998: Jay E.</li>
-                  <li>2000: Caleb H.</li>
-                  <li>2001: Thomas F.</li>
-                  <li>2002: Jessie C.</li>
-                  <li>2003: Kevin G.</li>
-                  <li>2004: Nghia L.</li>
-                  <li>2005: Joshua D.</li>
-                  <li>2005: Andrew Ku.</li>
-                  <li>2006: Andrew Ko.</li>
-                  <li>2008: Jacob B.</li>
-                  <li>2012: Mitchell B.</li>
-                  <li>2012: Anthony P.</li>
-                  <li>2013: Joseph P.</li>
-                  <li>2015: Anthony A.</li>
-                  <li>2016: John M</li>
-                  <li>2017: Evan P.</li>
-                  <li>2017: Tyler B.</li>
-                  <li>2021: Nathan W.</li>
-                  <li>2021: Steven E.</li>
-                  <li>2021: Joe M.</li>
-                  <li>2021: Owen W.</li>
-                  <li>2021: John V.</li>
-                </ul>
-              </div>
+
               <div id='leaders'>
                 <p>The last bit of information I want to share with you is the names of our past to present scoutmasters:</p>
                 <ul id='scout-masters'>
@@ -86,10 +58,11 @@ class Home extends Component {
             </div>
           </div>
         </section>
+
         <Footer />
       </div>
     );
   }
-}
 
-export default Home;
+
+export default About;

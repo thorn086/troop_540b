@@ -9,7 +9,7 @@ function Info(props) {
     return (props.trigger) ? (
         <div className='info'>
             <div className="info_content">
-                <button className="close" onClick={() => props.setTrigger(false)}>X</button>
+                <button className="close" onClick={() => props.setTrigger2(false)}>X</button>
                 <h2> Important Troop 540 Information</h2>
                 <div id="info_text">
                     <p>Summer Camp 2021 Notice</p>
