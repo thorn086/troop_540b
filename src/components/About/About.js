@@ -8,6 +8,7 @@ import EagleScout from '../EagleScouts/EagleScout'
 function About() {
 const [scoutPopup, setScoutPopup] = useState(false);
 
+
     return (
       <div className="App">
                 <EagleScout trigger={scoutPopup} setTrigger={setScoutPopup} />
@@ -23,12 +24,20 @@ const [scoutPopup, setScoutPopup] = useState(false);
             <section id='description'>
               <p id="about_para_1">
                 {" "}
-              This page explains some parts of the history of the troop. Things
-              that show a bit about what 540 does. Along with some of our
-              accomplishments. Overall, Troop 540 has had 32 scouts reach the
-              rank of Eagle. We have been with St. Charles Borromeo since 1962. In 2021, we have a total of 16 scouts active in the troop,
-              ranging from recently added Webelos to Eagle Scouts. Some
-              highlights of 540 over recent years are ____.
+                This page explains parts of the troop's history, a bit about
+                what 540 does, and some of our accomplishments. Troop 540
+                operates out of the _____ District of the Three Harbors Council.
+                There have been 32 scouts that reached the rank of Eagle. The
+                troop has been with St. Charles Borromeo parish in Milwaukee
+                since 1962. In 2021, Troop 540 has 16 total active scouts,
+                ranging from recently added Webelos to Eagle Scouts. Troop 540
+                meets every second and fourth Thursday from 6:30-8:30 PM to
+                discuss scouting topics and advancements. As a troop, we strive
+                to have outdoor adventures every month as troop activities.
+                Troop 540 takes pride in being an active member of the community
+                by participating in Scouting for Food and other service
+                projects, along with Eagle projects. Some highlights of 540 over
+                recent years are:
               </p>
             </section>
             <button id ='button_scout'  onClick={()=> setScoutPopup(true)} >Past Eagle Scouts</button>
