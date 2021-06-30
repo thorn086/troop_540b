@@ -26,7 +26,7 @@ To Do List
 
 13. make changes to about page with correct information remove blanks and spaces.
 
-14. fix footer bar
+14. fix footer bar (Jaden working on: analysis 6/29/2021 due date: 7/6/2021)
 
 15. automate date in their own function with special, troop, and outing
 
@@ -45,10 +45,10 @@ Bug List
 
 4. Check for any other bugs -screen issues-
 
-5. Correct Landscape view for Phone.
+5. Correct Landscape view for Phone. (completed ??/??/??)
 
 6. npm won't start  (Completed by: Darren 6/14/2021)
 
 7. Fix landscape issue on Home Screen for 700-850px
 
-8. Important info button clipping through top bar on mobile
+8. Important info button clipping through top bar on mobile (completed ??/??/??)
