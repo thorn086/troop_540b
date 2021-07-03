@@ -26,7 +26,7 @@ const [scoutPopup, setScoutPopup] = useState(false);
                 {" "}
                 This page explains parts of the troop's history, a bit about
                 what 540 does, and some of our accomplishments. Troop 540
-                operates out of the _____ District of the Three Harbors Council.
+                operates out of the Southern Shores District of the Three Harbors Council.
                 There have been 32 scouts that reached the rank of Eagle. The
                 troop has been with St. Charles Borromeo parish in Milwaukee
                 since 1962. In 2021, Troop 540 has 16 total active scouts,
