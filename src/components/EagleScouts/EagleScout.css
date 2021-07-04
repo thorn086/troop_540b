@@ -1,22 +1,24 @@
 #eaglescout_list{
     list-style: none;
     text-align: left;
-    padding-left: 6rem;
+    padding-left: .5rem;
     font-weight: 1000;
     font-family: 'Old Standard TT', serif;
-    font-size: 24px;
+    font-size: 16px;
 
     
 }
 #eaglescout_list li{
-    padding:3px;
+    padding:2px;
 }
 #eaglescout_box{
+    position: absolute;
     background-color: white;
-    width: 50%;
-margin: 2rem 0 0 15rem;    font-family: 'Old Standard TT', serif;
+    width: 75%;
+    margin: 7rem 0 0 2rem;   
+    font-family: 'Old Standard TT', serif;
     font-weight: 1000;
-    padding: 2rem;
+    padding: 0.5rem;
 }
 
 #scoutimg{
@@ -28,24 +30,88 @@ margin: 2rem 0 0 15rem;    font-family: 'Old Standard TT', serif;
 }
 #eaglescout_modal{
     width: 100%;
-    height: 300%;
-    padding: 5%;
+    height: 400%;
+    padding: 1%;
     background-color: rgba(0,0,0,.96);
     position: absolute;
     top: 0;
     justify-content: center;
 }
 
-.scout_close{
-    position: fixed;
-    right: 27rem;
-    height: 30px;
-    width: 30px;
+#scout_close{
+    position: relative;
+    top: 0;
+    left: 40%;
+   height: 25px;
+   width: 25px;
 }
 .modal_title{
-    width: 70%;
-    font-size: 20px;
+    width: 80%;
+    font-size: 16px;
     font-weight: 900;
-    padding-left: 5rem;
-    margin-bottom: 4rem;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
+@media screen and (min-width: 700px){
+    #eaglescout_list{
+        list-style: none;
+        text-align: left;
+        padding-left: 6rem;
+        font-weight: 1000;
+        font-family: 'Old Standard TT', serif;
+        font-size: 24px;
+    
+        
+    }
+    #eaglescout_list li{
+        padding:3px;
+    }
+    #eaglescout_box{
+        background-color: white;
+        width: 50%;
+        margin: 6rem 0 0 20%;   
+        font-family: 'Old Standard TT', serif;
+        font-weight: 1000;
+        padding: 2rem;
+    }
+    
+    #scoutimg{
+        position: relative;
+        width: 200px;
+        padding: 10px;
+        border-bottom:3px solid black;
+        margin-bottom: 1.5rem;
+    }
+    #eaglescout_modal{
+        width: 100%;
+        height: 300%;
+        padding: 5%;
+        background-color: rgba(0,0,0,.96);
+        position: absolute;
+        top: 0;
+        justify-content: center;
+    }
+    
+    
+    .modal_title{
+        width: 70%;
+        font-size: 20px;
+        font-weight: 900;
+        padding-left: 5rem;
+        margin-bottom: 4rem;
+    }
+    
+    
+}
+@media screen and (min-width: 700px) and (orientation: landscape){
+    #eaglescout_modal{
+        margin-top: 4rem;
+        height: 500%;
+    }
+
+}
+@media screen and (min-width: 1550px){
+    #eaglescout_box{
+        width: 39%;
+    }
 }

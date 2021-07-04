@@ -6,7 +6,7 @@ function ScoutLeader(props) {
     return (props.trigger2) ? (
         <div id='leader_modal'>
             <div id='leader_box'>
-                <button className="scout_close" onClick={() => props.setTrigger2(false)}>X</button>
+                <button id="leader_close" onClick={() => props.setTrigger2(false)}>X</button>
                 <p className ='modal_title'>Names of our past and present Scout Masters:</p>
                 <ul id='leader_list'>
                     {scoutLeaderData.map((leader, index) => {

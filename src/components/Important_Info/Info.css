@@ -48,7 +48,11 @@
     font: 200;
     margin: 6px;
 }
-
+@media screen and (max-width: 425px){
+    #button_info{
+        width:50px;
+    }
+}
 @media screen and (min-width: 700px){
     #button_info{
         margin-top: 1rem;
