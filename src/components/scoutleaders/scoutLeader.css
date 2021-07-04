@@ -1,4 +1,4 @@
-#eaglescout_list{
+#leader_list{
     list-style: none;
     text-align: left;
     padding-left: 6rem;
@@ -8,27 +8,23 @@
 
     
 }
-#eaglescout_list li{
+#leader_list li{
     padding:3px;
 }
-#eaglescout_box{
+#leader_box{
     background-color: white;
     width: 50%;
-margin: 2rem 0 0 15rem;    font-family: 'Old Standard TT', serif;
+    margin: 2rem 0 0 15rem;    
+    font-family: 'Old Standard TT', serif;
     font-weight: 1000;
     padding: 2rem;
+    padding-top: 4rem;
 }
 
-#scoutimg{
-    position: relative;
-    width: 200px;
-    padding: 10px;
-    border-bottom:3px solid black;
-    margin-bottom: 1.5rem;
-}
-#eaglescout_modal{
+
+#leader_modal{
     width: 100%;
-    height: 300%;
+    height: 150%;
     padding: 5%;
     background-color: rgba(0,0,0,.96);
     position: absolute;
@@ -41,11 +37,4 @@ margin: 2rem 0 0 15rem;    font-family: 'Old Standard TT', serif;
     right: 27rem;
     height: 30px;
     width: 30px;
-}
-.modal_title{
-    width: 70%;
-    font-size: 20px;
-    font-weight: 900;
-    padding-left: 5rem;
-    margin-bottom: 4rem;
 }

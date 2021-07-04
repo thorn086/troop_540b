@@ -8,7 +8,7 @@ function EagleScout(props) {
         <div id='eaglescout_modal'>
             <div id='eaglescout_box'>
                 <button className="scout_close" onClick={() => props.setTrigger(false)}>X</button>
-                <p>Here is the list of all of the scouts who reached Eagle </p>
+                <p className ='modal_title'>List of all of the scouts who reached Eagle </p>
                 <img id='scoutimg' src={eaglescout} alt="Eagle Scout Badge logo" ></img>
                 <ul id='eaglescout_list'>
                     {EaglescoutData.map((scout, index) => {
