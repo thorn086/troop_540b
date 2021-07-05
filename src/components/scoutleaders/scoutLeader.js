@@ -1,5 +1,5 @@
 import React from 'react';
-import { scoutLeaderData } from "./scoutLeaderData";
+import { scoutLeaderData } from "../../Data/scoutLeaderData";
 import './scoutLeader.css';
 
 function ScoutLeader(props) {

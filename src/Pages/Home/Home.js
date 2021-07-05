@@ -1,10 +1,10 @@
 import './Home.css'
 import construction from '../../img/construction_img.jpeg';
 import React , { useState } from 'react';
-import Footer from '../footer/footer';
-import Header from '../Header/Header';
-import Events from '../Events/Events';
-import Info from '../Important_Info/Info';
+import Footer from '../../components/footer/footer';
+import Header from '../../components/Header/Header';
+import Events from '../../components/Events/Events';
+import Info from '../../components/Important_Info/Info';
 
 function Home() {
     const [buttonPopup, setButtonPopup]= useState(false);

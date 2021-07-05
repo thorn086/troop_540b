@@ -1,5 +1,5 @@
 import React from 'react';
-import { EaglescoutData } from "./EagleScoutData";
+import { EaglescoutData } from "../../Data/EagleScoutData";
 import './EagleScout.css';
 import eaglescout from '../../img/eaglescout_badge.jpeg';
 

@@ -1,7 +1,7 @@
 import "./Resources.css";
 import React, { Component } from "react";
-import Footer from '../footer/footer';
-import Header from '../Header/Header';
+import Footer from '../../components/footer/footer';
+import Header from '../../components/Header/Header';
 class Resources extends Component {
   render() {
     return (

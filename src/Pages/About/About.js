@@ -1,9 +1,9 @@
 import "./About.css";
 import React, { useState } from "react";
-import Footer from '../footer/footer';
-import Header from '../Header/Header';
-import EagleScout from '../EagleScouts/EagleScout';
-import ScoutLeader from '../scoutleaders/scoutLeader';
+import Footer from '../../components/footer/footer';
+import Header from '../../components/Header/Header';
+import EagleScout from '../../components/EagleScouts/EagleScout';
+import ScoutLeader from '../../components/scoutleaders/scoutLeader';
 
 function About() {
 const [scoutPopup, setScoutPopup] = useState(false);
