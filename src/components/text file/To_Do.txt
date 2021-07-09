@@ -26,7 +26,7 @@ To Do List
 
 13. make changes to about page with correct information remove blanks and spaces.
 
-14. fix footer bar (Jaden working on: analysis 6/29/2021 due date: 7/6/2021)
+14. fix footer bar (Jaden working on: analysis 6/29/2021 due date: 7/28/2021)
 
 15. automate date in their own function with special, troop, and outing
 
