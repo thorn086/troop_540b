@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { Route } from 'react-router-dom';
-import Home  from './components/Home/Home';
-import About from './components/About/About';
-import Contacts from './components/Contacts/Contacts';
-import Resources from './components/Resources/Resources';
-import Gallery from './components/Gallery/Gallery';
+import Home  from './Pages/Home/Home';
+import About from './Pages/About/About';
+import Contacts from './Pages/Contacts/Contacts';
+import Resources from './Pages/Resources/Resources';
+import Gallery from './Pages/Gallery/Gallery';
 
 
 class App extends Component {
