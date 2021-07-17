@@ -12,6 +12,8 @@
     background-color:lightgray;
     border: 5px solid white;
     padding: 3%;
+  
+
 
 }
 
@@ -19,6 +21,9 @@
     width: auto;
     height: 100%;
     margin-top: 40px;
+    text-align: left;
+    padding: 7px;
+
 }
 
 #scout-masters, #eagle-scouts {
@@ -28,8 +33,15 @@
 }
 
 @media screen and (min-width: 800px){
+    #About_Info{
+        width: 60%;
+        z-index: 0;
+        position:relative;
+        top: 50%;
+        left: 15%;
+    }
     #about_para{
-        width: 80%;
+        width: 60%;
         display: inline-block;
         padding:4px;
     }

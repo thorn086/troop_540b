@@ -1,7 +1,6 @@
 import React from 'react';
 import { EaglescoutData } from "../../Data/EagleScoutData";
 import './EagleScout.css';
-import eaglescout from '../../img/eaglescout_badge.jpeg';
 
 function EagleScout(props) {
     return (props.trigger) ? (
@@ -9,7 +8,6 @@ function EagleScout(props) {
             <div id='eaglescout_box'>
                 <button id="scout_close" onClick={() => props.setTrigger(false)}>X</button>
                 <p className ='modal_title'>List of all of the scouts who reached Eagle </p>
-                <img id='scoutimg' src={eaglescout} alt="Eagle Scout Badge logo" ></img>
                 <ul id='eaglescout_list'>
                     {EaglescoutData.map((scout, index) => {
                         return (

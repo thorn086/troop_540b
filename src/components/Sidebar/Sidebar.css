@@ -20,7 +20,6 @@
     position: fixed;
     top: 0;
     left: -100%;
-    z-index: 300;
     transition: 850ms;
     border: 2px solid white;
     
@@ -29,7 +28,8 @@
   .sidebar-menu.active {
     left: 0;
     transition: 350ms;
-    z-index: 300;
+    z-index: 2;
+
   }
   
   .nav-text {
@@ -46,7 +46,6 @@
     background-image: linear-gradient(120deg, rgb(3, 16, 248) 10%, rgb(76, 76, 76) 90%,red 10%);  
     border: 5px solid lightgray;
     border-style: ridge;
-   
   }
 
   
@@ -70,8 +69,6 @@
   
   .sb-menu-items {
     width: 100%;
-    z-index: 300;
-
   }
 
   .sb-toggle {
@@ -86,7 +83,13 @@
   span {
     margin-left: 16px;
   }
-
+#be-prepared{
+  position: fixed;
+  margin: 2rem auto;
+  bottom: 0;
+  height: 100px;
+  width: 175px;
+}
   @media screen and (max-width: 700px){
     .sidebar {
       padding: 16px;

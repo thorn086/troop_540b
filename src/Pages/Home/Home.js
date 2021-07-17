@@ -1,19 +1,16 @@
 import './Home.css'
 import construction from '../../img/construction_img.jpeg';
-import React , { useState } from 'react';
+import React  from 'react';
 import Footer from '../../components/footer/footer';
 import Header from '../../components/Header/Header';
 import Events from '../../components/Events/Events';
-import Info from '../../components/Important_Info/Info';
 
 function Home() {
-    const [buttonPopup, setButtonPopup]= useState(false);
 
     
         return (
                 <div className="App">
                     <Header />
-                    <button id ='button_info'  onClick={()=> setButtonPopup(true)} >540 Info</button>
 
                     <section id='Main_title'>
                         <img id='const_logo' src={construction} alt="construction workers" />
@@ -23,7 +20,6 @@ function Home() {
                         <h6 className='home-info'>Check Back Soon!</h6>
                     </section>
                     <Events />   
-                    <Info trigger={buttonPopup} setTrigger2={setButtonPopup}/>
        
                     <Footer />
                 </div>

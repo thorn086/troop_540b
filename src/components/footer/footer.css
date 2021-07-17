@@ -1,0 +1,21 @@
+.ft_page_main{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot_tag_p{
+    margin: 4px;
+}
+#eaglescout_box{
+    z-index: 1;
+
+}
+#scout_logo_phrase2{
+    position: relative;
+    margin-left: .5rem;
+    width: auto;
+    height: 4.5rem;
+}
