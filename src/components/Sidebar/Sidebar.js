@@ -4,6 +4,7 @@ import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import { IconContext } from "react-icons";
 import { SidebarData } from "../../Data/SidebarData";
+import  bePre from "../../img/boyscouts.gif";
 
 import "./Sidebar.css";
 
@@ -36,6 +37,7 @@ function Sidebar() {
                 );
               })}
             </ul>
+           <img id='be-prepared' src={bePre} alt="Always be prepared logo"></img> 
           </nav>
         </div>
       </IconContext.Provider>

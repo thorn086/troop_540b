@@ -5,6 +5,7 @@
     padding: 3px;
     background-color: lightgray;
     text-align: center;
+    position: relative;
 }
 
 #const_logo{
