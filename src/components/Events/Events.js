@@ -8,7 +8,7 @@ import './Events.css';
 function Events(){
     return(
         <section id='events'>
-        <h2> Up Coming Events</h2>
+        <h2> Up Coming Troop Outings</h2>
         <div id="event_dates">
             <div id='special-dates'>
 

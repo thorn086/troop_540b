@@ -19,3 +19,10 @@
     width: auto;
     height: 4.5rem;
 }
+
+@media screen and (min-width: 900px){
+    #scout_logo_phrase2{  
+        width: 20rem;
+        height: auto;
+    }
+}

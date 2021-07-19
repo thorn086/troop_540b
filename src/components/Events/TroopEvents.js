@@ -5,10 +5,10 @@ import './Events.css';
 
 
 
-function TroopEvents(){
+function TroopMeet(){
     return(
         <section id='troopevents'>
-        <h2> Up Coming Troop Events</h2>
+        <h2> Up Coming Troop Meetings</h2>
         <div id="event_dates">
             <div id='troop-dates'>
 
@@ -29,4 +29,4 @@ function TroopEvents(){
     </section>
     );
 }
-export default TroopEvents;
+export default TroopMeet;
