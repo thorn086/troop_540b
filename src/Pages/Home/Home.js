@@ -4,7 +4,7 @@ import React, {useState}  from 'react';
 import Footer from '../../components/footer/footer';
 import Header from '../../components/Header/Header';
 import Events from '../../components/Events/Events';
-import TroopEvents from '../../components/Events/TroopEvents';
+import TroopMeet from '../../components/Events/TroopEvents';
 import Info from '../../components/Important_Info/Info';
 
 function Home() {
@@ -22,7 +22,7 @@ function Home() {
                         <h6 className='home-info'>Check Back Soon!</h6>
                     </section>
                     <Events />   
-                    <TroopEvents />  
+                    <TroopMeet />  
                     <Info trigger={buttonPopup} setTrigger2={setButtonPopup}/>
        
                     <Footer />
