@@ -26,12 +26,12 @@
 #event_dates{
     height: 50px;
 }
-.dates{
+.dates, #st_charels{
     display: inline;
     padding: 0 20px;
 }
 @media screen and (max-width: 700px){
-    .dates{
+    .dates, #st_charels{
         padding: 0 10px;
     }
     #events{
