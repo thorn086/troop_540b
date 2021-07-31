@@ -26,13 +26,15 @@
 #event_dates{
     height: 50px;
 }
-.dates, #st_charels{
+.dates, #st_charels, #camp_phillips{
     display: inline;
     padding: 0 20px;
+    font-size: 14px;
 }
 @media screen and (max-width: 700px){
-    .dates, #st_charels{
-        padding: 0 10px;
+    .dates, #st_charels, #camp_phillips{
+        padding: 0 0 0 10px;
+        font-size: 10px;
     }
     #events{
         width: 93%;
