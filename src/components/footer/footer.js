@@ -1,6 +1,7 @@
 import React from "react";
 import './footer.css';
 import scoutlogo from '../../img/BSA-Logo_Color_large.jpg';
+import threeharbors from '../../img/ThreeHarborsCouncil-insignia.jpeg';
 
 function Footer(){
     return(
@@ -13,6 +14,7 @@ function Footer(){
 
 
         <img id='scout_logo_phrase2' src={scoutlogo} alt='Scout moto'></img>
+        <img id='scout_counsil_logo' src={threeharbors} alt='council'></img>
         <div className ='foot_tag'>
           <p className ='foot_tag_p'>Copy Right 2021</p>
           <p className ='foot_tag_p'> Web_Master J.R.</p>

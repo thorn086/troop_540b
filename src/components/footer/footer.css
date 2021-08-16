@@ -19,6 +19,12 @@
     width: auto;
     height: 4.5rem;
 }
+#scout_counsil_logo{
+    position: left;
+    margin-left: .5rem;
+    width: auto;
+    height: 4.5rem;
+}
 
 @media screen and (min-width: 900px){
     #scout_logo_phrase2{  
