@@ -10,24 +10,13 @@ To Do List
 
 5. Start adding photos to 'img' folder
 
-6. fix footer bar (Jaden working on: analysis 6/29/2021 due date: 7/28/2021)
-    a. analyse other troop websites for footer features --> completed
-    b. narrow list from above for features I want on website --> completed
-    c. come up with a plan to start design of feature (draw design in book under page specified) --> completed
-    d. code each feature individually --> completed
-    e. do I want images for footer --> completed
-    f. begin design and final stage of footer --> completed
-    g. check all screen sizes that footer works correctly
-    h. finish testing all features work in footer
-    i. deploy footer (close task)
+6. automate date in their own function with special, troop, and outing
 
-7. automate date in their own function with special, troop, and outing
+7. automate css classes
 
-8. automate css classes
+8. automate other features to be added here.
 
-9. automate other features to be added here.
-
-10. revisit bookmarked websites saved under "website project" folder for other ideas to be used in the website in the future (scoutmaster minute/verse of the week, welcome message)
+9. revisit bookmarked websites saved under "website project" folder for other ideas to be used in the website in the future (scoutmaster minute/verse of the week, welcome message)
 
 Bug List
 
