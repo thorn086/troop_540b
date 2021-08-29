@@ -4,14 +4,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #f5f5f5;
 }
-
 .foot_tag_p{
+    position: bottom;
     margin: 4px;
 }
 #eaglescout_box{
     z-index: 1;
 
+}
+#scout_counsil_logo{
+    position: relative;
+    margin-left: .5rem;
+    width: auto;
+    height: 4.5rem;
 }
 #scout_logo_phrase2{
     position: relative;
@@ -19,16 +26,63 @@
     width: auto;
     height: 4.5rem;
 }
-#scout_counsil_logo{
-    position: left;
-    margin-left: .5rem;
-    width: auto;
-    height: 4.5rem;
+#foot_link1, #foot_link2, #foot_link3{
+    text-decoration: none;
+    color: blue;
 }
+#foot_link{
+    list-style-type: none;
+    text-align: center;
+}
+@media screen and  (max-width: 725px),(min-width: 500px){
+    .ft_page_main{
+     display: inline-block;
+     height: auto;
+    
+     padding: 10px;
+    }
+    #scout_counsil_logo{  
+        width: 10rem;
+        height: auto;
+        float: left;
+    }
 
-@media screen and (min-width: 900px){
+    #foot_link, #footer-text-title{
+        text-align: left;
+
+    }
+    #scout_logo_phrase2{  
+        width: 10rem;
+        height: auto;
+        float: right;
+    }
+}
+@media screen and (min-width: 925px){
+    .ft_page_main{
+     display: inline-block;
+     height: auto;
+    
+     padding: 10px;
+    }
+    #scout_counsil_logo{  
+        width: 20rem;
+        height: auto;
+        float: left;
+    }
+    #footer_text{
+        flex: 0 0 25%;
+        max-width: 25%;
+        padding: 12px 20px;
+        font-size: 16px;
+        margin-left: 30rem;
+    }
+    #foot_link, #footer-text-title{
+        text-align: left;
+
+    }
     #scout_logo_phrase2{  
         width: 20rem;
         height: auto;
+        float: right;
     }
 }
