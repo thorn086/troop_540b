@@ -9,7 +9,7 @@ import Info from '../../components/Important_Info/Info';
 
 function Home() {
     const [buttonPopup, setButtonPopup] = useState(false);
-    
+    console.log({construction});
         return (
                 <div className="App">
                     <Header />

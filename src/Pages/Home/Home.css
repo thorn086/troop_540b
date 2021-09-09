@@ -1,9 +1,7 @@
 .App{
     flex: 1;
-    height: 100%;
     width: 100%;
     padding: 3px;
-    background-color: lightgray;
     text-align: center;
     position: relative;
 }
