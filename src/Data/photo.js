@@ -1,5 +1,9 @@
 
 
+//BSA2010
+import B2010003 from '../Data/clean_imgs/BSA2010/photo003.JPG';
+import B2012004 from '../Data/clean_imgs/BSA2010/photo004.JPG';
+
 //Klondike 2011
 import K20110 from "../Data/clean_imgs/Klondike2011/SDC10260.JPG";
 import K20111 from '../Data/clean_imgs/Klondike2011/SDC10261.JPG';
@@ -7,7 +11,7 @@ import K20112 from '../Data/clean_imgs/Klondike2011/SDC10262.JPG';
 
 //Klondike 2012
 import K20120 from '../Data/clean_imgs/Klondike2012/BSA Klondike 2012 001.JPG';
-
+import K20121 from '../Data/clean_imgs/Klondike2012/BSA Klondike 2012 002.JPG';
 //Klondike 2014
 import K20140 from '../Data/clean_imgs/klondike2014/20140118_132620.jpg';
 
@@ -36,7 +40,7 @@ export const photoData = [
         main_image: K20120,
         discription: 'Once again Troop 540 adventures back to the cabins at Klondike. This time to finish their "unfinished" business.',
         remaining_imgs: {
-            img1: '../../img/clean_imgs/Klondike 2012/BSA Klondike 2012 002.JPG',
+            img1: K20121,
             img2: '../../img/clean_imgs/Klondike 2012/BSA Klondike 2012 003.JPG',
             img3: '../../img/clean_imgs/Klondike 2012/BSA Klondike 2012 004.JPG'
         }

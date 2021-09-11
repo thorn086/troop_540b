@@ -12,6 +12,7 @@ function Events(){
         <div id="event_dates">
             <div id='special-dates'>
 
+            <h5 className='dates'>No Upcoming Events </h5>
 
             </div>
         </div>
