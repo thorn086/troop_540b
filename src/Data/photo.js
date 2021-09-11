@@ -2,7 +2,10 @@
 
 //BSA2010
 import B2010003 from '../Data/clean_imgs/BSA2010/photo003.JPG';
-import B2012004 from '../Data/clean_imgs/BSA2010/photo004.JPG';
+import B2010004 from '../Data/clean_imgs/BSA2010/photo004.JPG';
+import B2010005 from '../Data/clean_imgs/BSA2010/photo005.JPG';
+import B2010006 from '../Data/clean_imgs/BSA2010/photo006.JPG';
+
 
 //Klondike 2011
 import K20110 from "../Data/clean_imgs/Klondike2011/SDC10260.JPG";
@@ -68,6 +71,15 @@ export const photoData = [
         name: 'Lafebur 2013',
         year: '2013',
         main_image: L20130,
+        discription: 'The Troop was unable to escape the calling of LaFenbur in this sequel to their last adventure',
+        remaining_imgs: {
+        }
+    },
+    {
+        title: 'BSA',
+        name: 'BSA 2010',
+        year: '2010',
+        main_image: B2010003,
         discription: 'The Troop was unable to escape the calling of LaFenbur in this sequel to their last adventure',
         remaining_imgs: {
         }
