@@ -1,135 +1,137 @@
-#special-dates, #troop-dates{
-    text-align: left;
-    padding-left: 1%;
+#special-dates,
+#troop-dates {
+  text-align: left;
+  padding-left: 1%;
 }
-#troop-dates{
-    margin-top: 4%;
+#troop-dates {
+  margin-top: 4%;
 }
-#events{
-    display: inline-block;
-    height: 50vh;
-    width: 60%;
-    border: 5px solid white;
+#events {
+  display: inline-block;
+  height: 50vh;
+  width: 60%;
+  border: 5px solid white;
+  margin-top: 50px;
+  background-color: lightpink;
+}
+#troop__events {
+  display: inline-block;
+  height: 50vh;
+  width: 60%;
+  margin-bottom: 50px;
+  border: 5px solid white;
+  margin-top: 50px;
+  background-color: lightskyblue;
+}
+#event_dates {
+  height: 50px;
+}
+.dates,
+#st_charels,
+#camp_phillips {
+  display: inline;
+  padding: 0 20px;
+  font-size: 14px;
+}
+@media screen and (max-width: 700px) {
+  .dates,
+  #st_charels,
+  #camp_phillips {
+    padding: 0 0 0 10px;
+    font-size: 10px;
+  }
+  #events {
+    width: 93%;
+    height: 80vh;
+  }
+  #troop__events {
+    width: 93%;
+    height: 80vh;
+  }
+  #Main_title {
+    margin-top: 80px;
+    width: 100%;
+    height: 100%;
+    padding-top: 2px;
+  }
+  #troop-dates {
+    margin-top: 2%;
+  }
+  #const_logo {
+    width: 200px;
+    height: auto;
+    margin: 5px;
+    object-fit: fill;
+  }
+}
+
+@media only screen and (min-width: 560px) and (max-width: 699px) and (orientation: landscape) {
+  #events {
+    width: 93%;
+    height: 400px;
+    margin-top: 10%;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 850px) and (orientation: landscape) {
+  #events {
+    width: 93%;
+    height: 500px;
+    margin-top: 450px;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 850px) and (orientation: portrait) {
+  #events {
+    width: 93%;
+    height: 500px;
+    margin-top: 450px;
+  }
+}
+@media only screen and (min-width: 851px) and (max-width: 1025px) and (orientation: portrait) {
+  #events {
+    width: 93%;
+    height: 500px;
     margin-top: 50px;
-    background-color: lightpink;
-
+  }
 }
-#troopevents{
-    display: inline-block;
-    height: 50vh;
-    width: 60%;
-    border: 5px solid white;
+@media only screen and (min-width: 1020px) and (max-width: 1367px) and (orientation: landscape) {
+  #events {
+    width: 93%;
+    height: 500px;
     margin-top: 50px;
-    background-color: lightskyblue;
-
+  }
 }
-#event_dates{
-    height: 50px;
+@media only screen and (min-width: 560px) and (max-width: 699px) and (orientation: landscape) {
+  #troop__events {
+    width: 93%;
+    height: 400px;
+    margin-top: 10%;
+  }
 }
-.dates, #st_charels, #camp_phillips{
-    display: inline;
-    padding: 0 20px;
-    font-size: 14px;
+@media only screen and (min-width: 700px) and (max-width: 850px) and (orientation: landscape) {
+  #troop__events {
+    width: 93%;
+    height: 500px;
+    margin-top: 450px;
+  }
 }
-@media screen and (max-width: 700px){
-    .dates, #st_charels, #camp_phillips{
-        padding: 0 0 0 10px;
-        font-size: 10px;
-    }
-    #events{
-        width: 93%;
-        height:80vh;
-    }
-    #troopevents{
-        width: 93%;
-        height:80vh;
-    }
-    #Main_title{
-        margin-top: 80px;
-        width:100%;
-        height: 100%;
-        padding-top: 2px;
-    }
-    #troop-dates{
-        margin-top: 2%;
-    }
-    #const_logo{
-        width: 200px;
-        height: auto;
-        margin: 5px;
-        object-fit: fill;
-    } 
-   
-    
+@media only screen and (min-width: 700px) and (max-width: 850px) and (orientation: portrait) {
+  #troop__events {
+    width: 93%;
+    height: 500px;
+    margin-top: 450px;
+  }
 }
-
-@media only screen and (min-width:560px) and (max-width: 699px) and (orientation: landscape){
-    #events{
-        width: 93%;
-        height:400px;
-        margin-top: 10%;
-    }
+@media only screen and (min-width: 851px) and (max-width: 1025px) and (orientation: portrait) {
+  #troop__events {
+    width: 93%;
+    height: 500px;
+    margin-top: 50px;
+  }
 }
-@media only screen and (min-width:700px) and (max-width: 850px) and (orientation: landscape){
-    #events{
-        width: 93%;
-        height:500px;
-        margin-top: 450px;
-    }
+@media only screen and (min-width: 1020px) and (max-width: 1367px) and (orientation: landscape) {
+  #troop__events {
+    width: 93%;
+    height: 500px;
+    margin-top: 50px;
+  }
 }
-@media only screen and (min-width:700px) and (max-width: 850px) and (orientation: portrait){
-    #events{
-        width: 93%;
-        height:500px;
-        margin-top: 450px;
-    }
-}
-@media only screen and (min-width:851px) and (max-width: 1025px) and (orientation: portrait){
-    #events{
-        width: 93%;
-        height:500px;
-        margin-top: 50px;
-    }
-}
-@media only screen and (min-width:1020px) and (max-width: 1367px) and (orientation: landscape){
-    #events{
-        width: 93%;
-        height:500px;
-        margin-top: 50px;
-    }
-}
-@media only screen and (min-width:560px) and (max-width: 699px) and (orientation: landscape){
-    #troopevents{
-        width: 93%;
-        height:400px;
-        margin-top: 10%;
-    }
-}
-@media only screen and (min-width:700px) and (max-width: 850px) and (orientation: landscape){
-    #troopevents{
-        width: 93%;
-        height:500px;
-        margin-top: 450px;
-    }
-}
-@media only screen and (min-width:700px) and (max-width: 850px) and (orientation: portrait){
-    #troopevents{
-        width: 93%;
-        height:500px;
-        margin-top: 450px;
-    }
-}
-@media only screen and (min-width:851px) and (max-width: 1025px) and (orientation: portrait){
-    #troopevents{
-        width: 93%;
-        height:500px;
-        margin-top: 50px;
-    }
-}
-@media only screen and (min-width:1020px) and (max-width: 1367px) and (orientation: landscape){
-    #troopevents{
-        width: 93%;
-        height:500px;
-        margin-top: 50px;
-    }
-} 

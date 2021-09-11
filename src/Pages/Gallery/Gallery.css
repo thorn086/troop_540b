@@ -21,9 +21,9 @@
   .photo_text {
     padding-top: 240px;
   }
-
-  #gallery_h3 {
-    margin: 0;
+  .gallery__title {
+    font-size: 1rem;
+    text-align: center;
   }
   #gallery_para_1 {
     margin-top: 3px;
@@ -32,13 +32,16 @@
     width: 95%;
     padding-top: 20px;
     margin-top: 100px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
     margin-left: 2%;
-    height: 1000px;
+    height: 100%;
     background-color: rgb(13, 13, 14);
     color: white;
   }
   #gallery_para {
     width: auto;
+    height: 100%;
     padding: 3px 200px 10px 200px;
   }
   #recent_out {
@@ -57,9 +60,6 @@
     padding: 5%;
     height: 100%;
     background-color: black;
-  }
-  #gal_h3 {
-    margin: 0;
   }
 }
 
