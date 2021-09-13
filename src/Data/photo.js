@@ -45,9 +45,9 @@ import B2010043 from '../Data/clean_imgs/BSA2010/photo043.JPG';
 
 
 //Klondike 2011
-import K20110 from "../Data/clean_imgs/Klondike2011/SDC10260.JPG";
-import K20111 from '../Data/clean_imgs/Klondike2011/SDC10261.JPG';
-import K20112 from '../Data/clean_imgs/Klondike2011/SDC10262.JPG';
+import K20110 from "../Data/clean_imgs/Klondike2011/SDC001.JPG";
+import K20111 from '../Data/clean_imgs/Klondike2011/SDC002.JPG';
+import K20112 from '../Data/clean_imgs/Klondike2011/SDC003.JPG';
 
 //Klondike 2012
 import K20120 from '../Data/clean_imgs/Klondike2012/BSA Klondike 2012 001.JPG';
