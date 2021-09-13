@@ -15,6 +15,7 @@ class Home extends Component {
           <div id="gallery_para">
             <Row title='Klondike' />
             <Row title='LaFebur' />
+            <Row title='BSA' />
           </div>
         </section>
         <Footer />

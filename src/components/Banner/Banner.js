@@ -41,7 +41,6 @@ function Banner() {
                 </h1>
                 <div className="banner__buttons">
                     <button className="banner__button">View</button>
-                    <button className="banner__button">My List</button>
                 </div>
                 <div className="banner__description">
                     <h1 className="banner__info">
