@@ -1,80 +1,87 @@
-
-header{
-    height: 60px;
+header {
+  height: 60px;
+  z-index: 1;
+}
+.nav__black {
+  background-image: linear-gradient(
+    120deg,
+    rgb(3, 16, 248) 10%,
+    rgb(76, 76, 76) 90%,
+    red 10%
+  );
 }
 
-.header_title{
+.header_title {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 60px;
+  z-index: 300;
+}
+
+#bsa_logo {
+  height: 35px;
+  width: auto;
+  float: left;
+  margin: 2px;
+  padding-top: 10px;
+}
+#troop_tag {
+  margin: 0;
+  text-align: center;
+  float: right;
+  padding: 0.7rem;
+  font-size: 20px;
+  margin-right: 1rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  color: lightblue;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+@media screen and (min-width: 701px) {
+  .nav__black {
+    background-image: linear-gradient(
+      120deg,
+      rgb(3, 16, 248) 10%,
+      rgb(76, 76, 76) 90%,
+      red 10%
+    );
+  }
+  .header_title {
     width: 100%;
     position: fixed;
-    top: 0;
-    right: 0;
     left: 0;
-    height: 60px;
-    z-index: 300;
-    border-top: 3px solid white;
-    border-bottom: 5px solid black;
-    border-style: groove;
-    background-image: linear-gradient(120deg, rgb(3, 16, 248) 10%, rgb(76, 76, 76) 90%,red 10%);
-    
-}
-    
-    #bsa_logo{
-        height: 35px;
-        width: auto;
-        float:left; 
-        margin: 2px;
-        padding-top: 10px;
-    }
-    #troop_tag{
-        margin: 0;
-        text-align: center;
-        float: right;
-        padding: .7rem;
-        font-size: 20px;
-        margin-right: 1rem;
-        font-family: 'Source Sans Pro', sans-serif;
-        font-weight: 700;
-        color: lightblue;
-        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    }
+    top: 0;
+    margin: 0 0 40px 0;
+    padding: 5px;
+    height: 80px;
+  }
+  #bsa_logo {
+    height: 75px;
+    padding-top: 3px;
+    width: auto;
+    float: left;
+  }
 
-
-@media screen and (min-width: 701px){
-    .header_title {
-        width: 100%;
-        position: fixed;
-        left: 0;
-        top: 0;
-        margin: 0 0 40px 0;
-        padding: 2px;
-        height:80px;
-        border-top: 3px solid white;
-        border-bottom: 5px solid black;
-        background-image: linear-gradient(120deg, rgb(3, 16, 248) 10%, rgb(76, 76, 76) 90%,red 10%);
-    }
-    #bsa_logo{
-        height: 75px;
-        padding-top: 3px;
-        width: auto;
-        float:left;    
-    }
-    
-    #troop_tag{
-        margin: 0;
-        text-align: center;
-        float: right;
-        padding: .05rem;
-        font-size: 50px;
-        margin-right: 7rem;
-        font-family: 'Source Sans Pro', sans-serif;
-        font-weight: 700;
-        color: lightblue;
-        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    }
+  #troop_tag {
+    margin: 0;
+    text-align: center;
+    float: right;
+    padding: 0.05rem;
+    font-size: 50px;
+    margin-right: 7rem;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    color: lightblue;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
 }
-@media screen and (min-width: 701px) and (orientation: landscape){
-#troop_tag{
+@media screen and (min-width: 701px) and (orientation: landscape) {
+  #troop_tag {
     font-size: 50px;
     margin-right: 4rem;
-}
+  }
 }

@@ -27,6 +27,7 @@ function Banner() {
     };
 
     return (
+
         <div className="banner"
             style={{
                 backgroundSize: "cover",
@@ -48,8 +49,9 @@ function Banner() {
                     </h1>
                 </div>
             </div>
-
+            < div className="banner__fadebottom" />
         </div>
+
     )
 }
 
