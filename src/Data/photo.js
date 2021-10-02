@@ -48,6 +48,44 @@ import B2010043 from '../Data/clean_imgs/BSA2010/photo043.JPG';
 import K20110 from "../Data/clean_imgs/Klondike2011/SDC001.JPG";
 import K20111 from '../Data/clean_imgs/Klondike2011/SDC002.JPG';
 import K20112 from '../Data/clean_imgs/Klondike2011/SDC003.JPG';
+import K20113 from '../Data/clean_imgs/Klondike2011/SDC004.JPG';
+import K20114 from '../Data/clean_imgs/Klondike2011/SDC005.JPG';
+import K20115 from '../Data/clean_imgs/Klondike2011/SDC006.JPG';
+import K20116 from '../Data/clean_imgs/Klondike2011/SDC007.JPG';
+import K20117 from '../Data/clean_imgs/Klondike2011/SDC008.JPG';
+import K20118 from '../Data/clean_imgs/Klondike2011/SDC009.JPG';
+import K20119 from '../Data/clean_imgs/Klondike2011/SDC010.JPG';
+import K201110 from '../Data/clean_imgs/Klondike2011/SDC011.JPG';
+import K201111 from '../Data/clean_imgs/Klondike2011/SDC012.JPG';
+import K201112 from '../Data/clean_imgs/Klondike2011/SDC013.JPG';
+import K201113 from '../Data/clean_imgs/Klondike2011/SDC014.JPG';
+import K201114 from '../Data/clean_imgs/Klondike2011/SDC015.JPG';
+import K201115 from '../Data/clean_imgs/Klondike2011/SDC016.JPG';
+import K201116 from '../Data/clean_imgs/Klondike2011/SDC017.JPG';
+import K201117 from '../Data/clean_imgs/Klondike2011/SDC018.JPG';
+import K201118 from '../Data/clean_imgs/Klondike2011/SDC019.JPG';
+import K201119 from '../Data/clean_imgs/Klondike2011/SDC020.JPG';
+import K201120 from '../Data/clean_imgs/Klondike2011/SDC021.JPG';
+import K201121 from '../Data/clean_imgs/Klondike2011/SDC022.JPG';
+import K201122 from '../Data/clean_imgs/Klondike2011/SDC023.JPG';
+import K201123 from '../Data/clean_imgs/Klondike2011/SDC024.JPG';
+import K201124 from '../Data/clean_imgs/Klondike2011/SDC025.JPG';
+import K201125 from '../Data/clean_imgs/Klondike2011/SDC026.JPG';
+import K201126 from '../Data/clean_imgs/Klondike2011/SDC027.JPG';
+import K201127 from '../Data/clean_imgs/Klondike2011/SDC028.JPG';
+import K201128 from '../Data/clean_imgs/Klondike2011/SDC029.JPG';
+import K201129 from '../Data/clean_imgs/Klondike2011/SDC030.JPG';
+import K201130 from '../Data/clean_imgs/Klondike2011/SDC031.JPG';
+import K201131 from '../Data/clean_imgs/Klondike2011/SDC032.JPG';
+import K201132 from '../Data/clean_imgs/Klondike2011/SDC033.JPG';
+import K201133 from '../Data/clean_imgs/Klondike2011/SDC034.JPG';
+import K201134 from '../Data/clean_imgs/Klondike2011/SDC035.JPG';
+import K201135 from '../Data/clean_imgs/Klondike2011/SDC036.JPG';
+import K201136 from '../Data/clean_imgs/Klondike2011/SDC037.JPG';
+import K201137 from '../Data/clean_imgs/Klondike2011/SDC038.JPG';
+import K201138 from '../Data/clean_imgs/Klondike2011/SDC039.JPG';
+import K201139 from '../Data/clean_imgs/Klondike2011/SDC040.JPG';
+import K201140 from '../Data/clean_imgs/Klondike2011/SDC041.JPG';
 
 //Klondike 2012
 import K20120 from '../Data/clean_imgs/Klondike2012/BSA Klondike 2012 001.JPG';
@@ -125,13 +163,167 @@ import K201271 from '../Data/clean_imgs/Klondike2012/BSA Klondike 2012 072.JPG';
 import K201272 from '../Data/clean_imgs/Klondike2012/BSA Klondike 2012 073.JPG';
 
 //Klondike 2014
-import K20140 from '../Data/clean_imgs/klondike2014/20140118_132620.jpg';
+import K20140 from '../Data/clean_imgs/klondike2014/2014001.jpg';
+import K20141 from '../Data/clean_imgs/klondike2014/2014002.jpg';
+import K20142 from '../Data/clean_imgs/klondike2014/2014003.jpg';
+import K20143 from '../Data/clean_imgs/klondike2014/2014004.jpg';
+import K20144 from '../Data/clean_imgs/klondike2014/2014005.jpg';
+import K20145 from '../Data/clean_imgs/klondike2014/2014006.jpg';
+import K20146 from '../Data/clean_imgs/klondike2014/2014007.jpg';
+import K20147 from '../Data/clean_imgs/klondike2014/2014008.jpg';
+import K20148 from '../Data/clean_imgs/klondike2014/2014009.jpg';
+import K20149 from '../Data/clean_imgs/klondike2014/2014010.jpg';
+import K201410 from '../Data/clean_imgs/klondike2014/2014011.jpg';
+import K201411 from '../Data/clean_imgs/klondike2014/2014012.jpg';
+import K201412 from '../Data/clean_imgs/klondike2014/2014013.jpg';
+import K201413 from '../Data/clean_imgs/klondike2014/2014014.jpg';
 
 //LaFebur 2011
-import L20110 from '../Data/clean_imgs/LeFeber2011/070801951640[00].jpg';
+import L20110 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 013.jpg';
+import L20111 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 014.jpg';
+import L20112 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 015.jpg';
+import L20113 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 016.jpg';
+import L20114 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 017.jpg';
+import L20115 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 018.jpg';
+import L20116 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 019.jpg';
+import L20117 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 020.jpg';
+import L20118 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 021.jpg';
+import L20119 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 022.jpg';
+import L201110 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 023.jpg';
+import L201111 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 024.jpg';
+import L201112 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 025.jpg';
+import L201113 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 026.jpg';
+import L201114 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 027.jpg';
+import L201115 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 028.jpg';
+import L201116 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 029.jpg';
+import L201117 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 030.jpg';
+import L201118 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 031.jpg';
+import L201119 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 032.jpg';
+import L201120 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 033.jpg';
+import L201121 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 034.jpg';
+import L201122 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 035.jpg';
+import L201123 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 036.jpg';
+import L201124 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 037.jpg';
+import L201125 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 039.jpg';
+import L201126 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 040.jpg';
+import L201127 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 041.jpg';
+import L201128 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 042.jpg';
+import L201129 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 043.jpg';
+import L201130 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 044.jpg';
+import L201131 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 045.jpg';
+import L201132 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 046.jpg';
+import L201133 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 047.jpg';
+import L201134 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 048.jpg';
+import L201135 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 049.jpg';
+import L201136 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 050.jpg';
+import L201137 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 051.jpg';
+import L201138 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 052.jpg';
+import L201139 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 053.jpg';
+import L201140 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 054.jpg';
+import L201141 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 055.jpg';
+import L201142 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 056.jpg';
+import L201143 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 057.jpg';
+import L201144 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 058.jpg';
+import L201145 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 059.jpg';
+import L201146 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 060.jpg';
+import L201147 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 061.jpg';
+import L201148 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 062.jpg';
+import L201149 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 063.jpg';
+import L201150 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 064.jpg';
+import L201151 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 065.jpg';
+import L201152 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 066.jpg';
+import L201153 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 067.jpg';
+import L201154 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 068.jpg';
+import L201155 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 069.jpg';
+import L201156 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 070.jpg';
+import L201157 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 071.jpg';
+import L201158 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 072.jpg';
+import L201159 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 073.jpg';
+import L201160 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 074.jpg';
+import L201161 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 075.jpg';
+import L201162 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 076.jpg';
+import L201163 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 077.jpg';
+import L201164 from '../Data/clean_imgs/LeFeber2011/LeFeber 2011 078.jpg';
+import L201165 from '../Data/clean_imgs/LeFeber2011/LF2011001.jpg';
+import L201166 from '../Data/clean_imgs/LeFeber2011/LF2011001.jpg';
+import L201167 from '../Data/clean_imgs/LeFeber2011/LF2011002.jpg';
+import L201168 from '../Data/clean_imgs/LeFeber2011/LF2011003.jpg';
+import L201169 from '../Data/clean_imgs/LeFeber2011/LF2011004.jpg';
+import L201170 from '../Data/clean_imgs/LeFeber2011/LF2011005.jpg';
+import L201171 from '../Data/clean_imgs/LeFeber2011/LF2011006.jpg';
+import L201172 from '../Data/clean_imgs/LeFeber2011/LF2011007.jpg';
+import L201173 from '../Data/clean_imgs/LeFeber2011/LF2011008.jpg';
+import L201174 from '../Data/clean_imgs/LeFeber2011/LF2011009.jpg';
+import L201175 from '../Data/clean_imgs/LeFeber2011/LF2011010.jpg';
+import L201176 from '../Data/clean_imgs/LeFeber2011/LF2011011.jpg';
+import L201177 from '../Data/clean_imgs/LeFeber2011/LF2011012.jpg';
+import L201178 from '../Data/clean_imgs/LeFeber2011/LF2011013.jpg';
+import L201179 from '../Data/clean_imgs/LeFeber2011/LF2011014.jpg';
+import L201180 from '../Data/clean_imgs/LeFeber2011/LF2011015.jpg';
+import L201181 from '../Data/clean_imgs/LeFeber2011/LF2011016.jpg';
+import L201182 from '../Data/clean_imgs/LeFeber2011/LF2011017.jpg';
+import L201183 from '../Data/clean_imgs/LeFeber2011/LF2011018.jpg';
+import L201184 from '../Data/clean_imgs/LeFeber2011/LF2011019.jpg';
+import L201185 from '../Data/clean_imgs/LeFeber2011/LF2011020.jpg';
+import L201186 from '../Data/clean_imgs/LeFeber2011/LF2011021.jpg';
+import L201187 from '../Data/clean_imgs/LeFeber2011/LF2011022.jpg';
+import L201188 from '../Data/clean_imgs/LeFeber2011/LF2011023.jpg';
+import L201189 from '../Data/clean_imgs/LeFeber2011/LF2011024.jpg';
+import L201190 from '../Data/clean_imgs/LeFeber2011/LF2011025.jpg';
+import L201191 from '../Data/clean_imgs/LeFeber2011/LF2011026.jpg';
+import L201192 from '../Data/clean_imgs/LeFeber2011/LF2011027.jpg';
+import L201193 from '../Data/clean_imgs/LeFeber2011/LF2011028.jpg';
 
 //LaFebur 2013
 import L20130 from '../Data/clean_imgs/LeFeber2013/Picture 005.jpg';
+import L20131 from '../Data/clean_imgs/LeFeber2013/Picture 013.jpg';
+import L20132 from '../Data/clean_imgs/LeFeber2013/Picture 014.jpg';
+import L20133 from '../Data/clean_imgs/LeFeber2013/Picture 015.jpg';
+import L20134 from '../Data/clean_imgs/LeFeber2013/Picture 016.jpg';
+import L20135 from '../Data/clean_imgs/LeFeber2013/Picture 017.jpg';
+import L20136 from '../Data/clean_imgs/LeFeber2013/Picture 018.jpg';
+import L20137 from '../Data/clean_imgs/LeFeber2013/Picture 019.jpg';
+import L20138 from '../Data/clean_imgs/LeFeber2013/Picture 020.jpg';
+import L20139 from '../Data/clean_imgs/LeFeber2013/Picture 021.jpg';
+import L201310 from '../Data/clean_imgs/LeFeber2013/Picture 022.jpg';
+import L201311 from '../Data/clean_imgs/LeFeber2013/Picture 023.jpg';
+import L201312 from '../Data/clean_imgs/LeFeber2013/Picture 024.jpg';
+import L201313 from '../Data/clean_imgs/LeFeber2013/Picture 025.jpg';
+import L201314 from '../Data/clean_imgs/LeFeber2013/Picture 026.jpg';
+import L201315 from '../Data/clean_imgs/LeFeber2013/Picture 027.jpg';
+import L201316 from '../Data/clean_imgs/LeFeber2013/Picture 028.jpg';
+import L201317 from '../Data/clean_imgs/LeFeber2013/Picture 029.jpg';
+import L201318 from '../Data/clean_imgs/LeFeber2013/Picture 030.jpg';
+import L201319 from '../Data/clean_imgs/LeFeber2013/Picture 031.jpg';
+import L201320 from '../Data/clean_imgs/LeFeber2013/Picture 032.jpg';
+import L201321 from '../Data/clean_imgs/LeFeber2013/Picture 033.jpg';
+import L201322 from '../Data/clean_imgs/LeFeber2013/Picture 034.jpg';
+import L201323 from '../Data/clean_imgs/LeFeber2013/Picture 035.jpg';
+import L201324 from '../Data/clean_imgs/LeFeber2013/Picture 036.jpg';
+import L201325 from '../Data/clean_imgs/LeFeber2013/Picture 037.jpg';
+import L201326 from '../Data/clean_imgs/LeFeber2013/Picture 038.jpg';
+import L201327 from '../Data/clean_imgs/LeFeber2013/Picture 039.jpg';
+import L201328 from '../Data/clean_imgs/LeFeber2013/Picture 040.jpg';
+import L201329 from '../Data/clean_imgs/LeFeber2013/Picture 041.jpg';
+import L201330 from '../Data/clean_imgs/LeFeber2013/Picture 042.jpg';
+import L201331 from '../Data/clean_imgs/LeFeber2013/Picture 043.jpg';
+import L201332 from '../Data/clean_imgs/LeFeber2013/Picture 044.jpg';
+import L201333 from '../Data/clean_imgs/LeFeber2013/Picture 045.jpg';
+import L201334 from '../Data/clean_imgs/LeFeber2013/Picture 046.jpg';
+import L201335 from '../Data/clean_imgs/LeFeber2013/Picture 047.jpg';
+import L201336 from '../Data/clean_imgs/LeFeber2013/Picture 048.jpg';
+import L201337 from '../Data/clean_imgs/LeFeber2013/Picture 049.jpg';
+import L201338 from '../Data/clean_imgs/LeFeber2013/Picture 050.jpg';
+import L201339 from '../Data/clean_imgs/LeFeber2013/Picture 100.jpg';
+import L201340 from '../Data/clean_imgs/LeFeber2013/Picture 101.jpg';
+import L201341 from '../Data/clean_imgs/LeFeber2013/Picture 102.jpg';
+import L201342 from '../Data/clean_imgs/LeFeber2013/Picture 103.jpg';
+import L201343 from '../Data/clean_imgs/LeFeber2013/Picture 104.jpg';
+
+//On To Eagle 2011
+import E2011001 from '../Data/clean_imgs/On_To_Eagle2011/On To Eagle 2011 1.jpg';
+import E2011002 from '../Data/clean_imgs/On_To_Eagle2011/On To Eagle 2011 2.jpg';
+import E2011003 from '../Data/clean_imgs/On_To_Eagle2011/On To Eagle 2011 3.jpg';
 
 //Camporee 2011
 import C2011001 from '../Data/clean_imgs/Fall_Camporee2011/IMG001.jpg';
@@ -266,8 +458,102 @@ export const photoData = [
         name: 'Lafebur 2011',
         year: '2011',
         main_image: L20110,
-        description: 'Troop 540 needed a new challenge in this coming of age gallery and their high jinks at LaFebur.',
-        remaining_imgs: []
+        discription: 'Troop 540 needed a new challenge in this coming of age gallery and their high jinks at LaFebur.',
+        remaining_imgs: [
+            L20111,
+            L20112,
+            L20113,
+            L20114,
+            L20115,
+            L20116,
+            L20117,
+            L20118,
+            L20119,
+            L201110,
+            L201111,
+            L201112,
+            L201113,
+            L201114,
+            L201115,
+            L201116,
+            L201117,
+            L201118,
+            L201119,
+            L201120,
+            L201121,
+            L201122,
+            L201123,
+            L201124,
+            L201125,
+            L201126,
+            L201127,
+            L201128,
+            L201129,
+            L201130,
+            L201131,
+            L201132,
+            L201133,
+            L201134,
+            L201135,
+            L201136,
+            L201137,
+            L201138,
+            L201139,
+            L201140,
+            L201141,
+            L201142,
+            L201143,
+            L201144,
+            L201145,
+            L201146,
+            L201147,
+            L201148,
+            L201149,
+            L201150,
+            L201151,
+            L201152,
+            L201153,
+            L201154,
+            L201155,
+            L201156,
+            L201157,
+            L201158,
+            L201159,
+            L201160,
+            L201161,
+            L201162,
+            L201163,
+            L201164,
+            L201165,
+            L201166,
+            L201167,
+            L201168,
+            L201169,
+            L201170,
+            L201171,
+            L201172,
+            L201173,
+            L201174,
+            L201175,
+            L201176,
+            L201177,
+            L201178,
+            L201179,
+            L201180,
+            L201181,
+            L201182,
+            L201183,
+            L201184,
+            L201185,
+            L201186,
+            L201187,
+            L201188,
+            L201189,
+            L201190,
+            L201191,
+            L201192,
+            L201193,
+        ]
     },
     {
         id: '5',
@@ -275,8 +561,52 @@ export const photoData = [
         name: 'Lafebur 2013',
         year: '2013',
         main_image: L20130,
-        description: 'The Troop was unable to escape the calling of LaFenbur in this sequel to their last adventure',
-        remaining_imgs: []
+        discription: 'The Troop was unable to escape the calling of LaFenbur in this sequel to their last adventure',
+        remaining_imgs: [
+            L20131,
+            L20132,
+            L20133,
+            L20134,
+            L20135,
+            L20136,
+            L20137,
+            L20138,
+            L20139,
+            L201310,
+            L201311,
+            L201312,
+            L201313,
+            L201314,
+            L201315,
+            L201316,
+            L201317,
+            L201318,
+            L201319,
+            L201320,
+            L201321,
+            L201322,
+            L201323,
+            L201324,
+            L201325,
+            L201326,
+            L201327,
+            L201328,
+            L201329,
+            L201330,
+            L201331,
+            L201332,
+            L201333,
+            L201334,
+            L201335,
+            L201336,
+            L201337,
+            L201338,
+            L201339,
+            L201340,
+            L201341,
+            L201342,
+            L201343,
+        ]
     },
     {
         id: '6',
@@ -311,7 +641,17 @@ export const photoData = [
         ]
     },
     {
-        id: '7',
+        title: 'On To Eagle',
+        name: 'On To Eagle 2011',
+        year: '2011',
+        main_image: E2011001,
+        discription: 'The Troop was ready to soar On to Eagle ',
+        remaining_imgs: [
+            E2011002,
+            E2011003,
+        ]
+    },
+    {
         title: 'BSA',
         name: 'BSA 2010',
         year: '2010',
