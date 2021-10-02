@@ -41,11 +41,11 @@ function Banner() {
                     {banner?.name || banner?.title || banner?.year}
                 </h1>
                 <div className="banner__buttons">
-                    <button className="banner__button">View</button>
+                    {/* <button className="banner__button">View</button> */}
                 </div>
                 <div className="banner__description">
                     <h1 className="banner__info">
-                        {truncate(banner?.discription, 117)}
+                        {truncate(banner?.description, 117)}
                     </h1>
                 </div>
             </div>

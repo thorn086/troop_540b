@@ -1,0 +1,19 @@
+.test {
+  font-size: 40px;
+  color: white;
+}
+.photo__container {
+  display: block;
+  margin-top: 150px;
+  height: 100%;
+  width: 100%;
+  padding-left: 4rem;
+}
+.row__poster3 {
+  object-fit: contain;
+  max-height: 200px;
+  transition: transform 450ms;
+  margin-left: 1px;
+  padding: 8px;
+  border-radius: 1rem;
+}
