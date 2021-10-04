@@ -1,6 +1,25 @@
-/* a#special__marg{
-
-} */
+.photo__container {
+  display: block;
+  margin: auto;
+  height: 100%;
+  padding-top: 150px;
+  padding-left: 0.5rem;
+  width: 100%;
+}
+.row__poster3 {
+  object-fit: contain;
+  max-height: 100px;
+  transition: transform 450ms;
+  margin-left: 1px;
+  padding: 8px;
+  border-radius: 1rem;
+}
+a#special__marg {
+  margin-left: 30%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
 
 @media screen and (min-width: 700px) {
   .photo__container {
