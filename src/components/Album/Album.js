@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { photoData } from '../../Data/photo';
 import Header from '../Header/Header'
 import { Link } from 'react-router-dom';
+import Button from '@mui/material/Button';
 import './Album.css';
 
 
@@ -34,10 +35,12 @@ export default function Album(props) {
             return (
                 <div>
                     <Header />
-                    <Link id='back__link' to='/Gallery'>Back</Link>
+
                     <div className='photo__container'>
                         {pics}
                     </div>
+                    <Button component={Link} to='/Gallery' variant="contained" className='button__exp' id='special__marg'>Back</Button>
+
                 </div>
             )
 

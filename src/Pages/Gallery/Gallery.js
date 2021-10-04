@@ -16,6 +16,8 @@ class Home extends Component {
             <Row title='Klondike' />
             <Row title='LaFebur' />
             <Row title='BSA' />
+            <Row title='Eagle' />
+            <Row title='Camporee' />
           </div>
         </section>
         <Footer />

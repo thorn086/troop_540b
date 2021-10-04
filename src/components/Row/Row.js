@@ -18,16 +18,15 @@ function Row({ title }) {
     const handleFilter = () => {
         setFilter(!filter);
     };
-
     return (
         <div className='row'>
             <h2>{title}</h2>
             <div className='row__posters'>
-                {photoData.map((pic) => {
+                {photoData.map((pic, index) => {
                     return title === pic.title ?
                         <img className={filter ? "row__poster" : "row__poster active"}
                             id={pic.id}
-                            key={pic.id}
+                            key={index}
                             onClick={() => {
                                 handleFilter();
                                 handleClick(pic);
