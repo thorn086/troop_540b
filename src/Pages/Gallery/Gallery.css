@@ -99,3 +99,10 @@
     border: 5px black solid;
   }
 }
+@media screen and (orientation: landscape) and (max-width: 2250px) {
+  #gallery_para {
+    margin: auto;
+    width: 100%;
+    padding: 1rem;
+  }
+}

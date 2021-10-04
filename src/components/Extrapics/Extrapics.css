@@ -3,7 +3,7 @@
   margin-top: 10px;
   display: block;
   height: 800px;
-  width: 80%;
+  width: 100%;
 }
 .row__posters2 {
   display: flex;
@@ -52,6 +52,7 @@ a.button__exp {
   height: 30px;
   padding: 0 30px;
 }
+
 @media screen and (min-width: 700px) {
   .image_container {
     text-align: left;
@@ -119,5 +120,61 @@ a.button__exp {
     margin-right: 30px;
     margin: 3px;
     padding: 1px;
+  }
+}
+@media screen and (orientation: landscape) and (max-width: 800px) {
+  .image_container {
+    text-align: left;
+    margin-top: 10px;
+    display: block;
+    height: 800px;
+    width: 100%;
+  }
+  .row__posters2 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    height: 200px;
+    padding: 15px 0px;
+    background-color: antiquewhite;
+  }
+  .row__poster2 {
+    object-fit: contain;
+    max-height: 100px;
+    transition: transform 450ms;
+    margin-left: 1px;
+    padding: 8px;
+    border-radius: 1rem;
+  }
+  .album__name {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .row__posters2::-webkit-scrollbar {
+    display: none;
+  }
+  .pic__row {
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 5px 0 5px 70px;
+    padding: 8px;
+  }
+  .missing_pics,
+  .row__posters2 {
+    color: #111;
+  }
+  a.button__exp {
+    background: linear-gradient(45deg, #fe6b8b 30%, #ff8e53 90%);
+    margin-left: 27%;
+    border: 0;
+    font-size: 0.7rem;
+    border-radius: 3;
+    box-shadow: 0 3px 5px 2px rgba(255, 105, 135, 0.3);
+    color: white;
+    width: 200px;
+    height: 30px;
+    padding: 0 30px;
   }
 }
