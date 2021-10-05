@@ -153,7 +153,6 @@ import K201261 from '../Data/clean_imgs/Klondike2012/BSAKlondike2012062.JPG';
 import K201262 from '../Data/clean_imgs/Klondike2012/BSAKlondike2012063.JPG';
 import K201263 from '../Data/clean_imgs/Klondike2012/BSAKlondike2012064.JPG';
 import K201264 from '../Data/clean_imgs/Klondike2012/BSAKlondike2012065.JPG';
-import K201265 from '../Data/clean_imgs/Klondike2012/BSAKlondike2012066.JPG';
 import K201266 from '../Data/clean_imgs/Klondike2012/BSAKlondike2012067.JPG';
 import K201267 from '../Data/clean_imgs/Klondike2012/BSAKlondike2012068.JPG';
 import K201268 from '../Data/clean_imgs/Klondike2012/BSAKlondike2012069.JPG';
