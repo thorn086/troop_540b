@@ -6,6 +6,8 @@ import Header from '../../components/Header/Header';
 import Events from '../../components/Events/Events';
 import TroopMeet from '../../components/Events/TroopEvents';
 import Info from '../../components/Important_Info/Info';
+import SigEvent from '../../components/Events/SigEvents';
+import PLC from '../../components/Events/PLC';
 
 function Home() {
     const [buttonPopup, setButtonPopup] = useState(false);
@@ -21,7 +23,9 @@ function Home() {
                         <h2 className='home-info'>**** Parents don't forget to click the "540 Info" button for important troop information! ****</h2>
                         <h6 className='home-info'>Check Back Soon!</h6>
                     </section>
+                    <SigEvent />  
                     <Events />   
+                    <PLC />  
                     <TroopMeet />  
                     <Info trigger={buttonPopup} setTrigger2={setButtonPopup}/>
        

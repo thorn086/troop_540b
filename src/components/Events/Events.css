@@ -1,5 +1,6 @@
 #special-dates,
-#troop-dates {
+#troop-dates,
+#significant-dates {
   text-align: left;
   padding-left: 1%;
 }
@@ -22,6 +23,24 @@
   border: 5px solid white;
   margin-top: 50px;
   background-color: lightskyblue;
+}
+#plc__events {
+  display: inline-block;
+  height: 50vh;
+  width: 60%;
+  margin-bottom: 50px;
+  border: 5px solid white;
+  margin-top: 50px;
+  background-color: lightgoldenrodyellow;
+}
+#significant__events {
+  display: inline-block;
+  height: 50vh;
+  width: 60%;
+  margin-bottom: 50px;
+  border: 5px solid white;
+  margin-top: 50px;
+  background-color: lightseagreen;
 }
 #event_dates {
   height: 50px;
@@ -48,6 +67,14 @@
     width: 93%;
     height: 80vh;
   }
+  #plc__events {
+    width: 93%;
+    height: 80vh;
+  }
+  #significant__events {
+    width: 93%;
+    height: 80vh;
+  }
   #Main_title {
     margin-top: 80px;
     width: 100%;
@@ -55,6 +82,12 @@
     padding-top: 2px;
   }
   #troop-dates {
+    margin-top: 2%;
+  }
+  #plc-dates {
+    margin-top: 2%;
+  }
+  #significant-dates {
     margin-top: 2%;
   }
   #const_logo {
@@ -130,6 +163,76 @@
 }
 @media only screen and (min-width: 1020px) and (max-width: 1367px) and (orientation: landscape) {
   #troop__events {
+    width: 93%;
+    height: 500px;
+    margin-top: 50px;
+  }
+}
+@media only screen and (min-width: 560px) and (max-width: 699px) and (orientation: landscape) {
+  #significant__events {
+    width: 93%;
+    height: 400px;
+    margin-top: 10%;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 850px) and (orientation: landscape) {
+  #significant__events {
+    width: 93%;
+    height: 500px;
+    margin-top: 450px;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 850px) and (orientation: portrait) {
+  #significant__events {
+    width: 93%;
+    height: 500px;
+    margin-top: 450px;
+  }
+}
+@media only screen and (min-width: 851px) and (max-width: 1025px) and (orientation: portrait) {
+  #significant__events {
+    width: 93%;
+    height: 500px;
+    margin-top: 50px;
+  }
+}
+@media only screen and (min-width: 1020px) and (max-width: 1367px) and (orientation: landscape) {
+  #significant__events {
+    width: 93%;
+    height: 500px;
+    margin-top: 50px;
+  }
+}
+@media only screen and (min-width: 560px) and (max-width: 699px) and (orientation: landscape) {
+  #plc__events {
+    width: 93%;
+    height: 400px;
+    margin-top: 10%;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 850px) and (orientation: landscape) {
+  #plc__events {
+    width: 93%;
+    height: 500px;
+    margin-top: 450px;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 850px) and (orientation: portrait) {
+  #plc__events {
+    width: 93%;
+    height: 500px;
+    margin-top: 450px;
+  }
+}
+@media only screen and (min-width: 851px) and (max-width: 1025px) and (orientation: portrait) {
+  #plc__events {
+    width: 93%;
+    height: 500px;
+    margin-top: 50px;
+  }
+}
+@media only screen and (min-width: 1020px) and (max-width: 1367px) and (orientation: landscape) {
+  #plc__events {
     width: 93%;
     height: 500px;
     margin-top: 50px;
