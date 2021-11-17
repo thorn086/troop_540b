@@ -25,3 +25,9 @@
   padding-top: 25px;
   font-size: 10px;
 }
+
+#duble_ZZ{
+  display: flex;
+  margin: 10px;
+  justify-content:space-between;
+}

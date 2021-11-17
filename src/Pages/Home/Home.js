@@ -23,12 +23,13 @@ function Home() {
                         <h2 className='home-info'>**** Parents don't forget to click the "540 Info" button for important troop information! ****</h2>
                         <h6 className='home-info'>Check Back Soon!</h6>
                     </section>
+                    <div id="duble_ZZ">
                     <SigEvent />  
                     <Events />   
                     <PLC />  
-                    <TroopMeet />  
+                    <TroopMeet /> 
+                    </div> 
                     <Info trigger={buttonPopup} setTrigger2={setButtonPopup}/>
-       
                     <Footer />
                 </div>
         );
