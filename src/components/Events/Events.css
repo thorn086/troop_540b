@@ -42,8 +42,8 @@
 #st_charels,
 #camp_phillips {
   display: inline;
-  padding: 0 20px;
-  font-size: 14px;
+  padding: 0 5px;
+  font-size: 12px;
 }
 @media screen and (max-width: 700px) {
   .dates,
@@ -52,22 +52,12 @@
     padding: 0 0 0 10px;
     font-size: 10px;
   }
-  #events {
+  #events,#troop__events,#significant__events,  #plc__events  {
+    margin-left: 12px;
     width: 93%;
-    height: 80vh;
+    height: 30vh;
   }
-  #troop__events {
-    width: 93%;
-    height: 80vh;
-  }
-  #plc__events {
-    width: 93%;
-    height: 80vh;
-  }
-  #significant__events {
-    width: 93%;
-    height: 80vh;
-  }
+
   #Main_title {
     margin-top: 80px;
     width: 100%;
@@ -92,34 +82,31 @@
 }
 
 @media only screen and (min-width: 560px) and (max-width: 699px) and (orientation: landscape) {
-  #events, #troop_events, #significant__events, #plc__events {
+  #events, #troop__events, #significant__events, #plc__events {
     width: 93%;
-    height: 400px;
-    margin-top: 10%;
+    height: 30vh;
   }
 }
 @media only screen and (min-width: 700px) and (max-width: 850px) and (orientation: landscape) {
-  #events, #troop_events, #significant__events, #plc__events {
+  #events, #troop__events, #significant__events, #plc__events {
     width: 93%;
-    height: 500px;
-    margin-top: 450px;
+    height: 50vh;
   }
 }
 @media only screen and (min-width: 700px) and (max-width: 850px) and (orientation: portrait) {
-  #events, #troop_events, #significant__events, #plc__events {
+  #events, #troop__events, #significant__events, #plc__events {
     width: 93%;
-    height: 500px;
-    margin-top: 450px;
+    height: 30vh;
   }
 }
 @media only screen and (min-width: 851px) and (max-width: 1025px) and (orientation: portrait) {
-  #events, #troop_events, #significant__events, #plc__events {
+  #events, #troop__events, #significant__events, #plc__events {
     width: 93%;
-    height: 500px;
+    height: 30vh;
   }
 }
 @media only screen and (min-width: 1020px) and (max-width: 1367px) and (orientation: landscape) {
-  #events, #troop_events, #significant__events, #plc__events {
+  #events, #troop__events, #significant__events, #plc__events {
     width: 475px;
     height: 250px;
   }

@@ -8,7 +8,7 @@ import './Events.css';
 function TroopMeet() {
     return (
         <section id='troop__events'>
-            <h2> Up Coming Troop Meetings</h2>
+            <h2> Troop Meetings</h2>
             <div id="event_dates">
                 <div id='troop-dates'>
                     <h4>ALL scouts please BRING YOUR SCOUT BOOKS and WEAR CLASS A UNIFORM during troop meetings and outings!</h4>

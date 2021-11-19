@@ -28,6 +28,28 @@
 
 #duble_ZZ{
   display: flex;
-  margin: 10px;
-  justify-content:space-between;
+  flex-direction:column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+@media screen and (min-width:650px) and (max-width:848px){
+  #duble_ZZ{
+flex-direction: row;
+flex-wrap: wrap;}
+}
+@media screen and (min-width:848px){
+#duble_ZZ{
+  flex-direction: row;
+  padding: 2%;
+}
+}
+@media only screen and (min-width: 701px) and (max-width: 850px) and (orientation: portrait) {
+  #duble_ZZ{
+    margin-top:450px;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 850px) and (orientation: landscape) {
+  #duble_ZZ{
+    margin-top:450px;
+  }
 }

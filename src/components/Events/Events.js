@@ -8,7 +8,7 @@ import './Events.css';
 function Events(){
     return(
         <section id='events'>
-        <h2> Up Coming Troop Outings</h2>
+        <h2> Troop Outings</h2>
         <div id="event_dates">
             <div id='special-dates'>
             <h5 className='dates'> Hoard Curtis Cabin Camp December 10-12th, 2021

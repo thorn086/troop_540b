@@ -25,8 +25,8 @@ function Home() {
                     </section>
                     <div id="duble_ZZ">
                     <SigEvent />  
-                    <Events />   
-                    <PLC />  
+                    <Events />  
+                    <PLC />   
                     <TroopMeet /> 
                     </div> 
                     <Info trigger={buttonPopup} setTrigger2={setButtonPopup}/>
