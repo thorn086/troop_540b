@@ -46,10 +46,20 @@ flex-wrap: wrap;}
 @media only screen and (min-width: 701px) and (max-width: 850px) and (orientation: portrait) {
   #duble_ZZ{
     margin-top:450px;
+    padding: 5px;
   }
 }
 @media only screen and (min-width: 700px) and (max-width: 850px) and (orientation: landscape) {
   #duble_ZZ{
     margin-top:450px;
+    padding: 5px;
+  }
+}
+@media only screen and (min-width: 1368px) and (max-width: 1708px) and (orientation: landscape) {
+  #duble_ZZ{
+justify-content: space-evenly;
+padding: 3%;
+width:60%;
+margin: 0 auto;
   }
 }

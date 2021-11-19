@@ -13,7 +13,7 @@ function SigEvent() {
                 <div id='significant-dates'>
                 <h5 className='dates'> Wreath Pickup November 20th, 2021
                         <br />
-                        <p>Mr. Pucel's House</p> </h5>
+                        <p className="house">Mr. Pucel's House</p> </h5>
                     <br />
                     <h5 className='dates'> Poinsettia Sale November 20-21st, 2021
                         <br />

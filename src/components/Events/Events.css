@@ -53,9 +53,9 @@
     font-size: 10px;
   }
   #events,#troop__events,#significant__events,  #plc__events  {
-    margin-left: 12px;
     width: 93%;
     height: 30vh;
+    padding: 5px;
   }
 
   #Main_title {
@@ -83,31 +83,41 @@
 
 @media only screen and (min-width: 560px) and (max-width: 699px) and (orientation: landscape) {
   #events, #troop__events, #significant__events, #plc__events {
-    width: 93%;
-    height: 30vh;
-  }
+    width: 96.2%;
+    height: 45vh;
+    padding: 5px;  }
 }
 @media only screen and (min-width: 700px) and (max-width: 850px) and (orientation: landscape) {
   #events, #troop__events, #significant__events, #plc__events {
     width: 93%;
-    height: 50vh;
-  }
+    height: 45vh;
+    padding: 5px;  }
 }
 @media only screen and (min-width: 700px) and (max-width: 850px) and (orientation: portrait) {
   #events, #troop__events, #significant__events, #plc__events {
     width: 93%;
-    height: 30vh;
+    height: 20vh;
+    padding: 5px;
+  }
+  .dates, #st_charels, .house{
+    font-size: 18px;
   }
 }
 @media only screen and (min-width: 851px) and (max-width: 1025px) and (orientation: portrait) {
   #events, #troop__events, #significant__events, #plc__events {
     width: 93%;
     height: 30vh;
+    padding: 5px;
+    font-size: 30px;
+  }
+  .dates, #st_charels, .house{
+    font-size: 24px;
   }
 }
 @media only screen and (min-width: 1020px) and (max-width: 1367px) and (orientation: landscape) {
   #events, #troop__events, #significant__events, #plc__events {
     width: 475px;
     height: 250px;
+    padding: 0 5;
   }
 }

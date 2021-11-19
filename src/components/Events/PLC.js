@@ -13,7 +13,7 @@ function PLC() {
                 <div id='troop-dates'>
                         <h5 className='dates'> PLC Meeting December 13th, 2021 6:00 - 6:30 PM
                         <br />
-                        <p>Mr. Pucel's House</p> </h5>
+                        <p className="house">Mr. Pucel's House</p> </h5>
                     <br />
                 </div>
             </div>
