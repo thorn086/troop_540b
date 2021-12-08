@@ -68,16 +68,23 @@
     width: 90%;
     text-align: left;
     margin-left: 5%;
-    background-color: rgba(140, 201, 70, 0.911);
+    background-color: rgba(36, 119, 20, 0.863);
     padding: 4% 0 10px 4%;   
 }
 }
-
-.email{
-    font-family: "Old Standard TT", serif;
+.email_group{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    justify-content: space-around;
 }
 
-a {
-    color: red;
+.email {
+    color: rgb(255, 0, 242);
     text-shadow: 2px 2px 5px darkslategray;
+    padding-top: 4px;
+}
+.email_icon{
+    color: red;
+    margin: 1px;
 }
