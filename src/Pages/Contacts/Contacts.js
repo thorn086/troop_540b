@@ -45,7 +45,7 @@ class Home extends Component {
             <li>
               <h3 className="contact_name">Darren Rose</h3>
               <h4>"Committe Member" </h4>
-              <a href="mailto:thorn086@gamil.com">Darren's Email </a>
+              <a href="mailto:thorn086@gmail.com">Darren's Email </a>
             </li>
           </ul>
 

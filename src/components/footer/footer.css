@@ -61,7 +61,7 @@
     .ft_page_main{
      display: inline-block;
      height: auto;
-    
+        background-color: rgb(63, 63, 63);
      padding: 10px;
     }
     #scout_counsil_logo{  
@@ -85,4 +85,8 @@
         height: auto;
         float: right;
     }
+    #scout_logo_phrase2,#scout_counsil_logo{
+        border-radius: 2rem;
+
+    } 
 }
