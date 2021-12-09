@@ -6,7 +6,8 @@
         margin: 100px 2% 1% 1%;
         padding-bottom: 3%;
         height: auto;
-        background-color: rgb(144, 144, 144);
+        background-color: black;
+        background-image: linear-gradient(black, rgb(63, 63, 63));
     }
     .j_pucel {
         display: inline-block;
@@ -21,13 +22,15 @@
     .j_pucel li{
         list-style: none;
         border-radius: 1rem;
-        border: solid 2px black;
+        /* border: solid 2px white; */
+        box-shadow:  -3px -3px rgb(165, 164, 164), -1.1em .4em .4em rgb(91, 96, 102);
         padding-left: 1rem;
         height: 170px;
         width: 90%;
         text-align: left;
         margin: 3px;
-  background-color: rgb(144, 144, 144);
+        background-color: rgba(140, 201, 70, 0.911);
+        padding: 4% 0 10px 4%; 
         
 
     }
@@ -43,7 +46,8 @@
     margin: 100px 2% 1% 1%;
     height: 100vh;
     padding-bottom: 3%;
-    background-color: rgb(144, 144, 144);
+    background-color: black;
+    /* background-image: linear-gradient(black, rgb(63, 63, 63)); */
 }
 
  .j_pucel{
@@ -52,20 +56,42 @@
     display: grid;
     justify-self: center;
     grid-template-columns: repeat(3, 1fr);
-    height: 100vh;
+    height: 80vh;
     width: 100%;
 }
 
 .j_pucel li{
-    border: solid 3px black;
+    /* border: ridge 5px rgb(255, 0, 0); */
+    box-shadow:  -3px -3px rgb(165, 164, 164), -1.1em .4em .4em rgb(91, 96, 102);
     border-radius: 1rem;
     height: 170px;
     width: 90%;
-    padding-left: 2%;
     text-align: left;
-    margin-left: 3%;
-    background-color: lightcoral;
-    
+    margin-left: 5%;
+    background-color: rgb(47, 158, 25);
+    padding: 4% 0 10px 4%;   
 }
+}
+.email_group{
+    display: flex;
+    flex-direction: row;
+    width: 28%;
 }
 
+.email {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px black;
+    padding-top: 4px;
+}
+.email_icon{
+    color: rgb(255, 255, 255);
+    margin: 1px;
+}
+.call-button, .phone{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px black;
+}
+.email, .call-button{
+    padding-left: 5px;
+    margin: 3px;
+}
