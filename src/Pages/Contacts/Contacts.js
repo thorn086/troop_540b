@@ -20,7 +20,6 @@ class Home extends Component {
                   Jeff's Email
                 </a>
               </div>
-
               <a
                 href="tel:4143037382"
                 onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"
@@ -31,44 +30,62 @@ class Home extends Component {
             <li>
               <h3 className="contact_name">Mrs. Amanda Lewandowski</h3>
               <h4>"Rank Advancement Chair/Fundraiser" </h4>
+              <div className="email_group">
+              <MdEmail className="email_icon" size={25} />
               <a className="email" href="mailto:all09@hotmail.com">
-                Amanda's Email{" "}
+                Amanda's Email
               </a>
+              </div>
             </li>
             <li>
               <h3 className="contact_name">Mr. Greg Bach</h3>
               <h4>"Committee Chair" </h4>
+              <div className="email_group">
+              <MdEmail className="email_icon" size={25} />
               <a className="email" href="mailto:gregjandmaryj@icloud.com">
                 Greg's Email{" "}
               </a>
+              </div>
             </li>
             <li>
               <h3 className="contact_name">Mr. Jason Wallace</h3>
               <h4>"Assistant Scoutmaster" </h4>
+              <div className="email_group">
+              <MdEmail className="email_icon" size={25} />
               <a className="email" href="mailto:plumber7576@sbcglobal.net">
                 Jason's Email{" "}
               </a>
+              </div>
             </li>
             <li>
               <h3 className="contact_name">Mr. Jacob Bach</h3>
               <h4>"Outing Coordinator" </h4>
+              <div className="email_group">
+              <MdEmail className="email_icon" size={25} />
               <a className="email" href="mailto:jacobdbach1@gmail.com">
                 Jacob's Email{" "}
               </a>
+              </div>
             </li>
             <li>
               <h3 className="contact_name">Mrs. Rosa Barillas</h3>
               <h4>"Treasurer" </h4>
+              <div className="email_group">
+              <MdEmail className="email_icon" size={25} />
               <a className="email" href="mailto:barillasrosa@hotmail.com">
                 Rosa's Email{" "}
               </a>
+              </div>
             </li>
             <li>
               <h3 className="contact_name">Darren Rose</h3>
               <h4>"Committe Member" </h4>
+              <div className="email_group">
+              <MdEmail className="email_icon" size={25} />
               <a className="email" href="mailto:thorn086@gmail.com">
                 Darren's Email{" "}
               </a>
+              </div>
             </li>
           </ul>
         </section>

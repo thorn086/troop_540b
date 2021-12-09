@@ -75,16 +75,20 @@
 .email_group{
     display: flex;
     flex-direction: row;
-    width: 20%;
+    width: 25%;
     justify-content: space-around;
 }
 
 .email {
-    color: rgb(255, 0, 242);
-    text-shadow: 2px 2px 5px darkslategray;
+    color: rgb(255, 0, 0);
+    text-shadow: 2px 2px 5px black;
     padding-top: 4px;
 }
 .email_icon{
     color: red;
     margin: 1px;
+}
+.call-button{
+    color: rgb(255, 0, 0);
+    text-shadow: 2px 2px 5px black;
 }
