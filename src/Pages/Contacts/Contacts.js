@@ -17,7 +17,7 @@ class Home extends Component {
               <div className="email_group">
                 <MdEmail className="email_icon" size={25} />
                 <a className="email" href="mailto:puceljj@ameritech.net">
-                  Jeff's Email
+                  Email
                 </a>
               </div>
               <a className="phone"
@@ -32,11 +32,12 @@ class Home extends Component {
             </li>
             <li>
               <h3 className="contact_name">Mrs. Amanda Lewandowski</h3>
-              <h4>"Rank Advancement Chair/Fundraiser" </h4>
+              <h4>"Rank Advancement Chair" </h4>
+              <h4>"Fundraiser"</h4>
               <div className="email_group">
               <MdEmail className="email_icon" size={25} />
               <a className="email" href="mailto:all09@hotmail.com">
-                Amanda's Email
+                Email
               </a>
               </div>
             </li>
@@ -46,7 +47,7 @@ class Home extends Component {
               <div className="email_group">
               <MdEmail className="email_icon" size={25} />
               <a className="email" href="mailto:gregjandmaryj@icloud.com">
-                Greg's Email{" "}
+                Email{" "}
               </a>
               </div>
             </li>
@@ -56,7 +57,7 @@ class Home extends Component {
               <div className="email_group">
               <MdEmail className="email_icon" size={25} />
               <a className="email" href="mailto:plumber7576@sbcglobal.net">
-                Jason's Email{" "}
+                Email{" "}
               </a>
               </div>
             </li>
@@ -66,7 +67,7 @@ class Home extends Component {
               <div className="email_group">
               <MdEmail className="email_icon" size={25} />
               <a className="email" href="mailto:jacobdbach1@gmail.com">
-                Jacob's Email{" "}
+                Email{" "}
               </a>
               </div>
             </li>
@@ -76,7 +77,7 @@ class Home extends Component {
               <div className="email_group">
               <MdEmail className="email_icon" size={25} />
               <a className="email" href="mailto:barillasrosa@hotmail.com">
-                Rosa's Email{" "}
+                Email{" "}
               </a>
               </div>
             </li>
@@ -86,7 +87,7 @@ class Home extends Component {
               <div className="email_group">
               <MdEmail className="email_icon" size={25} />
               <a className="email" href="mailto:thorn086@gmail.com">
-                Darren's Email{" "}
+                Email{" "}
               </a>
               </div>
             </li>

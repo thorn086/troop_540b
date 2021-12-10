@@ -28,17 +28,20 @@
         height: 170px;
         width: 90%;
         text-align: left;
-        margin: 3px;
-        background-color: rgba(140, 201, 70, 0.911);
+        margin: .5rem;
+        background-color: rgba(47, 158, 25);
         padding: 4% 0 10px 4%; 
         
 
     }
     .contact_name, .j_pucel li{
-        font-size: 15px;
+        font-size: 17px;
+    }
+    .email{
+        width:50%;
     }
 }
-@media screen and (min-width: 1060px){
+@media screen and (min-width: 1023px){
 
 
 #Contacts_Info{
@@ -70,6 +73,9 @@
     margin-left: 5%;
     background-color: rgb(47, 158, 25);
     padding: 4% 0 10px 4%;   
+}
+.contact_name, .j_pucel li{
+    font-size: 21px;
 }
 }
 .email_group{
