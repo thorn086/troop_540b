@@ -15,6 +15,10 @@ function PLC() {
                         <br />
                         <p className="house">Mr. Pucel's House</p> </h5>
                     <br />
+                    <h5 className='dates'> PLC Meeting January 10th, 2021 6:00 - 6:30 PM
+                        <br />
+                        <p className="house">Mr. Pucel's House</p> </h5>
+                    <br />
                 </div>
             </div>
         </section>
