@@ -36,6 +36,7 @@
     position: absolute;
     top: 0;
     justify-content: center;
+    z-index: 1;
 }
 
 #leader_close{
@@ -110,8 +111,8 @@
     }
 
 }
-@media screen and (min-width: 1550px){
+/* @media screen and (min-width: 1550px){
     #leader_box{
         width: 39%;
     }
-}
+} */
