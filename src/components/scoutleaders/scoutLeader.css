@@ -10,17 +10,26 @@
 }
 #leader_list li{
     padding:2px;
+    position: relative;
 }
 #leader_box{
     position: absolute;
-    background-image: url("http://john-green.net/wp-content/uploads/2015/02/scoutmaster-postition-specific-training.png");
-    opacity:01;
     width: 75%;  
     font-family: 'Old Standard TT', serif;
     font-weight: 1000;
-    padding: 0.5rem;
+    padding: 2rem;
 }
-
+#leader_box:before{
+    content:"";
+    background-image: url("http://john-green.net/wp-content/uploads/2015/02/scoutmaster-postition-specific-training.png");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.50;
+}
 #scoutimg{
     position: relative;
     width: 200px;
@@ -53,6 +62,7 @@
     padding-left: 2rem;
     margin-bottom: 1rem;
     text-shadow: 4px 4px 7px white;
+    position: relative;
 }
 @media screen and (min-width: 700px){
     #leader_list{
@@ -70,7 +80,7 @@
         padding:3px;
     }
     #leader_list, #ld_modal_title{
-        color: rgb(100, 255, 11);
+        color: rgb(255, 255, 255);
         text-shadow: -2px -2px rgb(0, 0, 0),
         0px 1px rgb(128, 128, 128),
         0px -1px rgb(78, 78, 78),
@@ -79,10 +89,6 @@
          -2px -2px rgb(0, 0, 0);
     }
     #leader_box{
-        background-image: url("http://john-green.net/wp-content/uploads/2015/02/scoutmaster-postition-specific-training.png");
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        font-family: 'Old Standard TT', serif;
         font-weight: 1000;
         padding: 2rem;
         margin-right: 5rem;
@@ -110,7 +116,7 @@
     #ld_modal_title{
         width: 70%;
         font-size: 30px;
-        border-bottom: 10px double rgb(100, 255, 11);
+        border-bottom: 10px double rgb(255, 255, 255);
         background-color: rgba(223, 223, 223, 0.123);
         font-weight: 900;
         padding-left: 5rem;
@@ -188,7 +194,7 @@
 }
 @media screen and (max-width: 700px){
     #leader_list, #ld_modal_title{
-        color: rgb(100, 255, 11);
+        color: rgb(255, 255, 255);
         text-shadow: -2px -2px rgb(0, 0, 0),
         0px 1px rgb(128, 128, 128),
         0px -1px rgb(78, 78, 78),
