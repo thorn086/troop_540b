@@ -28,6 +28,7 @@ const [leaderPopup, setLeaderPopup] = useState(false);
                 troop has been with St. Charles Borromeo parish in Milwaukee
                 since 1962. 
                 </p>
+                <br />
                 <p>
                   In 2021, Troop 540 has 16 total active scouts,
                 ranging from recently added Webelos to Eagle Scouts. Troop 540
@@ -36,11 +37,11 @@ const [leaderPopup, setLeaderPopup] = useState(false);
                 to have outdoor adventures every month as troop activities.
                 Troop 540 takes pride in being an active member of the community
                 by participating in Scouting for Food and other service
-                projects, along with Eagle projects. Some highlights of 540 over
-                recent years are:
+                projects, along with Eagle projects.
                </p>
             </section>
-            <button id ='button_scout'  onClick={()=> setScoutPopup(true)} >Past Eagle Scouts</button>
+            <br/>
+            <button id ='button_scout'  onClick={()=> setScoutPopup(true)} >Past Eagle Scouts</button> &nbsp; &nbsp; 
             <button id ='button_leader'  onClick={()=> setLeaderPopup(true)} >Past Scout Masters</button>
           </div>
         </section>

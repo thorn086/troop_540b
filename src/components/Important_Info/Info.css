@@ -52,6 +52,11 @@
         width:50px;
     }
 }
+@media screen and (min-width: 426px) and (max-width: 699px){
+    #button_info{
+        width:70px;
+    }
+}
 @media screen and (min-width: 700px){
     #button_info{
         margin-top: 1rem;

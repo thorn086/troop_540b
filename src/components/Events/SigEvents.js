@@ -11,7 +11,7 @@ function SigEvent() {
             <h2>Significant Events</h2>
             <div id="event_dates">
                 <div id='significant-dates'>
-                   <p>No special events at this time.</p>
+                <p>No upcoming significant events at this time.</p>
                 </div>
             </div>
         </section>
