@@ -9,10 +9,12 @@ function Row({ title }) {
     const handleClick = (pic) => {
         if (picLibrary) {
             setPicLibrary('');
+            
         } else {
             setPicLibrary(
                 pic.id
             );
+            
         }
     }
     const handleFilter = () => {

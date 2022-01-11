@@ -17,12 +17,13 @@
     width: 75%;  
     font-family: 'Old Standard TT', serif;
     font-weight: 1000;
-    padding: 2rem;
+    padding: 6rem;
 }
 #leader_box:before{
     content:"";
     background-image: url("http://john-green.net/wp-content/uploads/2015/02/scoutmaster-postition-specific-training.png");
     background-size: cover;
+    background-repeat: no-repeat;
     position: absolute;
     top: 0px;
     right: 0px;
@@ -90,7 +91,8 @@
     }
     #leader_box{
         font-weight: 1000;
-        padding: 2rem;
+        padding: 5px;
+        height: 120vh;
         margin-right: 5rem;
     }
     
