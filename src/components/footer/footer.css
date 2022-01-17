@@ -62,7 +62,7 @@
 @media screen and (min-width: 925px){
     .ft_page_main{
      display: inline-block;
-     height: 250px;
+     height: auto;
      padding: 10px;
     }
     #scout_counsil_logo{  

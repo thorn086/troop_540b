@@ -4,7 +4,8 @@ import Footer from "../../components/footer/footer";
 import Header from "../../components/Header/Header";
 import Row from "../../components/Row/Row";
 import Banner from '../../components/Banner/Banner';
-class Home extends Component {
+
+class Gallery extends Component {
   render() {
     return (
       <div>
@@ -26,4 +27,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default Gallery;
