@@ -18,6 +18,7 @@ function TroopMeet() {
                             St. Charels Borromeo
                         </a></h5>
                     <br />
+                    <br />
                 </div>
             </div>
         </section>
