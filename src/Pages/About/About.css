@@ -36,11 +36,12 @@ text-shadow: 1px 2px black,
 
 @media screen and (min-width: 800px){
     #About_Info{
-        width: 80%;
+        width: 75%;
         z-index: 0;
         position:relative;
         top: 50%;
         left: 5%;
+        height: 100vh;
     }
     #about_para{
         width: 60%;

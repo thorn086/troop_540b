@@ -84,6 +84,9 @@
         text-align: left;
 
     }
+    .foot_tag_p{
+        text-align: center;
+    }
     #scout_logo_phrase2{  
         width: 10rem;
         height: auto;
