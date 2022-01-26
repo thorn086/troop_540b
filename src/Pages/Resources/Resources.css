@@ -30,13 +30,11 @@
     width: 100%;
     height: auto;
     padding: 0;
-    margin-top: 50px;
     background-color:black;
     
 }
 #Res_box {
     margin: 2%;
-    border:3px rgb(63, 63, 63) solid;
     display: flex;
     height: 1000px;
     flex-direction: column;
@@ -102,7 +100,7 @@
 
 #Res_Info{
     margin: 100px 1% 1% 1%;
-    padding: 5%;
+    padding: 0 5%;
     width: auto;
     height: 100vh;
     background-color:black;
@@ -111,11 +109,9 @@
     margin: 1rem;
     width: 95%;
     height: 70%;
-    border:5px rgb(63, 63, 63) solid;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    
 }
 #troop_res, #bsa_res{
     margin: 3%;
@@ -140,5 +136,50 @@
 @media screen and (orientation: landscape) and (min-width: 735px){
     #Res_Info{
         margin-top: 100px;
+    }
+}
+@media screen and (orientation: landscape) and (min-width: 567px){
+    #Res_box{
+        width: 100%;
+        flex-direction: row;
+        justify-content: unset;
+        align-items: unset;
+        height: 500px;
+        margin: 5px 12px 0 0;
+    }
+
+    #about_h2{
+        margin-top: 7rem;
+    }
+    #troop_res, #bsa_res{
+        padding: 10px;
+        
+    }
+}
+@media screen and (orientation: landscape) and (min-width: 811px){
+    #Res_box{
+        padding-left: 8.5rem;
+    }
+}
+@media screen and (orientation: portrait) and (min-width: 767px) and (max-width: 768px){
+    #Res_box{
+        width: 100%;
+        flex-direction: row;
+        justify-content: unset;
+        align-items: unset;
+        height: 500px;
+        margin: 5px 12px 0 0;
+        padding-left: 5rem;
+    }
+
+    #about_h2{
+        margin-top: 7rem;
+    }
+    #troop_res, #bsa_res{
+        padding: 10px;
+        height: 300px;
+    }
+    #Res_Info{
+        height: 100vh;
     }
 }
