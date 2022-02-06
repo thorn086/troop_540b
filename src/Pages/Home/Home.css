@@ -7,59 +7,79 @@
 }
 
 #const_logo {
-  width: 400px;
+  width: 60vw;
   height: auto;
   object-fit: fill;
   margin: 10px;
   border: 5px solid white;
+  box-shadow: -0.5em 0.4em 0.4em rgb(91, 96, 102);
 }
 
 #Main_title {
-  height: 100px;
+  height: auto;
   margin-top: 105px;
   padding-top: 10px;
   color: white;
+  border-bottom: 10px lightgray ridge;
 }
-
+.main_button {
+  width: 225px;
+  height: 40px;
+  margin: 15px 0;
+  font-size: 20px;
+  background-color: red;
+  background-image: linear-gradient(to top, black, red);
+  font-weight: 700;
+  border: 1px solid white;
+  color: white;
+}
+.home-title {
+  text-shadow: 1px 1px black, 0px -1px white, -1px -1px black;
+  width: 60vw;
+  height: 100%;
+  margin: 20px auto;
+  padding: 7px;
+}
 .ft_page_main {
   padding-top: 25px;
   font-size: 10px;
 }
 
-#duble_ZZ{
+#duble_ZZ {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
-@media screen and (min-width:650px) and (max-width:848px){
-  #duble_ZZ{
-flex-direction: row;
-flex-wrap: wrap;}
+@media screen and (min-width: 650px) and (max-width: 848px) {
+  #duble_ZZ {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
-@media screen and (min-width:848px){
-#duble_ZZ{
-  flex-direction: row;
-  padding: 2%;
-}
+@media screen and (min-width: 848px) {
+  #duble_ZZ {
+    flex-direction: row;
+    padding: 2%;
+  }
 }
 @media only screen and (min-width: 701px) and (max-width: 850px) and (orientation: portrait) {
-  #duble_ZZ{
-    margin-top:450px;
+  #duble_ZZ {
+    margin-top: 450px;
     padding: 5px;
   }
 }
 @media only screen and (min-width: 700px) and (max-width: 850px) and (orientation: landscape) {
-  #duble_ZZ{
-    margin-top:450px;
+  #duble_ZZ {
+    margin-top: 450px;
     padding: 5px;
   }
 }
 @media only screen and (min-width: 1368px) and (max-width: 1708px) and (orientation: landscape) {
-  #duble_ZZ{
-justify-content: space-evenly;
-padding: 3%;
-width:60%;
-margin: 0 auto;
+  #duble_ZZ {
+    justify-content: space-evenly;
+    padding: 3%;
+    width: 60%;
+    margin: 0 auto;
   }
 }

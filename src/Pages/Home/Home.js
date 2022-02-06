@@ -1,6 +1,6 @@
 import './Home.css'
-import construction from '../../img/construction_img.jpeg';
-import React, {useState}  from 'react';
+import IceFishing from '../../img/ice-fishing-derby-2022.jpg';
+import React, { useState } from 'react';
 import Footer from '../../components/footer/footer';
 import Header from '../../components/Header/Header';
 import Events from '../../components/Events/Events';
@@ -11,29 +11,38 @@ import PLC from '../../components/Events/PLC';
 
 function Home() {
     const [buttonPopup, setButtonPopup] = useState(false);
-    console.log({construction});
-        return (
-                <div className="App">
-                    <Header />
-
-                    <section id='Main_title'>
-                        <img id='const_logo' src={construction} alt="construction workers" />
-                        <h1 id='home-title'>Site Under Construction</h1>
-                        <h3 className='home-info'> Future Home of Troop 540 </h3>
-                        <h2 className='home-info'>**** Parents don't forget to click the "540 Info" button for important troop information! ****</h2>
-                        <h6 className='home-info'>Check Back Soon!</h6>
-                    </section>
-                    <div id="duble_ZZ">
-                    <SigEvent />  
-                    <Events />  
-                    <PLC />   
-                    <TroopMeet /> 
-                    </div> 
-                    <Info trigger={buttonPopup} setTrigger2={setButtonPopup}/>
-                    <Footer />
-                </div>
-        );
+    const openInNewTab = (url) => {
+        const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+        if (newWindow) newWindow.opener = null
     }
+    const onClickUrl = (url) => {
+        return () => openInNewTab(url)
+    }
+    return (
+        <div className="App">
+            <Header />
+
+            <section id='Main_title'>
+                <img id='const_logo' src={IceFishing} alt="Boy scouts ice fishing" />
+                <h2 className='home-title'>Saturday, February 26th - 9:00 am - 12:30 pm</h2>
+                <h4 className="home-title">
+                    Cub Scouts, Scouts BSA and families can enjoy ice fishing at Camp Oh-Da-Ko-Ta on Saturday,
+                    February 26, 2022.  Holes will be drilled for each family and fishing poles will be available to Scouts if they need them.
+                    There will be plenty of support for Scouts who are new to ice fishing.</h4>
+                <button className='main_button' onClick={onClickUrl('https://www.threeharborsscouting.org/event/2829156')} >Register</button>
+
+            </section>
+            <div id="duble_ZZ">
+                <SigEvent />
+                <Events />
+                <PLC />
+                <TroopMeet />
+            </div>
+            <Info trigger={buttonPopup} setTrigger2={setButtonPopup} />
+            <Footer />
+        </div >
+    );
+}
 
 
 export default Home;
