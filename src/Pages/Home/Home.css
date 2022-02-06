@@ -7,7 +7,7 @@
 }
 
 #const_logo {
-  width: 60vw;
+  width: 90vw;
   height: auto;
   object-fit: fill;
   margin: 10px;
@@ -49,6 +49,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  margin-top: 15px;
   flex-wrap: wrap;
 }
 @media screen and (min-width: 650px) and (max-width: 848px) {
@@ -65,13 +66,13 @@
 }
 @media only screen and (min-width: 701px) and (max-width: 850px) and (orientation: portrait) {
   #duble_ZZ {
-    margin-top: 450px;
+    margin-top: 25px;
     padding: 5px;
   }
 }
 @media only screen and (min-width: 700px) and (max-width: 850px) and (orientation: landscape) {
   #duble_ZZ {
-    margin-top: 450px;
+    margin-top: 25px;
     padding: 5px;
   }
 }
