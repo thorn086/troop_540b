@@ -22,7 +22,7 @@ function Home() {
         <div className="App">
             <Header />
 
-            <section id='Main_title'>
+            {/* <section id='Main_title'>
                 <img id='const_logo' src={IceFishing} alt="Boy scouts ice fishing" />
                 <h2 className='home-title'>Saturday, February 26th - 9:00 am - 12:30 pm</h2>
                 <h4 className="home-title">
@@ -31,7 +31,7 @@ function Home() {
                     There will be plenty of support for Scouts who are new to ice fishing.</h4>
                 <button className='main_button' onClick={onClickUrl('https://www.threeharborsscouting.org/event/2829156')} >Register</button>
 
-            </section>
+            </section> */}
             <div id="duble_ZZ">
                 <SigEvent />
                 <Events />
