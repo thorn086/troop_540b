@@ -11,7 +11,7 @@
   display: inline-block;
   height: 300px;
   width: 400px;
-  border: 5px solid white;
+  /* border: 5px solid white; */
   background-color: black;
   color:lightpink;
 }
@@ -19,7 +19,7 @@
   display: inline-block;
   height: 300px;
   width: 400px;
-  border: 5px solid white;
+  /* border: 5px solid white; */
   background-color: black;
   color: lightskyblue;
 }
@@ -27,7 +27,7 @@
   display: inline-block;
   height: 300px;
   width: 400px;
-  border: 5px solid white;
+  /* border: 5px solid white; */
   background-color: black;
   color:lightgoldenrodyellow;
 }
@@ -35,7 +35,7 @@
   display: inline-block;
   height: 300px;
   width: 400px;
-  border: 5px solid white;
+  /* border: 5px solid white; */
   background-color: black;
   color:lightseagreen;
 }
