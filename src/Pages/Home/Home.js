@@ -1,5 +1,5 @@
 import './Home.css'
-import IceFishing from '../../img/ice-fishing-derby-2022.jpg';
+// import IceFishing from '../../img/ice-fishing-derby-2022.jpg';
 import React, { useState } from 'react';
 import Footer from '../../components/footer/footer';
 import Header from '../../components/Header/Header';
@@ -11,17 +11,16 @@ import PLC from '../../components/Events/PLC';
 
 function Home() {
     const [buttonPopup, setButtonPopup] = useState(false);
-    const openInNewTab = (url) => {
-        const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
-        if (newWindow) newWindow.opener = null
-    }
-    const onClickUrl = (url) => {
-        return () => openInNewTab(url)
-    }
+    // const openInNewTab = (url) => {
+    //     const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+    //     if (newWindow) newWindow.opener = null
+    // }
+    // const onClickUrl = (url) => {
+    //     return () => openInNewTab(url)
+    // }
     return (
         <div className="App">
             <Header />
-
             {/* <section id='Main_title'>
                 <img id='const_logo' src={IceFishing} alt="Boy scouts ice fishing" />
                 <h2 className='home-title'>Saturday, February 26th - 9:00 am - 12:30 pm</h2>
@@ -32,6 +31,9 @@ function Home() {
                 <button className='main_button' onClick={onClickUrl('https://www.threeharborsscouting.org/event/2829156')} >Register</button>
 
             </section> */}
+            <br/>
+            <br/>
+            <br/>
             <div id="duble_ZZ">
                 <SigEvent />
                 <Events />

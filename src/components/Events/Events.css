@@ -12,28 +12,32 @@
   height: 300px;
   width: 400px;
   border: 5px solid white;
-  background-color: lightpink;
+  background-color: black;
+  color:lightpink;
 }
 #troop__events {
   display: inline-block;
   height: 300px;
   width: 400px;
   border: 5px solid white;
-  background-color: lightskyblue;
+  background-color: black;
+  color: lightskyblue;
 }
 #plc__events {
   display: inline-block;
   height: 300px;
   width: 400px;
   border: 5px solid white;
-  background-color: lightgoldenrodyellow;
+  background-color: black;
+  color:lightgoldenrodyellow;
 }
 #significant__events {
   display: inline-block;
   height: 300px;
   width: 400px;
   border: 5px solid white;
-  background-color: lightseagreen;
+  background-color: black;
+  color:lightseagreen;
 }
 #event_dates {
   height: 50px;
@@ -44,6 +48,9 @@
   display: inline;
   padding: 0 5px;
   font-size: 12px;
+}
+#st_charels {
+  color: white;
 }
 @media screen and (max-width: 700px) {
   .dates,
