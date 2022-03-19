@@ -111,13 +111,12 @@
   #significant__events,
   #plc__events {
     width: 93%;
-    height: 20vh;
     padding: 5px;
   }
   .dates,
   #st_charels,
   .house {
-    font-size: 18px;
+    font-size: 12px;
   }
 }
 @media only screen and (min-width: 851px) and (max-width: 1025px) and (orientation: portrait) {
@@ -128,12 +127,12 @@
     width: 93%;
     height: 30vh;
     padding: 5px;
-    font-size: 30px;
+    font-size: 14epx;
   }
   .dates,
   #st_charels,
   .house {
-    font-size: 24px;
+    font-size: 14px;
   }
 }
 @media only screen and (min-width: 1020px) and (max-width: 1367px) and (orientation: landscape) {
@@ -143,6 +142,6 @@
   #plc__events {
     width: 475px;
     height: 250px;
-    padding: 0 5;
+    padding: 0 5px;
   }
 }

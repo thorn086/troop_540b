@@ -21,16 +21,9 @@ function Home() {
     return (
         <div className="App">
             <Header />
-            {/* <section id='Main_title'>
-                <img id='const_logo' src={IceFishing} alt="Boy scouts ice fishing" />
-                <h2 className='home-title'>Saturday, February 26th - 9:00 am - 12:30 pm</h2>
-                <h4 className="home-title">
-                    Cub Scouts, Scouts BSA and families can enjoy ice fishing at Camp Oh-Da-Ko-Ta on Saturday,
-                    February 26, 2022.  Holes will be drilled for each family and fishing poles will be available to Scouts if they need them.
-                    There will be plenty of support for Scouts who are new to ice fishing.</h4>
-                <button className='main_button' onClick={onClickUrl('https://www.threeharborsscouting.org/event/2829156')} >Register</button>
-
-            </section> */}
+            <section id='Main_title'>
+                <h2 className='home-title'>Welcome to Troop 540 Main Page</h2>
+            </section>
             <br/>
             <br/>
             <br/>

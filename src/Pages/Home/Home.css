@@ -47,23 +47,27 @@
 
 #duble_ZZ {
   display: flex;
+  padding: 9%;
+  height: 100%;
+  margin-bottom: 10%;
   flex-direction: column;
   justify-content: space-evenly;
   margin-top: 15px;
-  flex-wrap: wrap;
 }
 @media screen and (min-width: 650px) and (max-width: 848px) {
   #duble_ZZ {
-    flex-direction: row;
-    flex-wrap: wrap;
+    height: 100vh;
+    width: 60vh;
+    padding: auto;
   }
 }
-@media screen and (min-width: 848px) {
+@media screen and (min-width: 849px)  {
   #duble_ZZ {
+    height: 100vh;
     flex-direction: row;
-    padding: 2%;
   }
 }
+
 @media only screen and (min-width: 701px) and (max-width: 850px) and (orientation: portrait) {
   #duble_ZZ {
     margin-top: 25px;
@@ -74,6 +78,8 @@
   #duble_ZZ {
     margin-top: 25px;
     padding: 5px;
+   
+
   }
 }
 @media only screen and (min-width: 1368px) and (max-width: 1708px) and (orientation: landscape) {
