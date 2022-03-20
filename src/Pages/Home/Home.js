@@ -1,5 +1,5 @@
 import './Home.css'
-// import IceFishing from '../../img/ice-fishing-derby-2022.jpg';
+import Troop from '../../img/group_klondike_2022.JPG';
 import React, { useState } from 'react';
 import Footer from '../../components/footer/footer';
 import Header from '../../components/Header/Header';
@@ -11,22 +11,17 @@ import PLC from '../../components/Events/PLC';
 
 function Home() {
     const [buttonPopup, setButtonPopup] = useState(false);
-    // const openInNewTab = (url) => {
-    //     const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
-    //     if (newWindow) newWindow.opener = null
-    // }
-    // const onClickUrl = (url) => {
-    //     return () => openInNewTab(url)
-    // }
+
     return (
         <div className="App">
             <Header />
             <section id='Main_title'>
+                <img className='Troop_Photo' src={Troop} alt="Group of Troop 540 Scouts" />
                 <h2 className='home-title'>Welcome to Troop 540 Main Page</h2>
             </section>
-            <br/>
-            <br/>
-            <br/>
+            <br />
+            <br />
+            <br />
             <div id="duble_ZZ">
                 <SigEvent />
                 <Events />

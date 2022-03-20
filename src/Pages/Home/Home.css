@@ -5,7 +5,10 @@
   text-align: center;
   position: relative;
 }
-
+.Troop_Photo {
+  height: 80%;
+  width: 80%;
+}
 #const_logo {
   width: 90vw;
   height: auto;

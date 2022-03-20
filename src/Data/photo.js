@@ -346,6 +346,9 @@ import C2011021 from "../Data/clean_imgs/Fall_Camporee2011/IMG021.jpg";
 import C2011022 from "../Data/clean_imgs/Fall_Camporee2011/IMG022.jpg";
 import C2011023 from "../Data/clean_imgs/Fall_Camporee2011/IMG023.jpg";
 
+//Klondike 2022
+import k20221 from "../Data/clean_imgs/klondike2022/klondike1.JPG";
+
 export const photoData = [
   {
     id: "1",
@@ -755,4 +758,14 @@ export const photoData = [
       B2010043,
     ],
   },
+  {
+    id: "9",
+    title: "Klondike",
+    name: "Klondike 2022",
+    year: "2022",
+    main_image: k20221,
+    description:
+      "The Troop returned to the Klondike for the Last time",
+    remaining_imgs: []
+  }
 ];
