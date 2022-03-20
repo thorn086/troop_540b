@@ -348,6 +348,50 @@ import C2011023 from "../Data/clean_imgs/Fall_Camporee2011/IMG023.jpg";
 
 //Klondike 2022
 import k20221 from "../Data/clean_imgs/klondike2022/klondike1.JPG";
+import k20222 from "../Data/clean_imgs/klondike2022/klondike2.JPG";
+import k20223 from "../Data/clean_imgs/klondike2022/klondike3.JPG";
+import k20224 from "../Data/clean_imgs/klondike2022/klondike4.JPG";
+import k20225 from "../Data/clean_imgs/klondike2022/klondike5.JPG";
+import k20226 from "../Data/clean_imgs/klondike2022/klondike6.JPG";
+import k20227 from "../Data/clean_imgs/klondike2022/klondike7.JPG";
+import k20228 from "../Data/clean_imgs/klondike2022/klondike8.JPG";
+import k20229 from "../Data/clean_imgs/klondike2022/klondike9.JPG";
+import k202210 from "../Data/clean_imgs/klondike2022/klondike10.JPG";
+import k202211 from "../Data/clean_imgs/klondike2022/klondike11.JPG";
+import k202212 from "../Data/clean_imgs/klondike2022/klondike12.JPG";
+import k202213 from "../Data/clean_imgs/klondike2022/klondike13.JPG";
+import k202214 from "../Data/clean_imgs/klondike2022/klondike14.JPG";
+import k202215 from "../Data/clean_imgs/klondike2022/klondike15.JPG";
+import k202216 from "../Data/clean_imgs/klondike2022/klondike16.JPG";
+import k202217 from "../Data/clean_imgs/klondike2022/klondike17.JPG";
+import k202218 from "../Data/clean_imgs/klondike2022/klondike18.JPG";
+import k202219 from "../Data/clean_imgs/klondike2022/klondike19.JPG";
+import k202220 from "../Data/clean_imgs/klondike2022/klondike20.JPG";
+import k202221 from "../Data/clean_imgs/klondike2022/klondike21.JPG";
+import k202222 from "../Data/clean_imgs/klondike2022/klondike22.JPG";
+import k202223 from "../Data/clean_imgs/klondike2022/klondike23.JPG";
+import k202224 from "../Data/clean_imgs/klondike2022/klondike24.JPG";
+import k202225 from "../Data/clean_imgs/klondike2022/klondike25.JPG";
+import k202226 from "../Data/clean_imgs/klondike2022/klondike26.JPG";
+import k202227 from "../Data/clean_imgs/klondike2022/klondike27.JPG";
+import k202228 from "../Data/clean_imgs/klondike2022/klondike28.JPG";
+import k202229 from "../Data/clean_imgs/klondike2022/klondike29.JPG";
+import k202230 from "../Data/clean_imgs/klondike2022/klondike30.JPG";
+import k202231 from "../Data/clean_imgs/klondike2022/klondike31.JPG";
+import k202232 from "../Data/clean_imgs/klondike2022/klondike32.JPG";
+import k202233 from "../Data/clean_imgs/klondike2022/klondike33.JPG";
+import k202234 from "../Data/clean_imgs/klondike2022/klondike34.JPG";
+import k202235 from "../Data/clean_imgs/klondike2022/klondike35.JPG";
+import k202236 from "../Data/clean_imgs/klondike2022/klondike36.JPG";
+import k202237 from "../Data/clean_imgs/klondike2022/klondike37.JPG";
+import k202238 from "../Data/clean_imgs/klondike2022/klondike38.JPG";
+import k202239 from "../Data/clean_imgs/klondike2022/klondike39.JPG";
+import k202240 from "../Data/clean_imgs/klondike2022/klondike40.JPG";
+import k202241 from "../Data/clean_imgs/klondike2022/klondike41.JPG";
+import k202242 from "../Data/clean_imgs/klondike2022/klondike42.JPG";
+import k202243 from "../Data/clean_imgs/klondike2022/klondike43.JPG";
+import k202244 from "../Data/clean_imgs/klondike2022/klondike44.JPG";
+import k202245 from "../Data/clean_imgs/klondike2022/klondike45.JPG";
 
 export const photoData = [
   {
@@ -766,6 +810,51 @@ export const photoData = [
     main_image: k20221,
     description:
       "The Troop returned to the Klondike for the Last time",
-    remaining_imgs: []
+    remaining_imgs: [
+      k20222, 
+      k20223, 
+      k20224, 
+      k20225, 
+      k20226, 
+      k20227, 
+      k20228, 
+      k20229, 
+      k202210,
+      k202211,
+      k202212,
+      k202213,
+      k202214,
+      k202215,
+      k202216,
+      k202217,
+      k202218,
+      k202219,
+      k202220,
+      k202221,
+      k202222,
+      k202223,
+      k202224,
+      k202225,
+      k202226,
+      k202227,
+      k202228,
+      k202229,
+      k202230,
+      k202231,
+      k202232,
+      k202233,
+      k202234,
+      k202235,
+      k202236,
+      k202237,
+      k202238,
+      k202239,
+      k202240,
+      k202241,
+      k202242,
+      k202243,
+      k202244,
+      k202245,
+    ]
   }
 ];
