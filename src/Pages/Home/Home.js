@@ -1,5 +1,5 @@
 import './Home.css'
-import Troop from '../../img/group_klondike_2022.JPG';
+import easterGroup from '../../Data/clean_imgs/easter_2022/easter_group.jpeg';
 import React, { useState } from 'react';
 import Footer from '../../components/footer/footer';
 import Header from '../../components/Header/Header';
@@ -16,7 +16,7 @@ function Home() {
         <div className="App">
             <Header />
             <section id='Main_title'>
-                <img className='Troop_Photo' src={Troop} alt="Group of Troop 540 Scouts" />
+                <img className='Troop_Photo' src={easterGroup} alt="Group of Troop 540 Scouts" />
                 <h2 className='home-title'>Welcome to Troop 540 Main Page</h2>
             </section>
             <br />

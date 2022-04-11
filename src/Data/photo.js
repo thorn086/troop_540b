@@ -393,6 +393,25 @@ import k202243 from "../Data/clean_imgs/klondike2022/klondike43.JPG";
 import k202244 from "../Data/clean_imgs/klondike2022/klondike44.JPG";
 import k202245 from "../Data/clean_imgs/klondike2022/klondike45.JPG";
 
+//easter 2022
+import easter6 from '../Data/clean_imgs/easter_2022/easter_6.jpeg';
+import easter1 from '../Data/clean_imgs/easter_2022/easter_1.jpeg';
+import easter2 from '../Data/clean_imgs/easter_2022/easter_2.jpeg';
+import easter4 from '../Data/clean_imgs/easter_2022/easter_4.jpeg';
+import easter5 from '../Data/clean_imgs/easter_2022/easter_5.jpeg';
+import easter8 from '../Data/clean_imgs/easter_2022/easter_8.jpg';
+import easter10 from '../Data/clean_imgs/easter_2022/easter_10.jpg';
+import easter11 from '../Data/clean_imgs/easter_2022/easter_11.jpg';
+import easter12 from '../Data/clean_imgs/easter_2022/easter_12.jpg';
+import easter13 from '../Data/clean_imgs/easter_2022/easter_13.jpg';
+import easter16 from '../Data/clean_imgs/easter_2022/easter_16.jpg';
+import easter17 from '../Data/clean_imgs/easter_2022/easter_17.jpg';
+import easter18 from '../Data/clean_imgs/easter_2022/easter_18.jpg';
+import easter19 from '../Data/clean_imgs/easter_2022/easter_19.jpg';
+import easter20 from '../Data/clean_imgs/easter_2022/easter_20.jpg';
+import easterBunny from '../Data/clean_imgs/easter_2022/easter_bunny.jpg';
+
+
 export const photoData = [
   {
     id: "1",
@@ -811,14 +830,14 @@ export const photoData = [
     description:
       "The Troop returned to the Klondike for the Last time",
     remaining_imgs: [
-      k20222, 
-      k20223, 
-      k20224, 
-      k20225, 
-      k20226, 
-      k20227, 
-      k20228, 
-      k20229, 
+      k20222,
+      k20223,
+      k20224,
+      k20225,
+      k20226,
+      k20227,
+      k20228,
+      k20229,
       k202210,
       k202211,
       k202212,
@@ -856,5 +875,31 @@ export const photoData = [
       k202244,
       k202245,
     ]
+  },
+  {
+    id: "10",
+    title: "Pankcake",
+    name: "Easter Pankcake Breakfast",
+    year: "2022",
+    main_image: easterBunny,
+    description:
+      "The pancakes were high and the bunny was hopping. All was well in the land of volunteering.",
+    remaining_imgs: [
+      easter8,
+      easter10,
+      easter11,
+      easter12,
+      easter13,
+      easter16,
+      easter17,
+      easter18,
+      easter19,
+      easter20,
+      easter1,
+      easter2,
+      easter4,
+      easter5,
+      easter6
+    ]
   }
-];
+]

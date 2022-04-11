@@ -19,6 +19,7 @@ class Gallery extends Component {
             <Row title='BSA' />
             <Row title='Eagle' />
             <Row title='Camporee' />
+            <Row title='Pankcake' />
           </div>
         </section>
         <Footer />
