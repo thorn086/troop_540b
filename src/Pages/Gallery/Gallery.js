@@ -20,6 +20,7 @@ class Gallery extends Component {
             <Row title='Eagle' />
             <Row title='Camporee' />
             <Row title='Pankcake' />
+            <Row title='Merit Badge' />
           </div>
         </section>
         <Footer />

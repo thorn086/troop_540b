@@ -411,6 +411,27 @@ import easter19 from '../Data/clean_imgs/easter_2022/easter_19.jpg';
 import easter20 from '../Data/clean_imgs/easter_2022/easter_20.jpg';
 import easterBunny from '../Data/clean_imgs/easter_2022/easter_bunny.jpg';
 
+//Aviation Merit Badge 2022
+import AviationMain from '../Data/clean_imgs/Aviation/AviationMain.JPG';
+import Aviation1 from '../Data/clean_imgs/Aviation/Aviation1.JPG';
+import Aviation2 from '../Data/clean_imgs/Aviation/Aviation2.JPG';
+import Aviation3 from '../Data/clean_imgs/Aviation/Aviation3.JPG';
+import Aviation4 from '../Data/clean_imgs/Aviation/Aviation4.JPG';
+import Aviation5 from '../Data/clean_imgs/Aviation/Aviation5.JPG';
+import Aviation6 from '../Data/clean_imgs/Aviation/Aviation6.JPG';
+import Aviation7 from '../Data/clean_imgs/Aviation/Aviation7.JPG';
+import Aviation8 from '../Data/clean_imgs/Aviation/Aviation8.JPG';
+import Aviation9 from '../Data/clean_imgs/Aviation/Aviation9.JPG';
+import Aviation10 from '../Data/clean_imgs/Aviation/Aviation10.JPG';
+import Aviation11 from '../Data/clean_imgs/Aviation/Aviation12.JPG';
+import Aviation12 from '../Data/clean_imgs/Aviation/Aviation12.JPG';
+import Aviation13 from '../Data/clean_imgs/Aviation/Aviation13.JPG';
+import Aviation14 from '../Data/clean_imgs/Aviation/Aviation14.JPG';
+import Aviation15 from '../Data/clean_imgs/Aviation/Aviation15.JPG';
+import Aviation16 from '../Data/clean_imgs/Aviation/Aviation16.JPG';
+import Aviation17 from '../Data/clean_imgs/Aviation/Aviation17.JPG';
+import Aviation18 from '../Data/clean_imgs/Aviation/Aviation18.JPG';
+
 
 export const photoData = [
   {
@@ -419,7 +440,7 @@ export const photoData = [
     name: "Klondike 2011",
     year: "2011",
     main_image: K20110,
-    discription:
+    description:
       "Troop 540 adventures into the wilderness in this gallery of photos.  Stationed in the cabins deep in the woods, will the photos prove the boys made it out alive....",
     remaining_imgs: [
       K20111,
@@ -552,7 +573,7 @@ export const photoData = [
     name: "Klondike 2014",
     year: "2014",
     main_image: K20140,
-    discription:
+    description:
       "It has been 2 years since the Troop ventured back to the Klondike. See what made them return in this sequel.",
     remaining_imgs: [
       K20141,
@@ -734,7 +755,7 @@ export const photoData = [
     name: "Camporee 2011",
     year: "2011",
     main_image: C2011001,
-    discription:
+    description:
       "The Troop was ready to take off at the opportunity of the Fall Camporee ",
     remaining_imgs: [
       C2011002,
@@ -900,6 +921,35 @@ export const photoData = [
       easter4,
       easter5,
       easter6
+    ]
+  },
+  {
+    id: "1",
+    title: "Merit Badge",
+    name: "Aviation 2022",
+    year: "2022",
+    main_image: AviationMain,
+    description:
+      "Learn what it takes to be in aviation with the help from our local 128th Air Borne Refueling Staff",
+    remaining_imgs: [
+      Aviation1,
+      Aviation2,
+      Aviation3,
+      Aviation4,
+      Aviation5,
+      Aviation6,
+      Aviation7,
+      Aviation8,
+      Aviation9,
+      Aviation10,
+      Aviation11,
+      Aviation12,
+      Aviation13,
+      Aviation14,
+      Aviation15,
+      Aviation16,
+      Aviation17,
+      Aviation18
     ]
   }
 ]

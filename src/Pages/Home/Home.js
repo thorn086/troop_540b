@@ -20,8 +20,6 @@ function Home() {
                 <h2 className='home-title'>Welcome to Troop 540 Main Page</h2>
             </section>
             <br />
-            <br />
-            <br />
             <div id="duble_ZZ">
                 <SigEvent />
                 <Events />
