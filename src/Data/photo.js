@@ -899,8 +899,8 @@ export const photoData = [
   },
   {
     id: "10",
-    title: "Pankcake",
-    name: "Easter Pankcake Breakfast",
+    title: "Pancake",
+    name: "Easter Pancake Breakfast",
     year: "2022",
     main_image: easterBunny,
     description:
