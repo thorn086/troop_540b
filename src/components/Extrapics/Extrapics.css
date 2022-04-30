@@ -28,6 +28,23 @@
 .row__posters2::-webkit-scrollbar {
   display: none;
 }
+.row__posters2:focus-within .row__poster2,
+.row__posters2:hover .row__poster2 {
+  transform: translateX(-25%);
+}
+
+.row__posters2 .row__poster2:hover,
+.row__posters2 .row__poster2:focus {
+  transform: scale(1.5);
+  z-index: 1;
+  filter: grayscale(0);
+}
+.row__poster2:hover ~ .row__poster2 {
+  transform: translateX(25%);
+}
+.active {
+  filter: grayscale(0);
+}
 .pic__row {
   display: flex;
   flex-direction: row;
@@ -36,6 +53,17 @@
   margin: 5px 0 5px 70px;
   padding: 8px;
 }
+
+.photo__container .row__poster3:hover,
+.photo__container .row__poster3:focus {
+  transform: scale(2);
+  z-index: 1000;
+  filter: grayscale(0);
+  border: 5px solid white;
+  border-radius: 1rem;
+  padding: 0;
+}
+
 .missing_pics,
 .row__posters2 {
   color: #111;
