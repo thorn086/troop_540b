@@ -2,7 +2,6 @@
   text-align: left;
   margin-top: 10px;
   display: block;
-  height: 800px;
   width: 100%;
 }
 .row__posters2 {
@@ -52,16 +51,6 @@
   overflow-x: scroll;
   margin: 5px 0 5px 70px;
   padding: 8px;
-}
-
-.photo__container .row__poster3:hover,
-.photo__container .row__poster3:focus {
-  transform: scale(2);
-  z-index: 1000;
-  filter: grayscale(0);
-  border: 5px solid white;
-  border-radius: 1rem;
-  padding: 0;
 }
 
 .missing_pics,

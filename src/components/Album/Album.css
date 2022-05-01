@@ -1,17 +1,17 @@
 .photo__container {
   display: block;
-  margin: auto;
+  margin: 20% auto;
   height: 100%;
-  padding-top: 150px;
-  padding-left: 0.5rem;
-  width: 100%;
+  padding: 9%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 .row__poster3 {
   object-fit: contain;
-  max-height: 100px;
-  transition: transform 450ms;
-  margin-left: 1px;
-  padding: 8px;
+  max-height: 125px;
+  max-width: 125px;
+  padding: 3%;
   border-radius: 1rem;
 }
 a#special__marg {
@@ -19,6 +19,21 @@ a#special__marg {
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 10px;
+}
+
+.photo__container .row__poster3:hover,
+.photo__container .row__poster3:focus {
+  position: relative;
+  z-index: 1;
+  opacity: 1;
+  transform: scale(1.8);
+  transform-origin: center center;
+  animation: normal;
+  filter: grayscale(0);
+  border: 5px solid white;
+  margin: auto;
+  border-radius: 1rem;
+  padding: 0;
 }
 
 @media screen and (min-width: 700px) {
@@ -42,5 +57,10 @@ a#special__marg {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 10px;
+  }
+
+  .row__poster3 {
+    max-height: 250px;
+    max-width: 250px;
   }
 }
