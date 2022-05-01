@@ -39,7 +39,6 @@ a#special__marg {
 @media screen and (min-width: 700px) {
   .photo__container {
     display: block;
-    margin: auto;
     height: 100%;
     padding-top: 150px;
     width: 80%;
