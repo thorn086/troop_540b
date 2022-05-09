@@ -10,8 +10,8 @@ function PLC() {
         <section id='plc__events'>
             <h2> PLC Meetings</h2>
             <div id="plc_dates">
-                <div id='troop-dates'>
-                    <h5 className='dates'> PLC May 9th, 2022 6:30 - 7:00 PM
+                <div id='troop-dates'>``
+                    <h5 className='dates'> PLC May 16th, 2022 6:30 - 7:00 PM
                         <br />
                         <p className="house">Mr. Pucel's House</p></h5>
                 </div>
