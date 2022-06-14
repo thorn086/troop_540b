@@ -3,11 +3,11 @@ import easterGroup from '../../Data/clean_imgs/easter_2022/easter_group.jpeg';
 import React, { useState } from 'react';
 import Footer from '../../components/footer/footer';
 import Header from '../../components/Header/Header';
-import Events from '../../components/Events/Events';
-import TroopMeet from '../../components/Events/TroopEvents';
+import Events from '../Calendar/components_calendar/Events/Events';
+import TroopMeet from '../Calendar/components_calendar/Events/TroopEvents';
 import Info from '../../components/Important_Info/Info';
-import SigEvent from '../../components/Events/SigEvents';
-import PLC from '../../components/Events/PLC';
+import SigEvent from '../Calendar/components_calendar/Events/SigEvents';
+import PLC from '../Calendar/components_calendar/Events/PLC';
 
 function Home() {
     const [buttonPopup, setButtonPopup] = useState(false);

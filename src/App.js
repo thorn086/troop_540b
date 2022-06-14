@@ -7,6 +7,8 @@ import Resources from './Pages/Resources/Resources';
 import Gallery from './Pages/Gallery/Gallery';
 import Album from './components/Album/Album';
 import ScrollToTop from './components/scroll/scroll';
+import Calendar from './Pages/Calendar/Calendar';
+
 class App extends Component {
 
   render() {
@@ -14,6 +16,7 @@ class App extends Component {
       <div>
         <ScrollToTop />
         <Route exact path='/' component={Home} />
+        <Route exact path='/Calendar' component={Calendar} />
         <Route exact path='/About' component={About} />
         <Route exact path='/Contacts' component={Contacts} />
         <Route exact path='/Resources' component={Resources} />

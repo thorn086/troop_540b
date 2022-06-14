@@ -16,6 +16,12 @@ function SigEvent() {
                         <a id='st_charels' target="blank" href="https://campphillips.org">
                             Camp Philips
                         </a></h5>
+                        <br />
+                    <h5 className='dates'> John's Eagle Court Of Honor June 27th, 2022 11:00 - 3:00 PM
+                        <br />
+                        <a id='st_charels' target="blank" href="http://www.franklinfpc.org">
+                        Faith Presbyterian
+                        </a></h5>
                 </div>
             </div>
         </section>
