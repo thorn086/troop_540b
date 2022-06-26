@@ -11,7 +11,7 @@ function TroopMeet() {
             <h2> Troop Meetings</h2>
             <div id="event_dates">
                 <div id='troop-dates'>
-                    <h4>ALL scouts please BRING YOUR SCOUT BOOKS and WEAR CLASS A UNIFORM during troop meetings and outings!</h4>
+                    <h4>**ALL scouts please BRING YOUR SCOUT BOOKS and WEAR CLASS A UNIFORM during troop meetings and outings!**</h4>
                     <br />
                     <h5 className='dates'> Troop Meeting July 14th, 2022 6:30 - 8:30 PM
                         <br />
@@ -19,7 +19,8 @@ function TroopMeet() {
                             St. Charels Borromeo
                         </a></h5>
                         <br />
-                        <h4>Please note that there will be NO MEETINGS during August, but will resume in September!</h4>
+                        <br />
+                        <h4>**Please note that there will be NO MEETINGS during August, but will resume in September!**</h4>
                 </div>
             </div>
         </section>
