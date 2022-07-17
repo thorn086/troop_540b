@@ -12,10 +12,6 @@ function TroopMeet() {
             <div id="event_dates">
                 <div id='troop-dates'>
                     <h4>**ALL scouts please BRING YOUR SCOUT BOOKS and WEAR CLASS A UNIFORM during troop meetings and outings!**</h4>
-                    <br />
-                    <h5 className='dates'> Troop Meeting July 14th, 2022 6:30 - 8:30 PM
-                        <br />
-                        <p className="house">Mr. Pucel's House</p></h5>
                         <br />
                         <br />
                         <h4>**Please note that there will be NO MEETINGS during August, but will resume in September!**</h4>
