@@ -12,7 +12,7 @@ function SigEvent() {
             <div id="event_dates">
                 <div id='significant-dates'>
                 {/* <p>No upcoming Significant events at this time.</p> */}
-                <h5 className='dates'> Palbo's Eagle Scout Project Saturday September 24th, 2022 9:30 AM
+                <h5 className='dates'> Pablo's Eagle Scout Project Saturday September 24th, 2022 9:30 AM
                         <br />
                         <p className="house">Mr. Pucel's House</p></h5>
                 </div>
