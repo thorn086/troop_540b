@@ -34,5 +34,6 @@ export const EaglescoutData = [
                   { year: 2021, name: 'Steven E.'},
                   { year: 2021, name: 'Joe M.'},
                   { year: 2021, name: 'Owen W.'},
-                  { year: 2021, name: 'John V.'}
+                  { year: 2021, name: 'John V.'},
+                  { year: 2022, name: 'Will H.'}
 ];
