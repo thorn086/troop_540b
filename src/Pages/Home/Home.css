@@ -50,11 +50,11 @@
 
 #duble_ZZ {
   display: flex;
-  padding: 9%;
+  padding: 0 auto;
   height: 100%;
   flex-direction: column;
   justify-content: space-evenly;
-  margin-bottom: 10vh;
+  margin-bottom: 5vh;
 }
 @media screen and (min-width: 849px) {
   #duble_ZZ {

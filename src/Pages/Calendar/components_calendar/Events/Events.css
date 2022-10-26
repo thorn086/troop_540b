@@ -34,15 +34,11 @@
 #significant__events {
   display: inline-block;
   height: auto;
-  min-height: 250px;
   padding: 5px;
   width: 400px;
   /* border: 5px solid white; */
   background-color: black;
   color:lightseagreen;
-}
-#event_dates {
-  height: 50px;
 }
 .dates,
 #st_charels,
@@ -54,38 +50,13 @@
 #st_charels {
   color: white;
 }
-@media screen and (max-width: 700px) {
-  .dates,
-  #st_charels,
-  #camp_phillips {
-    padding: 0 0 0 10px;
-    font-size: 10px;
-  }
-  #events,
-  #troop__events,
-  #significant__events,
-  #plc__events {
-    width: 93%;
-    padding: 5px;
-  }
-
-  #Main_title {
-    margin-top: 80px;
-    width: 100%;
-    height: 100%;
-    padding-top: 2px;
-  }
-  #troop-dates {
-    margin-top: 2%;
-  }
-  #plc-dates {
-    margin-top: 2%;
-  }
-  #significant-dates {
-    margin-top: 2%;
-  }
+#events,
+#troop__events,
+#significant__events,
+#plc__events {
+  width: 100%;
+  padding: 5px;
 }
-
 @media only screen and (min-width: 560px) and (max-width: 699px) and (orientation: landscape) {
   #events,
   #troop__events,

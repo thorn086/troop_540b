@@ -9,7 +9,6 @@ function SigEvent() {
     return (
         <section id='significant__events'>
             <h2>Significant Events</h2>
-            <div id="event_dates">
                 <div id='significant-dates'>
                 {/* <p>No upcoming Significant events at this time.</p> */}
                         <h5 className='dates'> Poinsettia Sale November 5-6th, 12-13th, 2022 **ORDERS DUE NOVEMBER 14TH**
@@ -44,7 +43,6 @@ function SigEvent() {
                             St. Charels Borromeo
                         </a></h5>
                 </div>
-            </div>
         </section>
     );
 }

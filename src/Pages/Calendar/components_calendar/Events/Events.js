@@ -9,7 +9,6 @@ function Events(){
     return(
         <section id='events'>
         <h2> Troop Outings</h2>
-        <div id="event_dates">
             <div id='special-dates'>
                         <h5 className='dates'> Eagle Cave Outing April 21-23rd, 2023 
                         <br />
@@ -17,7 +16,6 @@ function Events(){
                             St. Charels Borromeo
                         </a></h5>
             </div>
-        </div>
     </section>
     );
 }
