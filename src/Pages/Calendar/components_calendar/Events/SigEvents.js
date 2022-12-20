@@ -23,8 +23,8 @@ function SigEvent() {
                         <br />
                 <h5 className='dates'> Klondike January 21st, 2023
                         <br />
-                        <a id='st_charels' target="blank" href="https://www.google.com/maps/place/Indian+Mound+Scout+Reservation/@43.0719237,-88.4938727,17z/data=!3m1!4b1!4m5!3m4!1s0x8805c9e6f986a059:0xaa690f5a4b5d8a1!8m2!3d43.0719909!4d-88.4915933">
-                            Indian Mound
+                        <a id='st_charels' target="blank" href="https://www.google.com/maps/place/Camp+Oh-Da-Ko-Ta/@42.6245431,-88.4358403,11.75z/data=!4m10!1m2!2m1!1scamp+odakoda!3m6!1s0x880586721cd4eec5:0x9ba5ce69d6712d0b!8m2!3d42.6076!4d-88.299794!15sCgxjYW1wIG9kYWtvZGGSAQRjYW1w4AEA!16s%2Fg%2F1263vfny9">
+                            Camp Oh-Da-Ko-Ta
                         </a>
                         </h5>
                 </div>
