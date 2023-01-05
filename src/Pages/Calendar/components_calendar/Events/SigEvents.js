@@ -15,10 +15,6 @@ function SigEvent() {
                         <br />
                         <a id='st_charels' target="blank" href="https://www.google.com/maps/place/The+Rock+Snowpark/@42.9199403,-88.0172681,17z/data=!3m1!4b1!4m5!3m4!1s0x88050dfec918fe0f:0xf644bfab6e32b2c0!8m2!3d42.9199364!4d-88.0150741">
                             The Rock Snowpark
-                        </a>
-                        <br />
-                        <a id='st_charels' target="blank" href="https://shop.rocksnowpark.com/groups">
-                            Money form **DUE DEC 22nd** GROUP CODE: 1.6.23
                         </a></h5>
                         <br />
                 <h5 className='dates'> Klondike January 21st, 2023
