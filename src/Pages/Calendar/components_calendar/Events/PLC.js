@@ -11,8 +11,8 @@ function PLC() {
             <h2> PLC Meetings</h2>
             <div id="plc_dates">
                 <div id='troop-dates'>
-                    No new PLC Meetings at this time
-                    /<h5 className='dates'> PLC March 13th, 2022 6:00 - 6:30 PM
+                    {/* No new PLC Meetings at this time */}
+                    <h5 className='dates'> PLC March 13th, 2022 6:00 - 6:30 PM
                         <br />
                         <p className="house">Mr. Pucel's House</p></h5> 
 
