@@ -52,16 +52,6 @@ class Home extends Component {
               </div>
             </li>
             <li>
-              <h3 className="contact_name">Mr. Jason Wallace</h3>
-              <h4>"Assistant Scoutmaster" </h4>
-              <div className="email_group">
-              <MdEmail className="email_icon" size={25} />
-              <a className="email" href="mailto:plumber7576@sbcglobal.net">
-                Email{" "}
-              </a>
-              </div>
-            </li>
-            <li>
               <h3 className="contact_name">Mrs. Lisa Pieper</h3>
               <h4>"Outing Coordinator" </h4>
               <div className="email_group">

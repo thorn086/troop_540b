@@ -12,9 +12,9 @@ function Info(props) {
                 <button className="close" onClick={() => props.setTrigger2(false)}>X</button>
                 <h2> Important Troop 540 Information</h2>
                 <div id="info_text">
-                    <p>Summer Camp 2021 Notice</p>
+                    <p>Summer Camp 2023 Notice</p>
                     <br />
-                    <p>*** Just a friendly reminder that we need your medical forms no later than July 7th, 2022. One copy for Camp Phillips,
+                    <p>*** Just a friendly reminder that we need your medical forms no later than July 1st, 2023. One copy for Camp Phillips,
                         one copy for the troop and one copy for you. Mr. Pucel has to mail them to camp two weeks prior to our arrival.
                         Even if you are not attending summer camp, we need a copy on file as they are used as a reference
                         throughout the year on all outings. ***</p>
