@@ -1,0 +1,16 @@
+.eventContainer {
+  margin-top: 5vh;
+  padding: 2%;
+  display: grid;
+  place-items: center;
+}
+
+.m-sale,
+.mothers-day-flowers {
+  color: white;
+}
+.mothers-day-flower-img {
+  border-radius: 20%;
+  border: 1.5em solid transparent;
+  background: linear-gradient(#f9f047, #0fd850);
+}

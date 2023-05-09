@@ -7,6 +7,7 @@ import Resources from "./Pages/Resources/Resources";
 import Gallery from "./Pages/Gallery/Gallery";
 import Album from "./components/Album/Album";
 import Calendar from "./Pages/Calendar/Calendar";
+import SignificantEvent from "./Pages/Calendar/components_calendar/Events/SignigicantEvents-messagePage/significantevent.component";
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/Calendar" element={<Calendar />} />
+        <Route exact path="/mothersday" element={<SignificantEvent />} />
         <Route exact path="/About" element={<About />} />
         <Route exact path="/Contacts" element={<Contacts />} />
         <Route exact path="/Resources" element={<Resources />} />
