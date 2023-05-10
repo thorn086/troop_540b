@@ -1,5 +1,5 @@
 .eventContainer {
-  margin-top: 5vh;
+  margin: 5vh 0;
   padding: 2%;
   display: grid;
   place-items: center;
@@ -10,7 +10,14 @@
   color: white;
 }
 .mothers-day-flower-img {
+  margin: 3%;
   border-radius: 20%;
   border: 1.5em solid transparent;
   background: linear-gradient(#f9f047, #0fd850);
+}
+
+@media only screen and (max-width: 550px) {
+  .mothers-day-flower-img {
+    width: 70vw;
+  }
 }
