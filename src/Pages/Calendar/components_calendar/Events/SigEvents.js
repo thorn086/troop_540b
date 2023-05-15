@@ -13,22 +13,6 @@ function SigEvent() {
       <div id="significant-dates">
         <h5 className="dates">
           {" "}
-          Mother's Day Flower Sale May 13-14th, 2023
-          <br />
-          <Link to="/mothersday" style={linkStyle}>
-            Mother's Day Sale Info
-          </Link>
-          <br />
-          <a
-            id="st_charels"
-            target="blank"
-            href="https://www.signupgenius.com/go/20f0948acab2fa6ff2-mothers3/64272282#/">
-            Sign Up Genius
-          </a>
-        </h5>
-        <br />
-        <h5 className="dates">
-          {" "}
           Court of Honor May 21st, 2023
           <br />
           <a
