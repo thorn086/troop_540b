@@ -39,8 +39,7 @@
     "@svgr/plugin-svgo": "^8.0.1",
     "@svgr/webpack": "^6.2.1",
     "css-select": "^5.1.0",
-    "svgo": "^3.0.2",
-    "yarn-upgrade-all": "^0.7.2"
+    "svgo": "^3.0.2"
   },
   "overrides": {
     "@svgr/webpack": "$@svgr/webpack"
