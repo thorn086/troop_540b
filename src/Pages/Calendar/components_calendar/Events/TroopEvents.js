@@ -12,9 +12,7 @@ function TroopMeet() {
                 <div id='troop-dates'>
                     <h4>**ALL scouts please BRING YOUR SCOUT BOOKS and WEAR CLASS A UNIFORM during troop meetings and outings!**</h4>
                         <br />
-                        <h5 className='dates'> Summer Camp Meeting July 16th, 2023 1-2:00 PM
-                        <br />
-                        <p className="house">Mr. Pucel's House</p></h5>
+                        <p>**NO meetings in August.** See you all in September!</p>
                         {/* <br />
                         <h5 className='dates'> Summer Camp Meeting July 16th, 2023 1-2:00 PM
                         <br />
