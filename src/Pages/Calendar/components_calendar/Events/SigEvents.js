@@ -10,7 +10,7 @@ function SigEvent() {
         <p>
           Scouts watch the Church grounds <br />
           <br />
-          9:30 PM to 7:00 AM <br />
+          9:30 pm to 7:00 am <br />
           <br />
           August 26th to August 27th, 2023
           <br />
