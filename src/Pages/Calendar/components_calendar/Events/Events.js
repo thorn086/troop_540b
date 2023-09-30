@@ -10,12 +10,6 @@ function Events(){
         <section id='events'>
         <h2> Troop Outings</h2>
             <div id='special-dates'>
-            <h5 className='dates'> Open Historic Milwaukee September 23-24th.
-            <br />
-            <a id='st_charels' target="blank" href="https://historicmilwaukee.org/doors-open/buildings/">
-                Historic Milwaukee
-            </a></h5>
-            <br />
             <h5 className='dates'> Canoeing at the Urban Ecology Center, October 7th, 10-2 PM, Meet at 9:45
             <br />
             <a id='st_charels' target="blank" href="https://calendar.urbanecologycenter.org/event/take-it-outside-day-canoeing/">
