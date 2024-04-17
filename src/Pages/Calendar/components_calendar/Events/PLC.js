@@ -11,7 +11,7 @@ function PLC() {
             <h2> PLC Meetings</h2>
             <div id="plc_dates">
                 <div id='troop-dates'>
-                    <h5 className='dates'> PLC April 8th, 2022 6:00 - 6:30 PM
+                    <h5 className='dates'> PLC June 10th, 2022 6:00 - 6:30 PM
                         <br />
                         <p className="house">Mr. Pucel's House</p></h5>
                         {/* <h5 className='dates'> PLC October 9th, 2022 6:00 - 6:30 PM
